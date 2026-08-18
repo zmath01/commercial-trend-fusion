@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fusion — Commercial Trend Radar</title>
+<link rel="stylesheet" href="assets/main.css">
+<meta name="description" content="Data-driven, backtested watchlist of research areas with commercialization potential, built from arXiv.">
+</head><body>
+<header class="site"><div class="container nav">
+  <a class="brand" href="index.html">Commercial<span class="dot">·</span>Trend</a>
+  <a class="nav-link" href="index.html">Overview</a><a class="nav-link" href="concepts.html">Concepts</a><a class="nav-link active" href="fusion.html">Fusion</a><a class="nav-link" href="fields.html">Fields</a><a class="nav-link" href="backtest.html">Backtest</a><a class="nav-link" href="methodology.html">Methodology</a><a class="nav-link" href="about.html">About</a>
+  <span class="spacer"></span>
+  <a class="nav-link" href="https://github.com/zmath01/commercial-trend">GitHub ↗</a>
+</div></header>
+<main class="container">
+<div class="hero"><h1>Fusion watchlist</h1>
+<p class="lead">Pairs that have <b>never co-occurred</b> through the latest year but are
+indirectly coupled via a bridge concept. G = full-network effective conductance
+(resistance distance); a rising G series means the coupling is tightening — the classic
+pre-fusion signature. Dashed edges are <i>predictions</i> (A–B), solid edges are existing
+bridges (A–via, B–via).</p></div>
+<section>
+  <div id="graph"><div class="fallback">Loading…</div></div>
+  <p class="sub" style="margin-top:10px">Yellow dashed = predicted A–B link. Node size ∝
+  frequency, color = field.</p>
+</section>
+<section><table><thead><tr><th>#</th><th>A</th><th>B</th><th>fields</th><th>G trend</th>
+<th class="num">G latest</th><th class="num">I</th><th>bridge</th></tr></thead>
+<tbody><tr>
+<td>1</td><td class="mono">artificial neural</td><td class="mono">deep reinforcement</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,5.8 16.0,10.7 30.0,3.0 44.0,3.9 58.0,16.9 72.0,19.0 86.0,18.7" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">1,128</td><td class="num">18</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>2</td><td class="mono">neuromorphic computing</td><td class="mono">stock market</td>
+<td><span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,14.3 30.0,3.0 44.0,5.1 58.0,7.2 72.0,15.1 86.0,12.6" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">716.199</td><td class="num">13</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>3</td><td class="mono">deep reinforcement</td><td class="mono">neuromorphic computing</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,18.9 16.0,14.6 30.0,3.0 44.0,5.2 58.0,9.1 72.0,19.0 86.0,13.1" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">659.211</td><td class="num">13</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>4</td><td class="mono">neuromorphic computing</td><td class="mono">software engineering</td>
+<td><span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span> <span class="tag" style="border-color:#4cc38a;color:#4cc38a">Software Eng.</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,13.3 30.0,12.6 44.0,15.1 58.0,3.0 72.0,12.8 86.0,7.5" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">616.216</td><td class="num">13</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>5</td><td class="mono">computing systems</td><td class="mono">software engineering</td>
+<td><span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span> <span class="tag" style="border-color:#4cc38a;color:#4cc38a">Software Eng.</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,14.3 16.0,13.9 30.0,15.0 44.0,15.5 58.0,3.0 72.0,11.1 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">591.416</td><td class="num">14</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>6</td><td class="mono">generative adversarial</td><td class="mono">neuromorphic computing</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,16.4 16.0,12.4 30.0,3.0 44.0,8.8 58.0,11.1 72.0,19.0 86.0,15.2" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">585.043</td><td class="num">12</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>7</td><td class="mono">quantum hardware</td><td class="mono">stochastic volatility</td>
+<td><span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 18.8,13.2 35.6,11.9 52.4,3.0 69.2,6.2 86.0,8.3" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">555.384</td><td class="num">14</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>8</td><td class="mono">computer science</td><td class="mono">spiking neural</td>
+<td><span class="tag" style="border-color:#79c0ff;color:#79c0ff">Theory</span> <span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,13.3 16.0,17.1 30.0,14.2 44.0,3.0 58.0,11.9 72.0,11.6 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">483.774</td><td class="num">15</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>9</td><td class="mono">price prediction</td><td class="mono">quantum states</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#a5d6ff;color:#a5d6ff">Quantum</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,12.5 16.0,19.0 30.0,11.3 44.0,12.1 58.0,14.4 72.0,3.0 86.0,17.5" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">472.068</td><td class="num">11</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>10</td><td class="mono">computer science</td><td class="mono">spiking neural networks</td>
+<td><span class="tag" style="border-color:#79c0ff;color:#79c0ff">Theory</span> <span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,13.5 16.0,17.1 30.0,14.1 44.0,3.0 58.0,11.8 72.0,11.5 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">468.735</td><td class="num">12</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>11</td><td class="mono">backward stochastic</td><td class="mono">market making</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,13.5 16.0,19.0 30.0,17.9 44.0,15.6 58.0,10.2 72.0,3.0 86.0,10.7" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">465.010</td><td class="num">14</td>
+<td class="mono muted">control problem</td></tr><tr>
+<td>12</td><td class="mono">current state-of-the-art</td><td class="mono">stochastic differential</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,12.7 30.0,8.6 44.0,8.2 58.0,15.2 72.0,3.0 86.0,7.4" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">454.286</td><td class="num">14</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>13</td><td class="mono">autonomous driving</td><td class="mono">neuromorphic computing</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,9.7 30.0,3.0 44.0,11.0 58.0,12.6 72.0,10.7 86.0,14.4" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">442.896</td><td class="num">10</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>14</td><td class="mono">differential privacy</td><td class="mono">price movements</td>
+<td><span class="tag" style="border-color:#d29922;color:#d29922">Security &amp; Crypto</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,12.8 18.8,17.5 35.6,14.8 52.4,8.0 69.2,3.0 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">439.101</td><td class="num">13</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>15</td><td class="mono">adversarial examples</td><td class="mono">order book</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.0 23.0,3.4 44.0,7.7 65.0,14.5 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">432.276</td><td class="num">13</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>16</td><td class="mono">computer science</td><td class="mono">generative adversarial</td>
+<td><span class="tag" style="border-color:#79c0ff;color:#79c0ff">Theory</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,11.0 16.0,16.3 30.0,12.5 44.0,3.0 58.0,10.9 72.0,12.6 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">431.654</td><td class="num">12</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>17</td><td class="mono">autonomous driving</td><td class="mono">computing systems</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,15.3 16.0,6.8 30.0,6.2 44.0,9.9 58.0,5.5 72.0,3.0 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">429.482</td><td class="num">10</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>18</td><td class="mono">adversarial examples</td><td class="mono">limit order</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.1 23.0,3.0 44.0,7.1 65.0,14.5 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">429.162</td><td class="num">13</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>19</td><td class="mono">quantitative finance</td><td class="mono">software engineering</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#4cc38a;color:#4cc38a">Software Eng.</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,18.2 16.0,19.0 30.0,17.5 44.0,18.9 58.0,19.0 72.0,16.8 86.0,3.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">419.510</td><td class="num">12</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>20</td><td class="mono">adversarial examples</td><td class="mono">stochastic volatility</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,4.5 23.0,3.0 44.0,10.0 65.0,15.0 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">418.708</td><td class="num">11</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>21</td><td class="mono">adversarial examples</td><td class="mono">option pricing</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,6.2 23.0,3.0 44.0,4.6 65.0,17.0 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">418.598</td><td class="num">13</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>22</td><td class="mono">adversarial examples</td><td class="mono">limit order book</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.0 23.0,6.1 44.0,8.8 65.0,14.5 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">412.720</td><td class="num">13</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>23</td><td class="mono">anomaly detection</td><td class="mono">neuromorphic computing</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,12.9 30.0,7.8 44.0,6.5 58.0,8.9 72.0,8.4 86.0,3.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">399.055</td><td class="num">13</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>24</td><td class="mono">differential privacy</td><td class="mono">hardware accelerators</td>
+<td><span class="tag" style="border-color:#d29922;color:#d29922">Security &amp; Crypto</span> <span class="tag" style="border-color:#f85149;color:#f85149">Chips / Hardware</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,10.8 16.0,8.9 30.0,12.3 44.0,7.8 58.0,3.0 72.0,13.9 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">395.118</td><td class="num">13</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>25</td><td class="mono">price movements</td><td class="mono">quantum states</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#a5d6ff;color:#a5d6ff">Quantum</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,18.6 18.8,19.0 35.6,15.9 52.4,3.0 69.2,3.6 86.0,13.6" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">391.076</td><td class="num">11</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>26</td><td class="mono">computing systems</td><td class="mono">learning dl</td>
+<td><span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span> <span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,12.4 16.0,11.2 30.0,13.5 44.0,7.0 58.0,6.7 72.0,3.0 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">384.672</td><td class="num">12</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>27</td><td class="mono">ai systems</td><td class="mono">neuromorphic computing</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 18.8,14.6 35.6,10.3 52.4,12.6 69.2,9.4 86.0,3.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">383.880</td><td class="num">13</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>28</td><td class="mono">adversarial attacks</td><td class="mono">credit risk</td>
+<td><span class="tag" style="border-color:#d29922;color:#d29922">Security &amp; Crypto</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,12.0 30.0,12.9 44.0,5.4 58.0,5.8 72.0,3.0 86.0,10.2" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">382.540</td><td class="num">10</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>29</td><td class="mono">adversarial examples</td><td class="mono">memory lstm</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,6.4 23.0,3.0 44.0,5.0 65.0,19.0 86.0,18.3" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">381.323</td><td class="num">13</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>30</td><td class="mono">f1 score</td><td class="mono">stochastic volatility</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,16.7 16.0,18.7 30.0,19.0 44.0,14.0 58.0,15.4 72.0,3.0 86.0,12.9" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">380.891</td><td class="num">11</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>31</td><td class="mono">quantum states</td><td class="mono">stock markets</td>
+<td><span class="tag" style="border-color:#a5d6ff;color:#a5d6ff">Quantum</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,7.9 16.0,17.0 30.0,5.8 44.0,16.9 58.0,9.7 72.0,3.0 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">378.978</td><td class="num">11</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>32</td><td class="mono">quantum states</td><td class="mono">series forecasting</td>
+<td><span class="tag" style="border-color:#a5d6ff;color:#a5d6ff">Quantum</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 18.8,13.8 35.6,18.6 52.4,3.0 69.2,7.0 86.0,14.5" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">376.544</td><td class="num">11</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>33</td><td class="mono">adversarial examples</td><td class="mono">stock prices</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,8.2 23.0,3.0 44.0,8.2 65.0,17.1 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">375.854</td><td class="num">13</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>34</td><td class="mono">graph convolutional</td><td class="mono">stochastic differential</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.9 16.0,12.2 30.0,3.0 44.0,17.8 58.0,19.0 72.0,12.6 86.0,17.2" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">375.705</td><td class="num">15</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>35</td><td class="mono">ai systems</td><td class="mono">computing systems</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 18.8,14.0 35.6,9.8 52.4,8.1 69.2,3.0 86.0,17.4" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">374.297</td><td class="num">16</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>36</td><td class="mono">adversarial examples</td><td class="mono">quantum systems</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#a5d6ff;color:#a5d6ff">Quantum</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,9.0 23.0,3.0 44.0,19.0 65.0,13.2 86.0,18.2" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">367.553</td><td class="num">13</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>37</td><td class="mono">medical image</td><td class="mono">stochastic volatility</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,8.1 18.8,19.0 35.6,3.0 52.4,18.1 69.2,9.2 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">362.472</td><td class="num">11</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>38</td><td class="mono">adversarial networks</td><td class="mono">quantum devices</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,3.0 30.0,5.2 44.0,11.3 58.0,4.2 72.0,14.8 86.0,15.2" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">361.979</td><td class="num">11</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>39</td><td class="mono">generative adversarial networks</td><td class="mono">quantum devices</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,3.0 30.0,5.2 44.0,11.3 58.0,4.2 72.0,14.8 86.0,15.2" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">361.217</td><td class="num">11</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>40</td><td class="mono">limit order book lob</td><td class="mono">software engineering</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#4cc38a;color:#4cc38a">Software Eng.</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 30.0,11.6 58.0,8.8 86.0,3.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">361.034</td><td class="num">11</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>41</td><td class="mono">adversarial examples</td><td class="mono">price prediction</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.0 23.0,3.9 44.0,6.3 65.0,19.0 86.0,15.9" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">354.543</td><td class="num">13</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>42</td><td class="mono">adversarial examples</td><td class="mono">long short-term memory lstm</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,7.6 23.0,4.5 44.0,3.0 65.0,19.0 86.0,15.1" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">353.115</td><td class="num">13</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>43</td><td class="mono">adversarial examples</td><td class="mono">sharpe ratio</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.0 23.0,5.6 44.0,5.2 65.0,13.8 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">351.151</td><td class="num">13</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>44</td><td class="mono">performance energy</td><td class="mono">quantum states</td>
+<td><span class="tag" style="border-color:#f85149;color:#f85149">Chips / Hardware</span> <span class="tag" style="border-color:#a5d6ff;color:#a5d6ff">Quantum</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,8.2 16.0,19.0 30.0,18.9 44.0,5.9 58.0,3.0 72.0,8.0 86.0,18.4" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">348.956</td><td class="num">11</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>45</td><td class="mono">algorithmic trading</td><td class="mono">quantum states</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#a5d6ff;color:#a5d6ff">Quantum</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,14.6 30.0,15.1 44.0,11.6 58.0,13.3 72.0,3.0 86.0,9.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">345.793</td><td class="num">11</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>46</td><td class="mono">internet things</td><td class="mono">quantitative finance</td>
+<td><span class="tag" style="border-color:#d29922;color:#d29922">Security &amp; Crypto</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,13.3 30.0,9.2 44.0,9.8 58.0,17.4 72.0,3.0 86.0,3.8" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">345.064</td><td class="num">11</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>47</td><td class="mono">adversarial attacks</td><td class="mono">investment decisions</td>
+<td><span class="tag" style="border-color:#d29922;color:#d29922">Security &amp; Crypto</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,13.3 30.0,9.0 44.0,3.0 58.0,3.7 72.0,6.3 86.0,9.1" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">341.454</td><td class="num">10</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>48</td><td class="mono">american options</td><td class="mono">quantum hardware</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 18.8,12.1 35.6,16.8 52.4,12.8 69.2,10.0 86.0,3.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">339.665</td><td class="num">12</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>49</td><td class="mono">quantum devices</td><td class="mono">social media</td>
+<td><span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span> <span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,8.2 30.0,5.4 44.0,9.1 58.0,3.0 72.0,11.0 86.0,13.4" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">338.662</td><td class="num">11</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>50</td><td class="mono">deep learning-based</td><td class="mono">quantum devices</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,3.0 30.0,14.4 44.0,14.5 58.0,9.3 72.0,13.9 86.0,18.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">335.495</td><td class="num">11</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>51</td><td class="mono">generative ai</td><td class="mono">learning algorithm</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.0 44.0,3.5 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">332.869</td><td class="num">12</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>52</td><td class="mono">comprehensive review</td><td class="mono">convolutional neural</td>
+<td><span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span> <span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.0 16.0,19.0 30.0,9.4 44.0,13.6 58.0,5.8 72.0,11.5 86.0,17.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">331.936</td><td class="num">11</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>53</td><td class="mono">neuromorphic computing</td><td class="mono">quantitative finance</td>
+<td><span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.5 16.0,19.0 30.0,13.8 44.0,17.5 58.0,18.9 72.0,16.3 86.0,3.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">331.637</td><td class="num">12</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>54</td><td class="mono">backward stochastic differential equations</td><td class="mono">market making</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,9.6 16.0,19.0 30.0,17.1 44.0,16.5 58.0,10.6 72.0,3.0 86.0,9.4" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">331.550</td><td class="num">12</td>
+<td class="mono muted">control problem</td></tr><tr>
+<td>55</td><td class="mono">neuromorphic computing</td><td class="mono">training set</td>
+<td><span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span> <span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,11.7 18.8,3.0 35.6,4.8 52.4,8.2 69.2,19.0 86.0,18.2" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">330.100</td><td class="num">11</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>56</td><td class="mono">quantum states</td><td class="mono">technical indicators</td>
+<td><span class="tag" style="border-color:#a5d6ff;color:#a5d6ff">Quantum</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,9.1 18.8,19.0 35.6,3.0 52.4,18.4 69.2,11.3 86.0,6.6" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">329.055</td><td class="num">11</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>57</td><td class="mono">predict stock</td><td class="mono">stochastic differential</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.9 30.0,3.0 58.0,14.6 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">328.737</td><td class="num">12</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>58</td><td class="mono">comprehensive review</td><td class="mono">learning algorithms</td>
+<td><span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.0 16.0,19.0 30.0,9.0 44.0,13.5 58.0,4.6 72.0,11.2 86.0,16.9" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">324.204</td><td class="num">11</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>59</td><td class="mono">comprehensive review</td><td class="mono">stock market</td>
+<td><span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.0 16.0,19.0 30.0,8.5 44.0,13.0 58.0,4.4 72.0,10.6 86.0,16.7" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">323.517</td><td class="num">11</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>60</td><td class="mono">recent research</td><td class="mono">stochastic differential</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,13.8 16.0,16.1 30.0,12.8 44.0,7.3 58.0,3.0 72.0,12.1 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">320.593</td><td class="num">11</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>61</td><td class="mono">computer science</td><td class="mono">learning dl</td>
+<td><span class="tag" style="border-color:#79c0ff;color:#79c0ff">Theory</span> <span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,14.0 16.0,16.5 30.0,14.6 44.0,3.0 58.0,12.6 72.0,9.8 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">318.685</td><td class="num">12</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>62</td><td class="mono">differential privacy</td><td class="mono">limit order book lob</td>
+<td><span class="tag" style="border-color:#d29922;color:#d29922">Security &amp; Crypto</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,14.8 30.0,7.8 58.0,3.0 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">316.035</td><td class="num">11</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>63</td><td class="mono">convolutional networks</td><td class="mono">stochastic volatility</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,7.8 18.8,16.5 35.6,3.0 52.4,19.0 69.2,10.9 86.0,15.6" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">313.898</td><td class="num">11</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>64</td><td class="mono">improved performance</td><td class="mono">stochastic volatility</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,13.2 16.0,18.1 30.0,15.5 44.0,19.0 58.0,3.0 72.0,6.0 86.0,3.3" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">313.560</td><td class="num">11</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>65</td><td class="mono">predict stock</td><td class="mono">stochastic volatility</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,8.1 30.0,3.0 58.0,15.0 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">313.245</td><td class="num">11</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>66</td><td class="mono">evaluation metrics</td><td class="mono">quantum devices</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,3.0 30.0,8.3 44.0,14.5 58.0,4.1 72.0,7.4 86.0,8.4" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">312.848</td><td class="num">11</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>67</td><td class="mono">price movements</td><td class="mono">quantum devices</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,7.6 18.8,19.0 35.6,16.8 52.4,3.0 69.2,12.9 86.0,14.7" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">312.158</td><td class="num">11</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>68</td><td class="mono">genetic algorithm</td><td class="mono">quantitative finance</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,15.4 16.0,19.0 30.0,11.3 44.0,18.9 58.0,18.4 72.0,11.8 86.0,3.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">311.182</td><td class="num">12</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>69</td><td class="mono">stochastic volatility</td><td class="mono">test set</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,13.0 18.8,8.3 35.6,19.0 52.4,3.0 69.2,12.1 86.0,10.1" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">311.118</td><td class="num">11</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>70</td><td class="mono">comprehensive review</td><td class="mono">spiking neural networks</td>
+<td><span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span> <span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.9 16.0,19.0 30.0,7.9 44.0,12.4 58.0,3.0 72.0,9.9 86.0,16.5" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">310.434</td><td class="num">11</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>71</td><td class="mono">lstm networks</td><td class="mono">software engineering</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#4cc38a;color:#4cc38a">Software Eng.</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 30.0,13.9 58.0,3.0 86.0,7.5" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">308.927</td><td class="num">11</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>72</td><td class="mono">classification performance</td><td class="mono">stochastic differential</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.0 18.8,19.0 35.6,17.2 52.4,8.1 69.2,16.8 86.0,15.3" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">308.060</td><td class="num">11</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>73</td><td class="mono">adversarial examples</td><td class="mono">price movements</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.0 30.0,19.0 58.0,5.9 86.0,11.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">306.749</td><td class="num">13</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>74</td><td class="mono">recent research</td><td class="mono">stochastic volatility</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,13.5 16.0,16.0 30.0,13.1 44.0,6.4 58.0,3.0 72.0,11.9 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">305.628</td><td class="num">11</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>75</td><td class="mono">f1 score</td><td class="mono">quantum states</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#a5d6ff;color:#a5d6ff">Quantum</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,16.0 16.0,18.8 30.0,19.0 44.0,12.1 58.0,13.3 72.0,3.0 86.0,13.3" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">304.548</td><td class="num">11</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>76</td><td class="mono">predict stock</td><td class="mono">stochastic gradient</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#7ee787;color:#7ee787">Applied Math</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.0 30.0,3.8 58.0,15.2 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">301.202</td><td class="num">12</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>77</td><td class="mono">energy efficiency</td><td class="mono">rapid development</td>
+<td><span class="tag" style="border-color:#f85149;color:#f85149">Chips / Hardware</span> <span class="tag" style="border-color:#4cc38a;color:#4cc38a">Software Eng.</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,15.5 18.8,19.0 35.6,3.0 52.4,18.4 69.2,3.5 86.0,5.5" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">299.305</td><td class="num">13</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>78</td><td class="mono">address limitations</td><td class="mono">noisy intermediate-scale</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#a5d6ff;color:#a5d6ff">Quantum</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 30.0,12.8 58.0,3.0 86.0,10.5" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">299.246</td><td class="num">11</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>79</td><td class="mono">adversarial examples</td><td class="mono">learning applications</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,12.5 23.0,3.0 44.0,9.7 65.0,16.2 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">297.490</td><td class="num">13</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>80</td><td class="mono">foreign exchange</td><td class="mono">quantum systems</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#a5d6ff;color:#a5d6ff">Quantum</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,14.5 16.0,13.0 30.0,16.1 44.0,19.0 58.0,14.4 72.0,3.0 86.0,15.5" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">295.018</td><td class="num">13</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>81</td><td class="mono">self-supervised learning</td><td class="mono">stochastic volatility</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 18.8,18.0 35.6,7.5 52.4,3.0 69.2,14.2 86.0,17.3" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">294.845</td><td class="num">11</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>82</td><td class="mono">energy consumption</td><td class="mono">rapid development</td>
+<td><span class="tag" style="border-color:#f85149;color:#f85149">Chips / Hardware</span> <span class="tag" style="border-color:#4cc38a;color:#4cc38a">Software Eng.</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,15.6 18.8,19.0 35.6,4.3 52.4,18.4 69.2,3.0 86.0,6.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">293.779</td><td class="num">13</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>83</td><td class="mono">quantum states</td><td class="mono">stock returns</td>
+<td><span class="tag" style="border-color:#a5d6ff;color:#a5d6ff">Quantum</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,11.2 16.0,13.6 30.0,12.6 44.0,11.4 58.0,19.0 72.0,3.0 86.0,7.4" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">293.553</td><td class="num">11</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>84</td><td class="mono">rapid development</td><td class="mono">spiking neural</td>
+<td><span class="tag" style="border-color:#4cc38a;color:#4cc38a">Software Eng.</span> <span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,15.6 18.8,19.0 35.6,3.0 52.4,18.3 69.2,3.8 86.0,5.5" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">289.507</td><td class="num">13</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>85</td><td class="mono">important role</td><td class="mono">quantitative finance</td>
+<td><span class="tag" style="border-color:#7ee787;color:#7ee787">Applied Math</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,4.8 16.0,8.2 30.0,3.0 44.0,6.0 58.0,13.4 72.0,5.2 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">288.774</td><td class="num">12</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>86</td><td class="mono">comprehensive review</td><td class="mono">learning algorithm</td>
+<td><span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.0 16.0,19.0 30.0,8.2 44.0,12.4 58.0,3.4 72.0,10.7 86.0,16.6" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">288.491</td><td class="num">11</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>87</td><td class="mono">intrusion detection</td><td class="mono">quantum systems</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#a5d6ff;color:#a5d6ff">Quantum</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,7.8 16.0,7.3 30.0,14.0 44.0,8.9 58.0,19.0 72.0,3.0 86.0,11.2" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">287.599</td><td class="num">13</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>88</td><td class="mono">predict stock</td><td class="mono">stochastic gradient descent</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#7ee787;color:#7ee787">Applied Math</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.0 30.0,6.4 58.0,15.2 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">287.133</td><td class="num">12</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>89</td><td class="mono">generative ai</td><td class="mono">neuromorphic computing</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,12.4 44.0,19.0 86.0,3.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">286.971</td><td class="num">13</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>90</td><td class="mono">point clouds</td><td class="mono">stochastic differential</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,4.7 16.0,15.1 30.0,3.0 44.0,19.0 58.0,15.2 72.0,15.9 86.0,15.6" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">285.034</td><td class="num">11</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>91</td><td class="mono">market dynamics</td><td class="mono">predict stock</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.0 30.0,19.0 58.0,4.9 86.0,17.8" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">285.034</td><td class="num">12</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>92</td><td class="mono">adversarial examples</td><td class="mono">hardware accelerators</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#f85149;color:#f85149">Chips / Hardware</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.0 23.0,5.8 44.0,6.6 65.0,8.6 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">284.759</td><td class="num">13</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>93</td><td class="mono">probability distributions</td><td class="mono">quantum devices</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.6 16.0,5.4 30.0,11.1 44.0,18.0 58.0,3.0 72.0,12.7 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">284.651</td><td class="num">11</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>94</td><td class="mono">artificial neural</td><td class="mono">researchers practitioners</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 18.8,18.4 35.6,15.9 52.4,4.0 69.2,3.0 86.0,15.3" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">284.476</td><td class="num">11</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>95</td><td class="mono">adversarial examples</td><td class="mono">matrix multiplication</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span> <span class="tag" style="border-color:#f85149;color:#f85149">Chips / Hardware</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.0 30.0,15.3 58.0,3.2 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">284.294</td><td class="num">13</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>96</td><td class="mono">rapid development</td><td class="mono">spiking neural networks</td>
+<td><span class="tag" style="border-color:#4cc38a;color:#4cc38a">Software Eng.</span> <span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,15.6 18.8,19.0 35.6,3.0 52.4,18.3 69.2,3.6 86.0,5.3" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">284.068</td><td class="num">12</td>
+<td class="mono muted">artificial intelligence</td></tr><tr>
+<td>97</td><td class="mono">matrix multiplication</td><td class="mono">noisy intermediate-scale</td>
+<td><span class="tag" style="border-color:#f85149;color:#f85149">Chips / Hardware</span> <span class="tag" style="border-color:#a5d6ff;color:#a5d6ff">Quantum</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 23.0,13.8 44.0,3.0 65.0,6.8 86.0,8.3" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">283.615</td><td class="num">11</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>98</td><td class="mono">hardware accelerators</td><td class="mono">quantitative finance</td>
+<td><span class="tag" style="border-color:#f85149;color:#f85149">Chips / Hardware</span> <span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,5.5 16.0,19.0 30.0,3.0 44.0,14.5 58.0,17.7 72.0,17.3 86.0,7.9" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">283.402</td><td class="num">12</td>
+<td class="mono muted">deep learning</td></tr><tr>
+<td>99</td><td class="mono">predict stock</td><td class="mono">quantum systems</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span> <span class="tag" style="border-color:#a5d6ff;color:#a5d6ff">Quantum</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.0 30.0,4.1 58.0,6.0 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">283.201</td><td class="num">13</td>
+<td class="mono muted">machine learning</td></tr><tr>
+<td>100</td><td class="mono">computing systems</td><td class="mono">generative ai</td>
+<td><span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span> <span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,3.0 44.0,6.7 86.0,19.0" fill="none" stroke="#d29922" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">281.429</td><td class="num">16</td>
+<td class="mono muted">artificial intelligence</td></tr></tbody></table></section>
+<script>window.FUSION_GRAPH = {"nodes": [{"id": "artificial neural", "freq": 10, "color": "#58a6ff"}, {"id": "deep reinforcement", "freq": 10, "color": "#ffa657"}, {"id": "artificial intelligence", "freq": 10, "color": "#8b949e"}, {"id": "neuromorphic computing", "freq": 10, "color": "#f778ba"}, {"id": "stock market", "freq": 10, "color": "#ffa657"}, {"id": "software engineering", "freq": 10, "color": "#4cc38a"}, {"id": "computing systems", "freq": 10, "color": "#f778ba"}, {"id": "generative adversarial", "freq": 10, "color": "#ffa657"}, {"id": "quantum hardware", "freq": 10, "color": "#f778ba"}, {"id": "stochastic volatility", "freq": 10, "color": "#ffa657"}, {"id": "machine learning", "freq": 10, "color": "#8b949e"}, {"id": "computer science", "freq": 10, "color": "#79c0ff"}, {"id": "spiking neural", "freq": 10, "color": "#58a6ff"}, {"id": "price prediction", "freq": 10, "color": "#ffa657"}, {"id": "quantum states", "freq": 10, "color": "#a5d6ff"}, {"id": "spiking neural networks", "freq": 10, "color": "#58a6ff"}, {"id": "backward stochastic", "freq": 10, "color": "#ffa657"}, {"id": "market making", "freq": 10, "color": "#ffa657"}, {"id": "control problem", "freq": 10, "color": "#8b949e"}, {"id": "current state-of-the-art", "freq": 10, "color": "#58a6ff"}, {"id": "stochastic differential", "freq": 10, "color": "#ffa657"}, {"id": "deep learning", "freq": 10, "color": "#8b949e"}, {"id": "autonomous driving", "freq": 10, "color": "#58a6ff"}, {"id": "differential privacy", "freq": 10, "color": "#d29922"}, {"id": "price movements", "freq": 10, "color": "#ffa657"}, {"id": "adversarial examples", "freq": 10, "color": "#58a6ff"}, {"id": "order book", "freq": 10, "color": "#ffa657"}, {"id": "limit order", "freq": 10, "color": "#ffa657"}, {"id": "quantitative finance", "freq": 10, "color": "#ffa657"}, {"id": "option pricing", "freq": 10, "color": "#ffa657"}, {"id": "limit order book", "freq": 10, "color": "#ffa657"}, {"id": "anomaly detection", "freq": 10, "color": "#58a6ff"}, {"id": "hardware accelerators", "freq": 10, "color": "#f85149"}, {"id": "learning dl", "freq": 10, "color": "#58a6ff"}, {"id": "ai systems", "freq": 10, "color": "#58a6ff"}, {"id": "adversarial attacks", "freq": 10, "color": "#d29922"}, {"id": "credit risk", "freq": 10, "color": "#ffa657"}, {"id": "memory lstm", "freq": 10, "color": "#ffa657"}, {"id": "f1 score", "freq": 10, "color": "#58a6ff"}, {"id": "stock markets", "freq": 10, "color": "#ffa657"}, {"id": "series forecasting", "freq": 10, "color": "#ffa657"}, {"id": "stock prices", "freq": 10, "color": "#ffa657"}, {"id": "graph convolutional", "freq": 10, "color": "#58a6ff"}, {"id": "quantum systems", "freq": 10, "color": "#a5d6ff"}, {"id": "medical image", "freq": 10, "color": "#58a6ff"}, {"id": "adversarial networks", "freq": 10, "color": "#ffa657"}, {"id": "quantum devices", "freq": 10, "color": "#f778ba"}, {"id": "generative adversarial networks", "freq": 10, "color": "#ffa657"}, {"id": "limit order book lob", "freq": 10, "color": "#ffa657"}, {"id": "long short-term memory lstm", "freq": 10, "color": "#ffa657"}, {"id": "sharpe ratio", "freq": 10, "color": "#ffa657"}, {"id": "performance energy", "freq": 10, "color": "#f85149"}, {"id": "algorithmic trading", "freq": 10, "color": "#ffa657"}, {"id": "internet things", "freq": 10, "color": "#d29922"}, {"id": "investment decisions", "freq": 10, "color": "#ffa657"}, {"id": "american options", "freq": 10, "color": "#ffa657"}, {"id": "social media", "freq": 10, "color": "#58a6ff"}, {"id": "deep learning-based", "freq": 10, "color": "#58a6ff"}, {"id": "generative ai", "freq": 10, "color": "#58a6ff"}, {"id": "learning algorithm", "freq": 10, "color": "#ffa657"}, {"id": "comprehensive review", "freq": 10, "color": "#f778ba"}, {"id": "convolutional neural", "freq": 10, "color": "#58a6ff"}, {"id": "backward stochastic differential equations", "freq": 10, "color": "#ffa657"}, {"id": "training set", "freq": 10, "color": "#58a6ff"}, {"id": "technical indicators", "freq": 10, "color": "#ffa657"}, {"id": "predict stock", "freq": 10, "color": "#ffa657"}, {"id": "learning algorithms", "freq": 10, "color": "#ffa657"}, {"id": "recent research", "freq": 10, "color": "#58a6ff"}, {"id": "convolutional networks", "freq": 10, "color": "#58a6ff"}, {"id": "improved performance", "freq": 10, "color": "#58a6ff"}, {"id": "evaluation metrics", "freq": 10, "color": "#ffa657"}, {"id": "genetic algorithm", "freq": 10, "color": "#58a6ff"}, {"id": "test set", "freq": 10, "color": "#58a6ff"}, {"id": "lstm networks", "freq": 10, "color": "#ffa657"}, {"id": "classification performance", "freq": 10, "color": "#58a6ff"}, {"id": "stochastic gradient", "freq": 10, "color": "#7ee787"}, {"id": "energy efficiency", "freq": 10, "color": "#f85149"}, {"id": "rapid development", "freq": 10, "color": "#4cc38a"}, {"id": "address limitations", "freq": 10, "color": "#58a6ff"}, {"id": "noisy intermediate-scale", "freq": 10, "color": "#a5d6ff"}, {"id": "learning applications", "freq": 10, "color": "#ffa657"}, {"id": "foreign exchange", "freq": 10, "color": "#ffa657"}, {"id": "self-supervised learning", "freq": 10, "color": "#58a6ff"}, {"id": "energy consumption", "freq": 10, "color": "#f85149"}, {"id": "stock returns", "freq": 10, "color": "#ffa657"}, {"id": "important role", "freq": 10, "color": "#7ee787"}, {"id": "intrusion detection", "freq": 10, "color": "#58a6ff"}, {"id": "stochastic gradient descent", "freq": 10, "color": "#7ee787"}, {"id": "point clouds", "freq": 10, "color": "#58a6ff"}, {"id": "market dynamics", "freq": 10, "color": "#ffa657"}, {"id": "probability distributions", "freq": 10, "color": "#ffa657"}, {"id": "researchers practitioners", "freq": 10, "color": "#ffa657"}, {"id": "matrix multiplication", "freq": 10, "color": "#f85149"}], "links": [{"source": "artificial neural", "target": "artificial intelligence", "type": "bridge"}, {"source": "deep reinforcement", "target": "artificial intelligence", "type": "bridge"}, {"source": "artificial neural", "target": "deep reinforcement", "type": "predicted"}, {"source": "neuromorphic computing", "target": "artificial intelligence", "type": "bridge"}, {"source": "stock market", "target": "artificial intelligence", "type": "bridge"}, {"source": "neuromorphic computing", "target": "stock market", "type": "predicted"}, {"source": "deep reinforcement", "target": "artificial intelligence", "type": "bridge"}, {"source": "neuromorphic computing", "target": "artificial intelligence", "type": "bridge"}, {"source": "deep reinforcement", "target": "neuromorphic computing", "type": "predicted"}, {"source": "neuromorphic computing", "target": "artificial intelligence", "type": "bridge"}, {"source": "software engineering", "target": "artificial intelligence", "type": "bridge"}, {"source": "neuromorphic computing", "target": "software engineering", "type": "predicted"}, {"source": "computing systems", "target": "artificial intelligence", "type": "bridge"}, {"source": "software engineering", "target": "artificial intelligence", "type": "bridge"}, {"source": "computing systems", "target": "software engineering", "type": "predicted"}, {"source": "generative adversarial", "target": "artificial intelligence", "type": "bridge"}, {"source": "neuromorphic computing", "target": "artificial intelligence", "type": "bridge"}, {"source": "generative adversarial", "target": "neuromorphic computing", "type": "predicted"}, {"source": "quantum hardware", "target": "machine learning", "type": "bridge"}, {"source": "stochastic volatility", "target": "machine learning", "type": "bridge"}, {"source": "quantum hardware", "target": "stochastic volatility", "type": "predicted"}, {"source": "computer science", "target": "artificial intelligence", "type": "bridge"}, {"source": "spiking neural", "target": "artificial intelligence", "type": "bridge"}, {"source": "computer science", "target": "spiking neural", "type": "predicted"}, {"source": "price prediction", "target": "machine learning", "type": "bridge"}, {"source": "quantum states", "target": "machine learning", "type": "bridge"}, {"source": "price prediction", "target": "quantum states", "type": "predicted"}, {"source": "computer science", "target": "artificial intelligence", "type": "bridge"}, {"source": "spiking neural networks", "target": "artificial intelligence", "type": "bridge"}, {"source": "computer science", "target": "spiking neural networks", "type": "predicted"}, {"source": "backward stochastic", "target": "control problem", "type": "bridge"}, {"source": "market making", "target": "control problem", "type": "bridge"}, {"source": "backward stochastic", "target": "market making", "type": "predicted"}, {"source": "current state-of-the-art", "target": "deep learning", "type": "bridge"}, {"source": "stochastic differential", "target": "deep learning", "type": "bridge"}, {"source": "current state-of-the-art", "target": "stochastic differential", "type": "predicted"}, {"source": "autonomous driving", "target": "artificial intelligence", "type": "bridge"}, {"source": "neuromorphic computing", "target": "artificial intelligence", "type": "bridge"}, {"source": "autonomous driving", "target": "neuromorphic computing", "type": "predicted"}, {"source": "differential privacy", "target": "deep learning", "type": "bridge"}, {"source": "price movements", "target": "deep learning", "type": "bridge"}, {"source": "differential privacy", "target": "price movements", "type": "predicted"}, {"source": "adversarial examples", "target": "deep learning", "type": "bridge"}, {"source": "order book", "target": "deep learning", "type": "bridge"}, {"source": "adversarial examples", "target": "order book", "type": "predicted"}, {"source": "computer science", "target": "artificial intelligence", "type": "bridge"}, {"source": "generative adversarial", "target": "artificial intelligence", "type": "bridge"}, {"source": "computer science", "target": "generative adversarial", "type": "predicted"}, {"source": "autonomous driving", "target": "artificial intelligence", "type": "bridge"}, {"source": "computing systems", "target": "artificial intelligence", "type": "bridge"}, {"source": "autonomous driving", "target": "computing systems", "type": "predicted"}, {"source": "adversarial examples", "target": "deep learning", "type": "bridge"}, {"source": "limit order", "target": "deep learning", "type": "bridge"}, {"source": "adversarial examples", "target": "limit order", "type": "predicted"}, {"source": "quantitative finance", "target": "deep learning", "type": "bridge"}, {"source": "software engineering", "target": "deep learning", "type": "bridge"}, {"source": "quantitative finance", "target": "software engineering", "type": "predicted"}, {"source": "adversarial examples", "target": "deep learning", "type": "bridge"}, {"source": "stochastic volatility", "target": "deep learning", "type": "bridge"}, {"source": "adversarial examples", "target": "stochastic volatility", "type": "predicted"}, {"source": "adversarial examples", "target": "deep learning", "type": "bridge"}, {"source": "option pricing", "target": "deep learning", "type": "bridge"}, {"source": "adversarial examples", "target": "option pricing", "type": "predicted"}, {"source": "adversarial examples", "target": "deep learning", "type": "bridge"}, {"source": "limit order book", "target": "deep learning", "type": "bridge"}, {"source": "adversarial examples", "target": "limit order book", "type": "predicted"}, {"source": "anomaly detection", "target": "artificial intelligence", "type": "bridge"}, {"source": "neuromorphic computing", "target": "artificial intelligence", "type": "bridge"}, {"source": "anomaly detection", "target": "neuromorphic computing", "type": "predicted"}, {"source": "differential privacy", "target": "deep learning", "type": "bridge"}, {"source": "hardware accelerators", "target": "deep learning", "type": "bridge"}, {"source": "differential privacy", "target": "hardware accelerators", "type": "predicted"}, {"source": "price movements", "target": "machine learning", "type": "bridge"}, {"source": "quantum states", "target": "machine learning", "type": "bridge"}, {"source": "price movements", "target": "quantum states", "type": "predicted"}, {"source": "computing systems", "target": "artificial intelligence", "type": "bridge"}, {"source": "learning dl", "target": "artificial intelligence", "type": "bridge"}, {"source": "computing systems", "target": "learning dl", "type": "predicted"}, {"source": "ai systems", "target": "artificial intelligence", "type": "bridge"}, {"source": "neuromorphic computing", "target": "artificial intelligence", "type": "bridge"}, {"source": "ai systems", "target": "neuromorphic computing", "type": "predicted"}, {"source": "adversarial attacks", "target": "deep learning", "type": "bridge"}, {"source": "credit risk", "target": "deep learning", "type": "bridge"}, {"source": "adversarial attacks", "target": "credit risk", "type": "predicted"}, {"source": "adversarial examples", "target": "deep learning", "type": "bridge"}, {"source": "memory lstm", "target": "deep learning", "type": "bridge"}, {"source": "adversarial examples", "target": "memory lstm", "type": "predicted"}, {"source": "f1 score", "target": "deep learning", "type": "bridge"}, {"source": "stochastic volatility", "target": "deep learning", "type": "bridge"}, {"source": "f1 score", "target": "stochastic volatility", "type": "predicted"}, {"source": "quantum states", "target": "machine learning", "type": "bridge"}, {"source": "stock markets", "target": "machine learning", "type": "bridge"}, {"source": "quantum states", "target": "stock markets", "type": "predicted"}, {"source": "quantum states", "target": "machine learning", "type": "bridge"}, {"source": "series forecasting", "target": "machine learning", "type": "bridge"}, {"source": "quantum states", "target": "series forecasting", "type": "predicted"}, {"source": "adversarial examples", "target": "deep learning", "type": "bridge"}, {"source": "stock prices", "target": "deep learning", "type": "bridge"}, {"source": "adversarial examples", "target": "stock prices", "type": "predicted"}, {"source": "graph convolutional", "target": "deep learning", "type": "bridge"}, {"source": "stochastic differential", "target": "deep learning", "type": "bridge"}, {"source": "graph convolutional", "target": "stochastic differential", "type": "predicted"}, {"source": "ai systems", "target": "artificial intelligence", "type": "bridge"}, {"source": "computing systems", "target": "artificial intelligence", "type": "bridge"}, {"source": "ai systems", "target": "computing systems", "type": "predicted"}, {"source": "adversarial examples", "target": "machine learning", "type": "bridge"}, {"source": "quantum systems", "target": "machine learning", "type": "bridge"}, {"source": "adversarial examples", "target": "quantum systems", "type": "predicted"}, {"source": "medical image", "target": "deep learning", "type": "bridge"}, {"source": "stochastic volatility", "target": "deep learning", "type": "bridge"}, {"source": "medical image", "target": "stochastic volatility", "type": "predicted"}, {"source": "adversarial networks", "target": "machine learning", "type": "bridge"}, {"source": "quantum devices", "target": "machine learning", "type": "bridge"}, {"source": "adversarial networks", "target": "quantum devices", "type": "predicted"}, {"source": "generative adversarial networks", "target": "machine learning", "type": "bridge"}, {"source": "quantum devices", "target": "machine learning", "type": "bridge"}, {"source": "generative adversarial networks", "target": "quantum devices", "type": "predicted"}, {"source": "limit order book lob", "target": "deep learning", "type": "bridge"}, {"source": "software engineering", "target": "deep learning", "type": "bridge"}, {"source": "limit order book lob", "target": "software engineering", "type": "predicted"}, {"source": "adversarial examples", "target": "deep learning", "type": "bridge"}, {"source": "price prediction", "target": "deep learning", "type": "bridge"}, {"source": "adversarial examples", "target": "price prediction", "type": "predicted"}, {"source": "adversarial examples", "target": "deep learning", "type": "bridge"}, {"source": "long short-term memory lstm", "target": "deep learning", "type": "bridge"}, {"source": "adversarial examples", "target": "long short-term memory lstm", "type": "predicted"}, {"source": "adversarial examples", "target": "deep learning", "type": "bridge"}, {"source": "sharpe ratio", "target": "deep learning", "type": "bridge"}, {"source": "adversarial examples", "target": "sharpe ratio", "type": "predicted"}, {"source": "performance energy", "target": "machine learning", "type": "bridge"}, {"source": "quantum states", "target": "machine learning", "type": "bridge"}, {"source": "performance energy", "target": "quantum states", "type": "predicted"}, {"source": "algorithmic trading", "target": "machine learning", "type": "bridge"}, {"source": "quantum states", "target": "machine learning", "type": "bridge"}, {"source": "algorithmic trading", "target": "quantum states", "type": "predicted"}, {"source": "internet things", "target": "deep learning", "type": "bridge"}, {"source": "quantitative finance", "target": "deep learning", "type": "bridge"}, {"source": "internet things", "target": "quantitative finance", "type": "predicted"}, {"source": "adversarial attacks", "target": "deep learning", "type": "bridge"}, {"source": "investment decisions", "target": "deep learning", "type": "bridge"}, {"source": "adversarial attacks", "target": "investment decisions", "type": "predicted"}, {"source": "american options", "target": "machine learning", "type": "bridge"}, {"source": "quantum hardware", "target": "machine learning", "type": "bridge"}, {"source": "american options", "target": "quantum hardware", "type": "predicted"}, {"source": "quantum devices", "target": "machine learning", "type": "bridge"}, {"source": "social media", "target": "machine learning", "type": "bridge"}, {"source": "quantum devices", "target": "social media", "type": "predicted"}, {"source": "deep learning-based", "target": "machine learning", "type": "bridge"}, {"source": "quantum devices", "target": "machine learning", "type": "bridge"}, {"source": "deep learning-based", "target": "quantum devices", "type": "predicted"}, {"source": "generative ai", "target": "artificial intelligence", "type": "bridge"}, {"source": "learning algorithm", "target": "artificial intelligence", "type": "bridge"}, {"source": "generative ai", "target": "learning algorithm", "type": "predicted"}, {"source": "comprehensive review", "target": "artificial intelligence", "type": "bridge"}, {"source": "convolutional neural", "target": "artificial intelligence", "type": "bridge"}, {"source": "comprehensive review", "target": "convolutional neural", "type": "predicted"}, {"source": "neuromorphic computing", "target": "deep learning", "type": "bridge"}, {"source": "quantitative finance", "target": "deep learning", "type": "bridge"}, {"source": "neuromorphic computing", "target": "quantitative finance", "type": "predicted"}, {"source": "backward stochastic differential equations", "target": "control problem", "type": "bridge"}, {"source": "market making", "target": "control problem", "type": "bridge"}, {"source": "backward stochastic differential equations", "target": "market making", "type": "predicted"}, {"source": "neuromorphic computing", "target": "artificial intelligence", "type": "bridge"}, {"source": "training set", "target": "artificial intelligence", "type": "bridge"}, {"source": "neuromorphic computing", "target": "training set", "type": "predicted"}, {"source": "quantum states", "target": "machine learning", "type": "bridge"}, {"source": "technical indicators", "target": "machine learning", "type": "bridge"}, {"source": "quantum states", "target": "technical indicators", "type": "predicted"}, {"source": "predict stock", "target": "deep learning", "type": "bridge"}, {"source": "stochastic differential", "target": "deep learning", "type": "bridge"}, {"source": "predict stock", "target": "stochastic differential", "type": "predicted"}, {"source": "comprehensive review", "target": "artificial intelligence", "type": "bridge"}, {"source": "learning algorithms", "target": "artificial intelligence", "type": "bridge"}, {"source": "comprehensive review", "target": "learning algorithms", "type": "predicted"}, {"source": "comprehensive review", "target": "artificial intelligence", "type": "bridge"}, {"source": "stock market", "target": "artificial intelligence", "type": "bridge"}, {"source": "comprehensive review", "target": "stock market", "type": "predicted"}, {"source": "recent research", "target": "deep learning", "type": "bridge"}, {"source": "stochastic differential", "target": "deep learning", "type": "bridge"}, {"source": "recent research", "target": "stochastic differential", "type": "predicted"}, {"source": "computer science", "target": "artificial intelligence", "type": "bridge"}, {"source": "learning dl", "target": "artificial intelligence", "type": "bridge"}, {"source": "computer science", "target": "learning dl", "type": "predicted"}, {"source": "differential privacy", "target": "deep learning", "type": "bridge"}, {"source": "limit order book lob", "target": "deep learning", "type": "bridge"}, {"source": "differential privacy", "target": "limit order book lob", "type": "predicted"}, {"source": "convolutional networks", "target": "deep learning", "type": "bridge"}, {"source": "stochastic volatility", "target": "deep learning", "type": "bridge"}, {"source": "convolutional networks", "target": "stochastic volatility", "type": "predicted"}, {"source": "improved performance", "target": "deep learning", "type": "bridge"}, {"source": "stochastic volatility", "target": "deep learning", "type": "bridge"}, {"source": "improved performance", "target": "stochastic volatility", "type": "predicted"}, {"source": "predict stock", "target": "deep learning", "type": "bridge"}, {"source": "stochastic volatility", "target": "deep learning", "type": "bridge"}, {"source": "predict stock", "target": "stochastic volatility", "type": "predicted"}, {"source": "evaluation metrics", "target": "machine learning", "type": "bridge"}, {"source": "quantum devices", "target": "machine learning", "type": "bridge"}, {"source": "evaluation metrics", "target": "quantum devices", "type": "predicted"}, {"source": "price movements", "target": "machine learning", "type": "bridge"}, {"source": "quantum devices", "target": "machine learning", "type": "bridge"}, {"source": "price movements", "target": "quantum devices", "type": "predicted"}, {"source": "genetic algorithm", "target": "deep learning", "type": "bridge"}, {"source": "quantitative finance", "target": "deep learning", "type": "bridge"}, {"source": "genetic algorithm", "target": "quantitative finance", "type": "predicted"}, {"source": "stochastic volatility", "target": "deep learning", "type": "bridge"}, {"source": "test set", "target": "deep learning", "type": "bridge"}, {"source": "stochastic volatility", "target": "test set", "type": "predicted"}, {"source": "comprehensive review", "target": "artificial intelligence", "type": "bridge"}, {"source": "spiking neural networks", "target": "artificial intelligence", "type": "bridge"}, {"source": "comprehensive review", "target": "spiking neural networks", "type": "predicted"}, {"source": "lstm networks", "target": "deep learning", "type": "bridge"}, {"source": "software engineering", "target": "deep learning", "type": "bridge"}, {"source": "lstm networks", "target": "software engineering", "type": "predicted"}, {"source": "classification performance", "target": "deep learning", "type": "bridge"}, {"source": "stochastic differential", "target": "deep learning", "type": "bridge"}, {"source": "classification performance", "target": "stochastic differential", "type": "predicted"}, {"source": "adversarial examples", "target": "deep learning", "type": "bridge"}, {"source": "price movements", "target": "deep learning", "type": "bridge"}, {"source": "adversarial examples", "target": "price movements", "type": "predicted"}, {"source": "recent research", "target": "deep learning", "type": "bridge"}, {"source": "stochastic volatility", "target": "deep learning", "type": "bridge"}, {"source": "recent research", "target": "stochastic volatility", "type": "predicted"}, {"source": "f1 score", "target": "machine learning", "type": "bridge"}, {"source": "quantum states", "target": "machine learning", "type": "bridge"}, {"source": "f1 score", "target": "quantum states", "type": "predicted"}, {"source": "predict stock", "target": "deep learning", "type": "bridge"}, {"source": "stochastic gradient", "target": "deep learning", "type": "bridge"}, {"source": "predict stock", "target": "stochastic gradient", "type": "predicted"}, {"source": "energy efficiency", "target": "artificial intelligence", "type": "bridge"}, {"source": "rapid development", "target": "artificial intelligence", "type": "bridge"}, {"source": "energy efficiency", "target": "rapid development", "type": "predicted"}, {"source": "address limitations", "target": "machine learning", "type": "bridge"}, {"source": "noisy intermediate-scale", "target": "machine learning", "type": "bridge"}, {"source": "address limitations", "target": "noisy intermediate-scale", "type": "predicted"}, {"source": "adversarial examples", "target": "deep learning", "type": "bridge"}, {"source": "learning applications", "target": "deep learning", "type": "bridge"}, {"source": "adversarial examples", "target": "learning applications", "type": "predicted"}, {"source": "foreign exchange", "target": "machine learning", "type": "bridge"}, {"source": "quantum systems", "target": "machine learning", "type": "bridge"}, {"source": "foreign exchange", "target": "quantum systems", "type": "predicted"}, {"source": "self-supervised learning", "target": "deep learning", "type": "bridge"}, {"source": "stochastic volatility", "target": "deep learning", "type": "bridge"}, {"source": "self-supervised learning", "target": "stochastic volatility", "type": "predicted"}, {"source": "energy consumption", "target": "artificial intelligence", "type": "bridge"}, {"source": "rapid development", "target": "artificial intelligence", "type": "bridge"}, {"source": "energy consumption", "target": "rapid development", "type": "predicted"}, {"source": "quantum states", "target": "machine learning", "type": "bridge"}, {"source": "stock returns", "target": "machine learning", "type": "bridge"}, {"source": "quantum states", "target": "stock returns", "type": "predicted"}, {"source": "rapid development", "target": "artificial intelligence", "type": "bridge"}, {"source": "spiking neural", "target": "artificial intelligence", "type": "bridge"}, {"source": "rapid development", "target": "spiking neural", "type": "predicted"}, {"source": "important role", "target": "deep learning", "type": "bridge"}, {"source": "quantitative finance", "target": "deep learning", "type": "bridge"}, {"source": "important role", "target": "quantitative finance", "type": "predicted"}, {"source": "comprehensive review", "target": "artificial intelligence", "type": "bridge"}, {"source": "learning algorithm", "target": "artificial intelligence", "type": "bridge"}, {"source": "comprehensive review", "target": "learning algorithm", "type": "predicted"}, {"source": "intrusion detection", "target": "machine learning", "type": "bridge"}, {"source": "quantum systems", "target": "machine learning", "type": "bridge"}, {"source": "intrusion detection", "target": "quantum systems", "type": "predicted"}, {"source": "predict stock", "target": "deep learning", "type": "bridge"}, {"source": "stochastic gradient descent", "target": "deep learning", "type": "bridge"}, {"source": "predict stock", "target": "stochastic gradient descent", "type": "predicted"}, {"source": "generative ai", "target": "artificial intelligence", "type": "bridge"}, {"source": "neuromorphic computing", "target": "artificial intelligence", "type": "bridge"}, {"source": "generative ai", "target": "neuromorphic computing", "type": "predicted"}, {"source": "point clouds", "target": "deep learning", "type": "bridge"}, {"source": "stochastic differential", "target": "deep learning", "type": "bridge"}, {"source": "point clouds", "target": "stochastic differential", "type": "predicted"}, {"source": "market dynamics", "target": "deep learning", "type": "bridge"}, {"source": "predict stock", "target": "deep learning", "type": "bridge"}, {"source": "market dynamics", "target": "predict stock", "type": "predicted"}, {"source": "adversarial examples", "target": "deep learning", "type": "bridge"}, {"source": "hardware accelerators", "target": "deep learning", "type": "bridge"}, {"source": "adversarial examples", "target": "hardware accelerators", "type": "predicted"}, {"source": "probability distributions", "target": "machine learning", "type": "bridge"}, {"source": "quantum devices", "target": "machine learning", "type": "bridge"}, {"source": "probability distributions", "target": "quantum devices", "type": "predicted"}, {"source": "artificial neural", "target": "artificial intelligence", "type": "bridge"}, {"source": "researchers practitioners", "target": "artificial intelligence", "type": "bridge"}, {"source": "artificial neural", "target": "researchers practitioners", "type": "predicted"}, {"source": "adversarial examples", "target": "deep learning", "type": "bridge"}, {"source": "matrix multiplication", "target": "deep learning", "type": "bridge"}, {"source": "adversarial examples", "target": "matrix multiplication", "type": "predicted"}, {"source": "rapid development", "target": "artificial intelligence", "type": "bridge"}, {"source": "spiking neural networks", "target": "artificial intelligence", "type": "bridge"}, {"source": "rapid development", "target": "spiking neural networks", "type": "predicted"}, {"source": "matrix multiplication", "target": "machine learning", "type": "bridge"}, {"source": "noisy intermediate-scale", "target": "machine learning", "type": "bridge"}, {"source": "matrix multiplication", "target": "noisy intermediate-scale", "type": "predicted"}, {"source": "hardware accelerators", "target": "deep learning", "type": "bridge"}, {"source": "quantitative finance", "target": "deep learning", "type": "bridge"}, {"source": "hardware accelerators", "target": "quantitative finance", "type": "predicted"}, {"source": "predict stock", "target": "machine learning", "type": "bridge"}, {"source": "quantum systems", "target": "machine learning", "type": "bridge"}, {"source": "predict stock", "target": "quantum systems", "type": "predicted"}, {"source": "computing systems", "target": "artificial intelligence", "type": "bridge"}, {"source": "generative ai", "target": "artificial intelligence", "type": "bridge"}, {"source": "computing systems", "target": "generative ai", "type": "predicted"}]};</script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="assets/app.js"></script>
+</main>
+<footer><div class="container row">
+  <span>Commercial Trend Radar — open data, open code, honest baselines.</span>
+  <span>Not investment advice. Built from arXiv metadata.</span>
+</div></footer>
+</body></html>

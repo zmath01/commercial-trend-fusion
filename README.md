@@ -1,0 +1,141 @@
+# Commercial Trend Radar
+
+> Data-driven, **backtested**, fully reproducible watchlist of research
+> concepts and cross-field fusions with commercialization potential — built
+> from the arXiv corpus (AI, applied math, software, security/crypto, quant
+> finance, quantum, chips).
+
+**Live site:** https://zmath01.github.io/commercial-trend
+**Repo:** https://github.com/zmath01/commercial-trend
+
+---
+
+## Why this exists
+
+Most "science trend" dashboards share the same failure modes: headline
+metrics no script can produce, controls that flatter the result by
+construction, inconsistent baselines, and private funnels that turn the
+"open" project into a lead magnet. This project rejects all of that
+(see `docs/anti_patterns.md`). Here, **every number on the site is generated
+by a script in this repository**, baselines are structurally matched,
+p-values are permutation-based, and results are published even when modest.
+
+## What it does
+
+| Stage | Script | Output |
+|---|---|---|
+| Fetch corpus | `scripts/fetch_arxiv.py` | per-category-year CSV (arXiv API) |
+| Phrase mining | `scripts/build_lexicon.py` | academic phrase lexicon (word2phrase) |
+| Annotation | `scripts/annotate.py` | per-paper phrase tags + year counts |
+| Concept graphs | `scripts/build_graph.py` | sparse CSR co-occurrence networks |
+| Signals | `scripts/signals.py` | growth slope, hockey-stick, PageRank, effective conductance G |
+| Backtest | `scripts/backtest.py` | Task A/B evaluation with matched controls |
+| Prediction | `scripts/predict.py` | emerging-concepts radar + fusion watchlist |
+| Site | `scripts/build_site.py` | static site in `docs/` |
+
+**Two prediction tasks, both out-of-sample evaluated:**
+
+- **Task A — concept growth:** will a term's frequency grow next window?
+  (Spearman ρ + permutation p, bootstrap CI, ROC AUC, frequency-matched
+  lift@K.)
+- **Task B — pair fusion:** will two never-co-occurring concepts first
+  co-occur? (full-network effective conductance G; hit rate vs **structural
+  control** — same A, same bridge, random B′ — plus naive control and the
+  cheap 2-hop baseline I.)
+
+## Quickstart
+
+```bash
+# 1. environment
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+
+# 2. fetch the corpus (resumable; ~40 min with polite rate limiting)
+python scripts/fetch_arxiv.py
+
+# 3. run everything
+python scripts/run_all.py
+
+# 4. preview the site
+python -m http.server 8000 -d docs
+```
+
+CI/quick demo on the committed sample corpus:
+
+```bash
+python scripts/run_all.py --sample
+```
+
+GitHub Actions rebuilds and deploys `docs/` to Pages on every push to `main`.
+
+## Repository layout
+
+```
+commercial-trend/
+├── config.yaml              # single-point configuration
+├── scripts/                 # pipeline (see table above)
+├── web/
+│   ├── assets/              # css / js for the site
+│   └── templates/           # static pages (methodology, about)
+├── data/
+│   ├── corpus/sample/       # small committed sample (out-of-box demo)
+│   └── results/             # committed pipeline results (site source)
+├── docs/                    # generated static site (committed)
+├── docs-src/                # markdown documentation
+└── .github/workflows/pages.yml
+```
+
+## Results (committed snapshot)
+
+Full detail: `docs/backtest_report.md` and `docs/backtest.html` (both
+generated from `data/results/backtest.json`). Summary of the committed run
+(2019–2022 → 2023–2025, sampled corpus):
+
+- **Task A (concept growth):** ρ = 0.03 (p = 0.10) — past growth does not
+  strongly predict future growth (mean reversion). Reported because it is
+  true; the product value is nowcast + monitoring, not prophecy.
+- **Task B (pair fusion):** base rate 0.7%; top-100 by effective
+  conductance 1.0%, by 2-hop strength 6.0%; structural control 0.8%;
+  AUC(G) = 0.57. Effects are directionally positive but not significant in
+  this snapshot — the watchlist is an explainable shortlist, not a
+  hit-guarantee.
+- **Radar (nowcast):** agentic ai, llm agents, flow matching, regime
+  shifts / market regimes / stress testing (quant finance), neuromorphic ×
+  quant, quantum hardware × stochastic volatility — the kind of cross-field
+  fusion pairs that make a monitoring product.
+
+Refresh with `python scripts/run_all.py` to regenerate everything.
+
+## Data sources
+
+Integrated: **arXiv Atom API** (open, key-less). Documented extensions:
+Semantic Scholar, GitHub, PyPI, HuggingFace, Crossref/OpenAlex, funding
+databases. See `docs/data_sources.md`.
+
+## License & citation
+
+- Code: MIT — see [LICENSE](LICENSE)
+- Derived data & site content: CC BY 4.0
+- arXiv metadata: arXiv API terms of use
+- Cite: see [CITATION.cff](CITATION.cff)
+
+---
+
+## 中文简介
+
+**Commercial Trend Radar（商业趋势雷达）**：基于 arXiv 语料的、**经过严格回测**、
+完全可复现的科研商业化趋势雷达。跟踪 AI、应用数学、软件工程、安全/加密、
+量化金融、量子计算、芯片等 10 个商业领域 23 个 arXiv 分类。
+
+核心差异（详见 `docs/anti_patterns.md`）：
+
+1. **站上每个数字都有脚本在背后**——没有"README 里一个数、代码里找不到"的头条指标。
+2. **对照组是结构匹配的**——同起点、同桥接、随机替代终点，而不是"随机远对"
+   这种天然吃亏的对照组。
+3. **基线口径全程一致**，置换检验 p 值、bootstrap 置信区间全部公开。
+4. **没有私域漏斗**——分析本身就是产品，全部公开，纠错走 GitHub issue/PR。
+
+两个预测任务：概念热度增长（Task A）与跨领域概念"融合"首现预测（Task B，
+基于全图有效电导 G）。运行方式见上方 Quickstart。
+
+**免责声明：** arXiv 预印本是领先但有噪声的信号。这是研究雷达，不是投资建议。

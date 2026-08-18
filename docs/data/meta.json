@@ -1,0 +1,194 @@
+{
+ "built_at": "2026-08-18T09:37:45+00:00",
+ "config": {
+  "corpus": {
+   "dir": "data/corpus",
+   "raw_dir": "data/corpus/raw",
+   "sample_dir": "data/corpus/sample",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "per_year_cap": 150,
+   "api_delay": 8.0,
+   "api_retries": 5
+  },
+  "categories": [
+   {
+    "cat": "cs.AI",
+    "field": "AI"
+   },
+   {
+    "cat": "cs.LG",
+    "field": "AI"
+   },
+   {
+    "cat": "cs.CL",
+    "field": "AI"
+   },
+   {
+    "cat": "cs.CV",
+    "field": "AI"
+   },
+   {
+    "cat": "stat.ML",
+    "field": "AI"
+   },
+   {
+    "cat": "cs.NE",
+    "field": "AI"
+   },
+   {
+    "cat": "cs.SE",
+    "field": "Software"
+   },
+   {
+    "cat": "cs.PL",
+    "field": "Software"
+   },
+   {
+    "cat": "cs.CR",
+    "field": "SecurityCrypto"
+   },
+   {
+    "cat": "cs.DC",
+    "field": "Systems"
+   },
+   {
+    "cat": "cs.DS",
+    "field": "Theory"
+   },
+   {
+    "cat": "cs.GT",
+    "field": "Theory"
+   },
+   {
+    "cat": "cs.AR",
+    "field": "Chips"
+   },
+   {
+    "cat": "cs.ET",
+    "field": "QuantumChips"
+   },
+   {
+    "cat": "math.OC",
+    "field": "AppliedMath"
+   },
+   {
+    "cat": "math.NA",
+    "field": "AppliedMath"
+   },
+   {
+    "cat": "quant-ph",
+    "field": "Quantum"
+   },
+   {
+    "cat": "q-fin.ST",
+    "field": "QuantFinance"
+   },
+   {
+    "cat": "q-fin.TR",
+    "field": "QuantFinance"
+   },
+   {
+    "cat": "q-fin.CP",
+    "field": "QuantFinance"
+   },
+   {
+    "cat": "q-fin.MF",
+    "field": "QuantFinance"
+   },
+   {
+    "cat": "q-fin.RM",
+    "field": "QuantFinance"
+   },
+   {
+    "cat": "econ.GN",
+    "field": "Fintech"
+   }
+  ],
+  "lexicon": {
+   "min_freq": 5,
+   "min_pmi": 2.0,
+   "max_n": 4,
+   "max_terms": 30000,
+   "top_k_per_paper": 40
+  },
+  "annotation": {
+   "hot_min_freq": 5
+  },
+  "graph": {
+   "min_edge_weight": 2
+  },
+  "backtest": {
+   "history_years": [
+    2019,
+    2020,
+    2021,
+    2022
+   ],
+   "test_years": [
+    2023,
+    2024,
+    2025
+   ],
+   "n_candidates": 3000,
+   "top_k": 100,
+   "bootstrap_iters": 1000
+  },
+  "predict": {
+   "history_years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "n_concepts": 100,
+   "n_pairs": 100
+  },
+  "paths": {
+   "lexicon": "data/lexicon/lexicon.csv",
+   "annotation_dir": "data/annotation",
+   "graph_dir": "data/graphs",
+   "results_dir": "data/results",
+   "site_dir": "docs",
+   "template_dir": "web/templates",
+   "asset_dir": "web/assets"
+  },
+  "random_seed": 42
+ },
+ "git_sha": "",
+ "corpus": {
+  "papers": 27258,
+  "years": [
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "papers_by_field": {
+   "AI": 6401,
+   "QuantFinance": 5468,
+   "Theory": 2598,
+   "AppliedMath": 2499,
+   "Software": 2410,
+   "Chips": 1392,
+   "Fintech": 1369,
+   "SecurityCrypto": 1309,
+   "Quantum": 1301,
+   "QuantumChips": 1260,
+   "Systems": 1251
+  }
+ }
+}

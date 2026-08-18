@@ -1,0 +1,77 @@
+# ============================================================
+# commercial-trend — configuration
+# Single-point configuration for the whole pipeline.
+# All paths are relative to the repo root.
+# ============================================================
+
+corpus:
+  dir: data/corpus
+  raw_dir: data/corpus/raw          # fetched papers, cat=XX/year=YYYY.csv
+  sample_dir: data/corpus/sample    # small committed sample (parquet)
+  years: [2019, 2020, 2021, 2022, 2023, 2024, 2025]
+  per_year_cap: 150                 # max papers per (category, year)
+  api_delay: 8.0                    # seconds between arXiv API calls (rate-limit safe)
+  api_retries: 5
+
+# arXiv categories tracked, grouped into commercial fields.
+# field = the business/industry lens used for dashboards.
+categories:
+  - {cat: cs.AI,  field: AI}
+  - {cat: cs.LG,  field: AI}
+  - {cat: cs.CL,  field: AI}
+  - {cat: cs.CV,  field: AI}
+  - {cat: stat.ML, field: AI}
+  - {cat: cs.NE,  field: AI}
+  - {cat: cs.SE,  field: Software}
+  - {cat: cs.PL,  field: Software}
+  - {cat: cs.CR,  field: SecurityCrypto}
+  - {cat: cs.DC,  field: Systems}
+  - {cat: cs.DS,  field: Theory}
+  - {cat: cs.GT,  field: Theory}
+  - {cat: cs.AR,  field: Chips}
+  - {cat: cs.ET,  field: QuantumChips}
+  - {cat: math.OC, field: AppliedMath}
+  - {cat: math.NA, field: AppliedMath}
+  - {cat: quant-ph, field: Quantum}
+  - {cat: q-fin.ST, field: QuantFinance}
+  - {cat: q-fin.TR, field: QuantFinance}
+  - {cat: q-fin.CP, field: QuantFinance}
+  - {cat: q-fin.MF, field: QuantFinance}
+  - {cat: q-fin.RM, field: QuantFinance}
+  - {cat: econ.GN, field: Fintech}
+
+lexicon:
+  min_freq: 5                       # minimum absolute count to be a candidate phrase
+  min_pmi: 2.0                      # minimum normalized PMI
+  max_n: 4                          # max phrase length in tokens
+  max_terms: 30000                  # cap lexicon size (tractability)
+  top_k_per_paper: 40               # max phrases kept per paper during annotation
+
+annotation:
+  hot_min_freq: 5                   # phrases must appear >= this many times in a year to be graph nodes
+
+graph:
+  min_edge_weight: 2                # co-occurrence edges below this are dropped
+
+backtest:
+  history_years: [2019, 2020, 2021, 2022]
+  test_years: [2023, 2024, 2025]
+  n_candidates: 3000                # fusion candidate pairs (2-hop sampled)
+  top_k: 100                        # lift@K evaluation
+  bootstrap_iters: 1000             # CI resamples
+
+predict:
+  history_years: [2019, 2020, 2021, 2022, 2023, 2024, 2025]
+  n_concepts: 100                   # emerging concepts to publish
+  n_pairs: 100                      # fusion watchlist pairs to publish
+
+paths:
+  lexicon: data/lexicon/lexicon.csv
+  annotation_dir: data/annotation
+  graph_dir: data/graphs
+  results_dir: data/results
+  site_dir: docs
+  template_dir: web/templates
+  asset_dir: web/assets
+
+random_seed: 42

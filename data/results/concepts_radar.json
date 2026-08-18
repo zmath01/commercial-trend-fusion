@@ -1,0 +1,1811 @@
+{
+ "top": [
+  {
+   "term": "agentic ai",
+   "field": "Software",
+   "freq_series": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    25
+   ],
+   "slope_recent": 1.629,
+   "hockey": 99.0,
+   "pagerank": 5.9e-05,
+   "freq_latest": 25
+  },
+  {
+   "term": "regime shifts",
+   "field": "QuantFinance",
+   "freq_series": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    16
+   ],
+   "slope_recent": 1.07,
+   "hockey": 3.087,
+   "pagerank": 4.1e-05,
+   "freq_latest": 16
+  },
+  {
+   "term": "llm agents",
+   "field": "AI",
+   "freq_series": [
+    0,
+    0,
+    0,
+    0,
+    3,
+    16,
+    31
+   ],
+   "slope_recent": 1.0397,
+   "hockey": 0.456,
+   "pagerank": 0.000158,
+   "freq_latest": 31
+  },
+  {
+   "term": "hybrid framework",
+   "field": "QuantFinance",
+   "freq_series": [
+    1,
+    1,
+    2,
+    2,
+    1,
+    2,
+    15
+   ],
+   "slope_recent": 1.0397,
+   "hockey": -4.129,
+   "pagerank": 4.4e-05,
+   "freq_latest": 15
+  },
+  {
+   "term": "stress testing",
+   "field": "QuantFinance",
+   "freq_series": [
+    3,
+    4,
+    9,
+    1,
+    1,
+    5,
+    13
+   ],
+   "slope_recent": 0.973,
+   "hockey": 99.0,
+   "pagerank": 9.9e-05,
+   "freq_latest": 13
+  },
+  {
+   "term": "dynamic environments",
+   "field": "AI",
+   "freq_series": [
+    3,
+    1,
+    4,
+    3,
+    1,
+    12,
+    13
+   ],
+   "slope_recent": 0.973,
+   "hockey": -0.107,
+   "pagerank": 9.2e-05,
+   "freq_latest": 13
+  },
+  {
+   "term": "learning dynamics",
+   "field": "AI",
+   "freq_series": [
+    7,
+    5,
+    5,
+    5,
+    1,
+    7,
+    13
+   ],
+   "slope_recent": 0.973,
+   "hockey": -0.509,
+   "pagerank": 0.000121,
+   "freq_latest": 13
+  },
+  {
+   "term": "efficiency gains",
+   "field": "QuantumChips",
+   "freq_series": [
+    2,
+    2,
+    1,
+    1,
+    1,
+    3,
+    12
+   ],
+   "slope_recent": 0.9359,
+   "hockey": 99.0,
+   "pagerank": 2.6e-05,
+   "freq_latest": 12
+  },
+  {
+   "term": "flow matching",
+   "field": "AI",
+   "freq_series": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    3,
+    12
+   ],
+   "slope_recent": 0.9359,
+   "hockey": 1.7,
+   "pagerank": 2.2e-05,
+   "freq_latest": 12
+  },
+  {
+   "term": "market regimes",
+   "field": "QuantFinance",
+   "freq_series": [
+    3,
+    3,
+    6,
+    2,
+    1,
+    4,
+    12
+   ],
+   "slope_recent": 0.9359,
+   "hockey": -2.357,
+   "pagerank": 8.1e-05,
+   "freq_latest": 12
+  },
+  {
+   "term": "practical deployment",
+   "field": "AI",
+   "freq_series": [
+    1,
+    2,
+    4,
+    2,
+    2,
+    4,
+    18
+   ],
+   "slope_recent": 0.9229,
+   "hockey": 99.0,
+   "pagerank": 6.8e-05,
+   "freq_latest": 18
+  },
+  {
+   "term": "reasoning llms",
+   "field": "AI",
+   "freq_series": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    3,
+    11
+   ],
+   "slope_recent": 0.8959,
+   "hockey": 99.0,
+   "pagerank": 4.2e-05,
+   "freq_latest": 11
+  },
+  {
+   "term": "provides principled",
+   "field": "QuantFinance",
+   "freq_series": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    11
+   ],
+   "slope_recent": 0.8959,
+   "hockey": 2.585,
+   "pagerank": 2.4e-05,
+   "freq_latest": 11
+  },
+  {
+   "term": "demonstrates strong",
+   "field": "AI",
+   "freq_series": [
+    1,
+    0,
+    0,
+    3,
+    1,
+    4,
+    11
+   ],
+   "slope_recent": 0.8959,
+   "hockey": -1.263,
+   "pagerank": 1.8e-05,
+   "freq_latest": 11
+  },
+  {
+   "term": "consistently achieves",
+   "field": "AI",
+   "freq_series": [
+    1,
+    0,
+    2,
+    2,
+    1,
+    4,
+    11
+   ],
+   "slope_recent": 0.8959,
+   "hockey": -2.159,
+   "pagerank": 3.5e-05,
+   "freq_latest": 11
+  },
+  {
+   "term": "increasingly deployed",
+   "field": "SecurityCrypto",
+   "freq_series": [
+    0,
+    1,
+    3,
+    2,
+    2,
+    2,
+    16
+   ],
+   "slope_recent": 0.8673,
+   "hockey": 99.0,
+   "pagerank": 4.2e-05,
+   "freq_latest": 16
+  },
+  {
+   "term": "kv cache",
+   "field": "Chips",
+   "freq_series": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    10,
+    16
+   ],
+   "slope_recent": 0.8673,
+   "hockey": 0.396,
+   "pagerank": 9.9e-05,
+   "freq_latest": 16
+  },
+  {
+   "term": "digital twin",
+   "field": "QuantumChips",
+   "freq_series": [
+    0,
+    1,
+    3,
+    6,
+    2,
+    4,
+    16
+   ],
+   "slope_recent": 0.8673,
+   "hockey": -1.444,
+   "pagerank": 4.4e-05,
+   "freq_latest": 16
+  },
+  {
+   "term": "achieve strong",
+   "field": "AI",
+   "freq_series": [
+    4,
+    0,
+    1,
+    1,
+    1,
+    0,
+    10
+   ],
+   "slope_recent": 0.8524,
+   "hockey": 99.0,
+   "pagerank": 1.5e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "low-rank adaptation lora",
+   "field": "AI",
+   "freq_series": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    7,
+    10
+   ],
+   "slope_recent": 0.8524,
+   "hockey": 99.0,
+   "pagerank": 4.7e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "remains critical",
+   "field": "Software",
+   "freq_series": [
+    2,
+    0,
+    2,
+    1,
+    1,
+    3,
+    10
+   ],
+   "slope_recent": 0.8524,
+   "hockey": 99.0,
+   "pagerank": 5.1e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "practical path",
+   "field": "AI",
+   "freq_series": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    10
+   ],
+   "slope_recent": 0.8524,
+   "hockey": 3.459,
+   "pagerank": 1.3e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "existing struggle",
+   "field": "AI",
+   "freq_series": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    2,
+    10
+   ],
+   "slope_recent": 0.8524,
+   "hockey": 1.874,
+   "pagerank": 2e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "incentive compatibility",
+   "field": "Theory",
+   "freq_series": [
+    1,
+    1,
+    7,
+    5,
+    1,
+    5,
+    10
+   ],
+   "slope_recent": 0.8524,
+   "hockey": -0.552,
+   "pagerank": 7.5e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "fundamentally different",
+   "field": "AI",
+   "freq_series": [
+    2,
+    3,
+    4,
+    5,
+    1,
+    3,
+    10
+   ],
+   "slope_recent": 0.8524,
+   "hockey": -0.921,
+   "pagerank": 2.2e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "stochastic dynamics",
+   "field": "QuantFinance",
+   "freq_series": [
+    3,
+    4,
+    4,
+    2,
+    1,
+    6,
+    10
+   ],
+   "slope_recent": 0.8524,
+   "hockey": -1.115,
+   "pagerank": 6.5e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "heavy tails",
+   "field": "QuantFinance",
+   "freq_series": [
+    2,
+    5,
+    2,
+    2,
+    1,
+    4,
+    10
+   ],
+   "slope_recent": 0.8524,
+   "hockey": -1.945,
+   "pagerank": 7.5e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "outperforms strong",
+   "field": "AI",
+   "freq_series": [
+    1,
+    0,
+    3,
+    2,
+    1,
+    2,
+    10
+   ],
+   "slope_recent": 0.8524,
+   "hockey": -3.204,
+   "pagerank": 2.5e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "critical gap",
+   "field": "QuantFinance",
+   "freq_series": [
+    1,
+    0,
+    0,
+    2,
+    1,
+    1,
+    10
+   ],
+   "slope_recent": 0.8524,
+   "hockey": -4.204,
+   "pagerank": 2e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "llm reasoning",
+   "field": "AI",
+   "freq_series": [
+    0,
+    0,
+    0,
+    1,
+    2,
+    4,
+    15
+   ],
+   "slope_recent": 0.837,
+   "hockey": 2.869,
+   "pagerank": 6.5e-05,
+   "freq_latest": 15
+  },
+  {
+   "term": "simulation demonstrate",
+   "field": "QuantumChips",
+   "freq_series": [
+    2,
+    6,
+    3,
+    5,
+    2,
+    14,
+    15
+   ],
+   "slope_recent": 0.837,
+   "hockey": -0.093,
+   "pagerank": 0.000133,
+   "freq_latest": 15
+  },
+  {
+   "term": "critical limitations",
+   "field": "AI",
+   "freq_series": [
+    0,
+    0,
+    1,
+    0,
+    2,
+    1,
+    14
+   ],
+   "slope_recent": 0.8047,
+   "hockey": 1.834,
+   "pagerank": 2.6e-05,
+   "freq_latest": 14
+  },
+  {
+   "term": "ai agents",
+   "field": "AI",
+   "freq_series": [
+    2,
+    1,
+    2,
+    2,
+    5,
+    21,
+    29
+   ],
+   "slope_recent": 0.8047,
+   "hockey": 0.447,
+   "pagerank": 0.000125,
+   "freq_latest": 29
+  },
+  {
+   "term": "failure modes",
+   "field": "AI",
+   "freq_series": [
+    0,
+    2,
+    2,
+    6,
+    2,
+    3,
+    14
+   ],
+   "slope_recent": 0.8047,
+   "hockey": -1.56,
+   "pagerank": 3.7e-05,
+   "freq_latest": 14
+  },
+  {
+   "term": "ai systems",
+   "field": "AI",
+   "freq_series": [
+    8,
+    3,
+    13,
+    11,
+    10,
+    33,
+    52
+   ],
+   "slope_recent": 0.7862,
+   "hockey": -5.102,
+   "pagerank": 0.000411,
+   "freq_latest": 52
+  },
+  {
+   "term": "framework integrating",
+   "field": "AI",
+   "freq_series": [
+    1,
+    1,
+    0,
+    2,
+    2,
+    5,
+    13
+   ],
+   "slope_recent": 0.7702,
+   "hockey": 99.0,
+   "pagerank": 3.2e-05,
+   "freq_latest": 13
+  },
+  {
+   "term": "framework provides",
+   "field": "QuantFinance",
+   "freq_series": [
+    6,
+    8,
+    12,
+    8,
+    8,
+    6,
+    41
+   ],
+   "slope_recent": 0.7702,
+   "hockey": 99.0,
+   "pagerank": 0.000162,
+   "freq_latest": 41
+  },
+  {
+   "term": "framework offers",
+   "field": "QuantFinance",
+   "freq_series": [
+    2,
+    1,
+    0,
+    1,
+    2,
+    3,
+    13
+   ],
+   "slope_recent": 0.7702,
+   "hockey": 3.09,
+   "pagerank": 2.1e-05,
+   "freq_latest": 13
+  },
+  {
+   "term": "regulatory compliance",
+   "field": "QuantFinance",
+   "freq_series": [
+    0,
+    1,
+    1,
+    0,
+    2,
+    3,
+    13
+   ],
+   "slope_recent": 0.7702,
+   "hockey": 1.14,
+   "pagerank": 4.2e-05,
+   "freq_latest": 13
+  },
+  {
+   "term": "practical guidance",
+   "field": "AI",
+   "freq_series": [
+    0,
+    1,
+    1,
+    0,
+    2,
+    4,
+    13
+   ],
+   "slope_recent": 0.7702,
+   "hockey": 0.937,
+   "pagerank": 3.1e-05,
+   "freq_latest": 13
+  },
+  {
+   "term": "offering practical",
+   "field": "QuantFinance",
+   "freq_series": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    10,
+    13
+   ],
+   "slope_recent": 0.7702,
+   "hockey": 0.22,
+   "pagerank": 5.3e-05,
+   "freq_latest": 13
+  },
+  {
+   "term": "test set",
+   "field": "AI",
+   "freq_series": [
+    10,
+    17,
+    12,
+    15,
+    2,
+    11,
+    13
+   ],
+   "slope_recent": 0.7702,
+   "hockey": -0.092,
+   "pagerank": 0.000206,
+   "freq_latest": 13
+  },
+  {
+   "term": "enabling efficient",
+   "field": "Chips",
+   "freq_series": [
+    1,
+    2,
+    3,
+    3,
+    4,
+    14,
+    22
+   ],
+   "slope_recent": 0.763,
+   "hockey": 1.916,
+   "pagerank": 9.3e-05,
+   "freq_latest": 22
+  },
+  {
+   "term": "large-scale empirical",
+   "field": "Software",
+   "freq_series": [
+    1,
+    0,
+    2,
+    2,
+    2,
+    3,
+    12
+   ],
+   "slope_recent": 0.7332,
+   "hockey": 99.0,
+   "pagerank": 4.8e-05,
+   "freq_latest": 12
+  },
+  {
+   "term": "systems increasingly",
+   "field": "SecurityCrypto",
+   "freq_series": [
+    2,
+    3,
+    3,
+    0,
+    2,
+    2,
+    12
+   ],
+   "slope_recent": 0.7332,
+   "hockey": 1.335,
+   "pagerank": 3.4e-05,
+   "freq_latest": 12
+  },
+  {
+   "term": "llm agent",
+   "field": "AI",
+   "freq_series": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    3,
+    12
+   ],
+   "slope_recent": 0.7332,
+   "hockey": 1.073,
+   "pagerank": 3.9e-05,
+   "freq_latest": 12
+  },
+  {
+   "term": "design principles",
+   "field": "AI",
+   "freq_series": [
+    6,
+    6,
+    5,
+    7,
+    2,
+    5,
+    12
+   ],
+   "slope_recent": 0.7332,
+   "hockey": -0.788,
+   "pagerank": 5.8e-05,
+   "freq_latest": 12
+  },
+  {
+   "term": "poorly understood",
+   "field": "AI",
+   "freq_series": [
+    5,
+    3,
+    5,
+    5,
+    2,
+    5,
+    12
+   ],
+   "slope_recent": 0.7332,
+   "hockey": -1.115,
+   "pagerank": 5.8e-05,
+   "freq_latest": 12
+  },
+  {
+   "term": "hybrid quantum-classical",
+   "field": "AI",
+   "freq_series": [
+    4,
+    4,
+    4,
+    3,
+    2,
+    6,
+    12
+   ],
+   "slope_recent": 0.7332,
+   "hockey": -2.152,
+   "pagerank": 0.000132,
+   "freq_latest": 12
+  },
+  {
+   "term": "metrics including",
+   "field": "QuantFinance",
+   "freq_series": [
+    3,
+    3,
+    5,
+    2,
+    3,
+    2,
+    16
+   ],
+   "slope_recent": 0.7235,
+   "hockey": 6.03,
+   "pagerank": 6.1e-05,
+   "freq_latest": 16
+  },
+  {
+   "term": "benchmark evaluating",
+   "field": "AI",
+   "freq_series": [
+    1,
+    1,
+    0,
+    1,
+    3,
+    8,
+    16
+   ],
+   "slope_recent": 0.7235,
+   "hockey": 0.918,
+   "pagerank": 7.9e-05,
+   "freq_latest": 16
+  },
+  {
+   "term": "analytical framework",
+   "field": "Chips",
+   "freq_series": [
+    1,
+    3,
+    1,
+    4,
+    3,
+    1,
+    16
+   ],
+   "slope_recent": 0.7235,
+   "hockey": -9.591,
+   "pagerank": 2e-05,
+   "freq_latest": 16
+  },
+  {
+   "term": "percentage points",
+   "field": "AI",
+   "freq_series": [
+    4,
+    3,
+    3,
+    6,
+    5,
+    4,
+    24
+   ],
+   "slope_recent": 0.7136,
+   "hockey": -10.441,
+   "pagerank": 6.6e-05,
+   "freq_latest": 24
+  },
+  {
+   "term": "taken together",
+   "field": "Fintech",
+   "freq_series": [
+    2,
+    1,
+    1,
+    2,
+    3,
+    3,
+    15
+   ],
+   "slope_recent": 0.6931,
+   "hockey": 4.819,
+   "pagerank": 2e-05,
+   "freq_latest": 15
+  },
+  {
+   "term": "framework tailored",
+   "field": "AI",
+   "freq_series": [
+    0,
+    1,
+    0,
+    1,
+    2,
+    4,
+    11
+   ],
+   "slope_recent": 0.6931,
+   "hockey": 2.159,
+   "pagerank": 3.6e-05,
+   "freq_latest": 11
+  },
+  {
+   "term": "downside risk",
+   "field": "QuantFinance",
+   "freq_series": [
+    0,
+    4,
+    3,
+    0,
+    2,
+    4,
+    11
+   ],
+   "slope_recent": 0.6931,
+   "hockey": 0.797,
+   "pagerank": 5.8e-05,
+   "freq_latest": 11
+  },
+  {
+   "term": "empirical validation",
+   "field": "QuantFinance",
+   "freq_series": [
+    2,
+    2,
+    1,
+    0,
+    2,
+    4,
+    11
+   ],
+   "slope_recent": 0.6931,
+   "hockey": 0.797,
+   "pagerank": 2.6e-05,
+   "freq_latest": 11
+  },
+  {
+   "term": "class imbalance",
+   "field": "AI",
+   "freq_series": [
+    3,
+    4,
+    3,
+    4,
+    2,
+    11,
+    11
+   ],
+   "slope_recent": 0.6931,
+   "hockey": -0.0,
+   "pagerank": 9.4e-05,
+   "freq_latest": 11
+  },
+  {
+   "term": "call options",
+   "field": "QuantFinance",
+   "freq_series": [
+    2,
+    3,
+    4,
+    4,
+    2,
+    8,
+    11
+   ],
+   "slope_recent": 0.6931,
+   "hockey": -0.563,
+   "pagerank": 0.000105,
+   "freq_latest": 11
+  },
+  {
+   "term": "prediction error",
+   "field": "QuantFinance",
+   "freq_series": [
+    3,
+    2,
+    11,
+    6,
+    2,
+    5,
+    11
+   ],
+   "slope_recent": 0.6931,
+   "hockey": -0.818,
+   "pagerank": 7.5e-05,
+   "freq_latest": 11
+  },
+  {
+   "term": "memory efficiency",
+   "field": "AI",
+   "freq_series": [
+    0,
+    1,
+    1,
+    6,
+    2,
+    4,
+    11
+   ],
+   "slope_recent": 0.6931,
+   "hockey": -1.033,
+   "pagerank": 6e-05,
+   "freq_latest": 11
+  },
+  {
+   "term": "neural architectures",
+   "field": "AI",
+   "freq_series": [
+    5,
+    5,
+    8,
+    7,
+    2,
+    3,
+    11
+   ],
+   "slope_recent": 0.6931,
+   "hockey": -1.12,
+   "pagerank": 0.000111,
+   "freq_latest": 11
+  },
+  {
+   "term": "capture temporal",
+   "field": "QuantFinance",
+   "freq_series": [
+    0,
+    2,
+    1,
+    3,
+    2,
+    5,
+    11
+   ],
+   "slope_recent": 0.6931,
+   "hockey": -2.409,
+   "pagerank": 6.6e-05,
+   "freq_latest": 11
+  },
+  {
+   "term": "circuit depth",
+   "field": "Quantum",
+   "freq_series": [
+    6,
+    5,
+    7,
+    8,
+    3,
+    7,
+    14
+   ],
+   "slope_recent": 0.6609,
+   "hockey": -0.775,
+   "pagerank": 0.000179,
+   "freq_latest": 14
+  },
+  {
+   "term": "technical indicators",
+   "field": "QuantFinance",
+   "freq_series": [
+    11,
+    6,
+    12,
+    6,
+    3,
+    6,
+    14
+   ],
+   "slope_recent": 0.6609,
+   "hockey": -1.362,
+   "pagerank": 0.000264,
+   "freq_latest": 14
+  },
+  {
+   "term": "remain largely",
+   "field": "AI",
+   "freq_series": [
+    1,
+    0,
+    1,
+    4,
+    3,
+    4,
+    14
+   ],
+   "slope_recent": 0.6609,
+   "hockey": -4.923,
+   "pagerank": 3.1e-05,
+   "freq_latest": 14
+  },
+  {
+   "term": "highlight potential",
+   "field": "QuantFinance",
+   "freq_series": [
+    1,
+    0,
+    1,
+    1,
+    6,
+    21,
+    25
+   ],
+   "slope_recent": 0.6561,
+   "hockey": 0.133,
+   "pagerank": 0.000129,
+   "freq_latest": 25
+  },
+  {
+   "term": "extreme volatility",
+   "field": "QuantFinance",
+   "freq_series": [
+    0,
+    1,
+    0,
+    2,
+    2,
+    0,
+    10
+   ],
+   "slope_recent": 0.6496,
+   "hockey": 99.0,
+   "pagerank": 2.6e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "remains difficult",
+   "field": "Software",
+   "freq_series": [
+    3,
+    0,
+    3,
+    2,
+    2,
+    1,
+    10
+   ],
+   "slope_recent": 0.6496,
+   "hockey": 99.0,
+   "pagerank": 2.1e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "system integrates",
+   "field": "AI",
+   "freq_series": [
+    1,
+    1,
+    0,
+    2,
+    2,
+    5,
+    10
+   ],
+   "slope_recent": 0.6496,
+   "hockey": 99.0,
+   "pagerank": 2.5e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "remain vulnerable",
+   "field": "AI",
+   "freq_series": [
+    1,
+    1,
+    1,
+    1,
+    2,
+    0,
+    10
+   ],
+   "slope_recent": 0.6496,
+   "hockey": 5.914,
+   "pagerank": 3.3e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "inference system",
+   "field": "Systems",
+   "freq_series": [
+    4,
+    0,
+    1,
+    1,
+    2,
+    6,
+    10
+   ],
+   "slope_recent": 0.6496,
+   "hockey": 1.115,
+   "pagerank": 6.3e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "work offers",
+   "field": "QuantumChips",
+   "freq_series": [
+    0,
+    1,
+    1,
+    1,
+    2,
+    6,
+    10
+   ],
+   "slope_recent": 0.6496,
+   "hockey": 1.115,
+   "pagerank": 2.1e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "visual understanding",
+   "field": "AI",
+   "freq_series": [
+    0,
+    1,
+    0,
+    0,
+    2,
+    5,
+    10
+   ],
+   "slope_recent": 0.6496,
+   "hockey": 0.552,
+   "pagerank": 4.7e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "llm inference",
+   "field": "Chips",
+   "freq_series": [
+    0,
+    0,
+    0,
+    0,
+    8,
+    17,
+    32
+   ],
+   "slope_recent": 0.6496,
+   "hockey": 0.276,
+   "pagerank": 0.000228,
+   "freq_latest": 32
+  },
+  {
+   "term": "performance gap",
+   "field": "AI",
+   "freq_series": [
+    3,
+    6,
+    4,
+    5,
+    2,
+    12,
+    10
+   ],
+   "slope_recent": 0.6496,
+   "hockey": 0.241,
+   "pagerank": 7e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "mitigate risks",
+   "field": "QuantFinance",
+   "freq_series": [
+    0,
+    1,
+    0,
+    1,
+    2,
+    9,
+    10
+   ],
+   "slope_recent": 0.6496,
+   "hockey": 0.235,
+   "pagerank": 3.2e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "posing significant",
+   "field": "Software",
+   "freq_series": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    8,
+    10
+   ],
+   "slope_recent": 0.6496,
+   "hockey": 0.183,
+   "pagerank": 2.8e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "framework analyzing",
+   "field": "QuantFinance",
+   "freq_series": [
+    2,
+    3,
+    2,
+    4,
+    2,
+    11,
+    10
+   ],
+   "slope_recent": 0.6496,
+   "hockey": 0.17,
+   "pagerank": 5.4e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "efficient scalable",
+   "field": "AI",
+   "freq_series": [
+    6,
+    3,
+    9,
+    5,
+    2,
+    11,
+    10
+   ],
+   "slope_recent": 0.6496,
+   "hockey": 0.126,
+   "pagerank": 9.7e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "news articles",
+   "field": "QuantFinance",
+   "freq_series": [
+    6,
+    5,
+    5,
+    11,
+    2,
+    10,
+    10
+   ],
+   "slope_recent": 0.6496,
+   "hockey": -0.0,
+   "pagerank": 0.000127,
+   "freq_latest": 10
+  },
+  {
+   "term": "case demonstrate",
+   "field": "Software",
+   "freq_series": [
+    4,
+    6,
+    4,
+    5,
+    2,
+    9,
+    10
+   ],
+   "slope_recent": 0.6496,
+   "hockey": -0.138,
+   "pagerank": 6.5e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "high dimensionality",
+   "field": "AppliedMath",
+   "freq_series": [
+    3,
+    1,
+    4,
+    6,
+    2,
+    7,
+    10
+   ],
+   "slope_recent": 0.6496,
+   "hockey": -0.376,
+   "pagerank": 6e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "social choice",
+   "field": "Theory",
+   "freq_series": [
+    4,
+    8,
+    7,
+    6,
+    2,
+    6,
+    10
+   ],
+   "slope_recent": 0.6496,
+   "hockey": -0.533,
+   "pagerank": 0.000112,
+   "freq_latest": 10
+  },
+  {
+   "term": "relative improvement",
+   "field": "AI",
+   "freq_series": [
+    3,
+    1,
+    0,
+    4,
+    2,
+    2,
+    10
+   ],
+   "slope_recent": 0.6496,
+   "hockey": -2.543,
+   "pagerank": 3.3e-05,
+   "freq_latest": 10
+  },
+  {
+   "term": "provides practical",
+   "field": "QuantFinance",
+   "freq_series": [
+    1,
+    1,
+    2,
+    3,
+    4,
+    6,
+    17
+   ],
+   "slope_recent": 0.6405,
+   "hockey": 4.233,
+   "pagerank": 4.2e-05,
+   "freq_latest": 17
+  },
+  {
+   "term": "fail capture",
+   "field": "AI",
+   "freq_series": [
+    2,
+    5,
+    6,
+    0,
+    4,
+    16,
+    17
+   ],
+   "slope_recent": 0.6405,
+   "hockey": 0.036,
+   "pagerank": 8.7e-05,
+   "freq_latest": 17
+  },
+  {
+   "term": "retrieval-augmented generation rag",
+   "field": "AI",
+   "freq_series": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    21,
+    17
+   ],
+   "slope_recent": 0.6405,
+   "hockey": -0.125,
+   "pagerank": 0.000108,
+   "freq_latest": 17
+  },
+  {
+   "term": "consistently outperforms",
+   "field": "QuantFinance",
+   "freq_series": [
+    8,
+    4,
+    10,
+    7,
+    14,
+    20,
+    52
+   ],
+   "slope_recent": 0.6311,
+   "hockey": 1.473,
+   "pagerank": 0.000409,
+   "freq_latest": 52
+  },
+  {
+   "term": "forward pass",
+   "field": "AI",
+   "freq_series": [
+    2,
+    0,
+    2,
+    3,
+    3,
+    3,
+    13
+   ],
+   "slope_recent": 0.6264,
+   "hockey": 99.0,
+   "pagerank": 5.9e-05,
+   "freq_latest": 13
+  },
+  {
+   "term": "operator learning",
+   "field": "AppliedMath",
+   "freq_series": [
+    0,
+    0,
+    0,
+    3,
+    3,
+    3,
+    13
+   ],
+   "slope_recent": 0.6264,
+   "hockey": 99.0,
+   "pagerank": 7e-05,
+   "freq_latest": 13
+  },
+  {
+   "term": "closed-form solutions",
+   "field": "QuantFinance",
+   "freq_series": [
+    2,
+    4,
+    4,
+    0,
+    3,
+    10,
+    13
+   ],
+   "slope_recent": 0.6264,
+   "hockey": 0.174,
+   "pagerank": 8e-05,
+   "freq_latest": 13
+  },
+  {
+   "term": "face significant",
+   "field": "AI",
+   "freq_series": [
+    1,
+    1,
+    2,
+    0,
+    3,
+    17,
+    13
+   ],
+   "slope_recent": 0.6264,
+   "hockey": -0.181,
+   "pagerank": 6.6e-05,
+   "freq_latest": 13
+  },
+  {
+   "term": "volatility forecasting",
+   "field": "QuantFinance",
+   "freq_series": [
+    1,
+    1,
+    4,
+    5,
+    3,
+    9,
+    13
+   ],
+   "slope_recent": 0.6264,
+   "hockey": -0.83,
+   "pagerank": 0.000125,
+   "freq_latest": 13
+  },
+  {
+   "term": "numerical example",
+   "field": "AppliedMath",
+   "freq_series": [
+    11,
+    5,
+    5,
+    6,
+    3,
+    5,
+    13
+   ],
+   "slope_recent": 0.6264,
+   "hockey": -1.514,
+   "pagerank": 7.4e-05,
+   "freq_latest": 13
+  },
+  {
+   "term": "volatility dynamics",
+   "field": "QuantFinance",
+   "freq_series": [
+    0,
+    1,
+    4,
+    4,
+    3,
+    2,
+    13
+   ],
+   "slope_recent": 0.6264,
+   "hockey": -6.903,
+   "pagerank": 6.7e-05,
+   "freq_latest": 13
+  },
+  {
+   "term": "functional correctness",
+   "field": "Software",
+   "freq_series": [
+    3,
+    5,
+    2,
+    4,
+    4,
+    7,
+    16
+   ],
+   "slope_recent": 0.6119,
+   "hockey": 99.0,
+   "pagerank": 9.8e-05,
+   "freq_latest": 16
+  },
+  {
+   "term": "work investigates",
+   "field": "AI",
+   "freq_series": [
+    3,
+    1,
+    2,
+    4,
+    4,
+    4,
+    16
+   ],
+   "slope_recent": 0.6119,
+   "hockey": 99.0,
+   "pagerank": 3.5e-05,
+   "freq_latest": 16
+  },
+  {
+   "term": "achieved remarkable",
+   "field": "AI",
+   "freq_series": [
+    1,
+    2,
+    1,
+    1,
+    4,
+    9,
+    16
+   ],
+   "slope_recent": 0.6119,
+   "hockey": 0.579,
+   "pagerank": 7.8e-05,
+   "freq_latest": 16
+  },
+  {
+   "term": "multimodal large language",
+   "field": "AI",
+   "freq_series": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    12,
+    16
+   ],
+   "slope_recent": 0.6119,
+   "hockey": 0.167,
+   "pagerank": 0.000117,
+   "freq_latest": 16
+  }
+ ],
+ "by_field": {
+  "Software": [
+   "agentic ai",
+   "remains critical",
+   "large-scale empirical",
+   "remains difficult",
+   "posing significant",
+   "case demonstrate",
+   "functional correctness",
+   "access patterns",
+   "digital twins",
+   "formal verification"
+  ],
+  "QuantFinance": [
+   "regime shifts",
+   "hybrid framework",
+   "stress testing",
+   "market regimes",
+   "provides principled",
+   "stochastic dynamics",
+   "heavy tails",
+   "critical gap",
+   "framework provides",
+   "framework offers"
+  ],
+  "AI": [
+   "llm agents",
+   "dynamic environments",
+   "learning dynamics",
+   "flow matching",
+   "practical deployment",
+   "reasoning llms",
+   "demonstrates strong",
+   "consistently achieves",
+   "achieve strong",
+   "low-rank adaptation lora"
+  ],
+  "QuantumChips": [
+   "efficiency gains",
+   "digital twin",
+   "simulation demonstrate",
+   "work offers",
+   "offers promising"
+  ],
+  "SecurityCrypto": [
+   "increasingly deployed",
+   "systems increasingly",
+   "access control",
+   "critical challenge"
+  ],
+  "Chips": [
+   "kv cache",
+   "enabling efficient",
+   "analytical framework",
+   "llm inference",
+   "energy savings",
+   "reduces number",
+   "achieves times",
+   "memory overhead",
+   "computational memory",
+   "computationally intensive"
+  ],
+  "Theory": [
+   "incentive compatibility",
+   "social choice",
+   "work extend",
+   "multi-agent systems",
+   "algorithm achieves",
+   "vertex cover",
+   "directed graph",
+   "vertex set"
+  ],
+  "Fintech": [
+   "taken together",
+   "framework analyze",
+   "united states"
+  ],
+  "Quantum": [
+   "circuit depth",
+   "quantum simulation",
+   "quantum entanglement",
+   "quantum mechanics"
+  ],
+  "Systems": [
+   "inference system",
+   "gpu memory",
+   "times speedup",
+   "mixture-of-experts moe",
+   "load balancing",
+   "llm serving",
+   "communication overhead",
+   "state-of-the-art baselines",
+   "times times"
+  ],
+  "AppliedMath": [
+   "high dimensionality",
+   "operator learning",
+   "numerical example",
+   "stochastic optimal",
+   "finally numerical",
+   "stochastic optimal control",
+   "hilbert spaces",
+   "experiments validate",
+   "experiments confirm",
+   "space time"
+  ]
+ }
+}

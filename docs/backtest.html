@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Backtest — Commercial Trend Radar</title>
+<link rel="stylesheet" href="assets/main.css">
+<meta name="description" content="Data-driven, backtested watchlist of research areas with commercialization potential, built from arXiv.">
+</head><body>
+<header class="site"><div class="container nav">
+  <a class="brand" href="index.html">Commercial<span class="dot">·</span>Trend</a>
+  <a class="nav-link" href="index.html">Overview</a><a class="nav-link" href="concepts.html">Concepts</a><a class="nav-link" href="fusion.html">Fusion</a><a class="nav-link" href="fields.html">Fields</a><a class="nav-link active" href="backtest.html">Backtest</a><a class="nav-link" href="methodology.html">Methodology</a><a class="nav-link" href="about.html">About</a>
+  <span class="spacer"></span>
+  <a class="nav-link" href="https://github.com/zmath01/commercial-trend">GitHub ↗</a>
+</div></header>
+<main class="container">
+<div class="hero"><h1>Backtest</h1>
+<p class="lead">Out-of-sample evaluation, run by <code>scripts/backtest.py</code> on data
+this repo fetches itself. Windows: history 2019–
+2022 → test 2023–
+2025. <code>TOP_K = 100</code>,
+candidates = 3000.</p></div>
+
+<section>
+<h2 class="sec">Task A — concept growth prediction</h2>
+<p class="sub">Signal from the history window vs outcome (future growth slope). ρ =
+Spearman correlation with permutation p and bootstrap 95% CI; AUC = ROC AUC of
+above-median future growth; lift@K = top-K mean outcome ÷ frequency-band-matched
+random baseline.</p>
+<table><thead><tr><th>signal</th><th class="num">ρ</th><th class="num">perm p</th>
+<th class="num">95% CI</th><th class="num">AUC</th><th class="num">topK mean</th>
+<th class="num">baseline</th><th class="num">lift</th></tr></thead>
+<tbody><tr><td class="mono">slope</td>
+<td class="num">0.032</td>
+<td class="num">0.1018981018981019</td>
+<td class="num">[-0.005, 0.066]</td>
+<td class="num">0.522</td>
+<td class="num">-0.0018</td>
+<td class="num">-0.0568</td>
+<td class="num">0.055 gain</td></tr><tr><td class="mono">hockey</td>
+<td class="num">-0.003</td>
+<td class="num">0.8941058941058941</td>
+<td class="num">[-0.038, 0.036]</td>
+<td class="num">0.500</td>
+<td class="num">-0.0291</td>
+<td class="num">-0.0556</td>
+<td class="num">0.027 gain</td></tr></tbody></table>
+<div class="callout"><b>How to read it:</b> ρ &gt; 0 with p &lt; 0.05 means the signal
+predicts future growth better than chance. Lift &gt; 1× means the top-K beats a
+frequency-matched random set. Modest values are normal — and are reported honestly.</div>
+</section>
+
+<section>
+<h2 class="sec">Task B — pair fusion prediction</h2>
+<p class="sub">Hit = first co-occurrence in the test window with ≥3 joint papers.
+The structural control is the fair baseline: same A, same bridge, random B′ — it asks
+whether G adds signal beyond the 2-hop structure itself.</p>
+<table><thead><tr><th>set</th><th class="num">hit rate</th></tr></thead>
+<tbody><tr><td>All candidates (pool base rate)</td><td class="num">0.7%</td></tr><tr><td>Top-100 ranked by G (effective conductance)</td><td class="num">1%</td></tr><tr><td>Top-100 ranked by I (2-hop strength, cheap baseline)</td><td class="num">6%</td></tr><tr><td>Naive control (random pairs, freq-matched)</td><td class="num">0.2%</td></tr><tr><td>Structural control (same A, same bridge, random B′)</td><td class="num">0.8%</td></tr></tbody></table>
+<p class="sub" style="margin-top:14px">Ranking quality on the candidate pool:
+AUC(G) = 0.565 · AUC(I) = 0.543 ·
+permutation p (AUC of G) = — ·
+permutation p (top-100 by G vs structural control) = 0.5373134328358209</p>
+</section>
+
+<section>
+<h2 class="sec">Honest limits</h2>
+<ul>
+<li>Sampled corpus: per-category-year caps make frequencies comparable within a
+category across years, not across categories. Full fetch instructions: docs/data_sources.md.</li>
+<li>arXiv preprints precede but do not equal commercialization. Funding, hiring, and
+patent data are documented extensions, not yet integrated.</li>
+<li>Multiple hypotheses are evaluated; p-values are reported per-test, not
+family-wise corrected. Treat any single number with appropriate skepticism.</li>
+</ul>
+</section>
+</main>
+<footer><div class="container row">
+  <span>Commercial Trend Radar — open data, open code, honest baselines.</span>
+  <span>Not investment advice. Built from arXiv metadata.</span>
+</div></footer>
+</body></html>

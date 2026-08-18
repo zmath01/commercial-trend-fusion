@@ -1,0 +1,2222 @@
+{
+ "meta": {
+  "history_years": [
+   2019,
+   2020,
+   2021,
+   2022
+  ],
+  "test_years": [
+   2023,
+   2024,
+   2025
+  ],
+  "n_candidates": 3000,
+  "top_k": 100,
+  "seed": 42
+ },
+ "task_a": {
+  "n_universe": 2805,
+  "signals": {
+   "slope": {
+    "spearman_rho": 0.0323,
+    "perm_p": 0.1018981018981019,
+    "ci_lo": -0.0049,
+    "ci_hi": 0.066,
+    "auc": 0.5219,
+    "lift": {
+     "top_k_mean": -0.0018207523340872322,
+     "baseline_mean": -0.056768137274394705,
+     "lift": NaN,
+     "gain": 0.05494738494030747,
+     "ci_lo": -0.11671465301954716,
+     "ci_hi": 0.009815430002436874
+    }
+   },
+   "hockey": {
+    "spearman_rho": -0.0025,
+    "perm_p": 0.8941058941058941,
+    "ci_lo": -0.0384,
+    "ci_hi": 0.0362,
+    "auc": 0.5003,
+    "lift": {
+     "top_k_mean": -0.029122145526638797,
+     "baseline_mean": -0.05564536421283145,
+     "lift": NaN,
+     "gain": 0.026523218686192652,
+     "ci_lo": -0.12076074306215535,
+     "ci_hi": 0.0076649869916158185
+    }
+   }
+  },
+  "top_terms": [
+   {
+    "term": "liquidity providers",
+    "slope_h": 0.9064,
+    "slope_t": 0.0,
+    "hockey": 0.263,
+    "freq_2022": 11
+   },
+   {
+    "term": "decentralized finance",
+    "slope_h": 0.9016,
+    "slope_t": 0.0771,
+    "hockey": 0.439,
+    "freq_2022": 20
+   },
+   {
+    "term": "automated market",
+    "slope_h": 0.9011,
+    "slope_t": 0.0912,
+    "hockey": 0.5,
+    "freq_2022": 15
+   },
+   {
+    "term": "large language",
+    "slope_h": 0.8684,
+    "slope_t": 0.3058,
+    "hockey": 6.468,
+    "freq_2022": 44
+   },
+   {
+    "term": "language llms",
+    "slope_h": 0.85,
+    "slope_t": 0.3061,
+    "hockey": 99.0,
+    "freq_2022": 16
+   },
+   {
+    "term": "contrastive learning",
+    "slope_h": 0.8238,
+    "slope_t": -0.0556,
+    "hockey": 0.112,
+    "freq_2022": 15
+   },
+   {
+    "term": "asymptotic normality",
+    "slope_h": 0.811,
+    "slope_t": -0.0668,
+    "hockey": 1.138,
+    "freq_2022": 10
+   },
+   {
+    "term": "different groups",
+    "slope_h": 0.803,
+    "slope_t": 0.6931,
+    "hockey": 99.0,
+    "freq_2022": 7
+   },
+   {
+    "term": "automated market makers",
+    "slope_h": 0.7887,
+    "slope_t": 0.0303,
+    "hockey": 0.23,
+    "freq_2022": 10
+   },
+   {
+    "term": "vision transformers",
+    "slope_h": 0.769,
+    "slope_t": -0.1682,
+    "hockey": 0.585,
+    "freq_2022": 8
+   },
+   {
+    "term": "in-context learning",
+    "slope_h": 0.7601,
+    "slope_t": -0.2554,
+    "hockey": 99.0,
+    "freq_2022": 9
+   },
+   {
+    "term": "theoretical foundation",
+    "slope_h": 0.7599,
+    "slope_t": 0.1003,
+    "hockey": 0.437,
+    "freq_2022": 10
+   },
+   {
+    "term": "graph neural networks gnns",
+    "slope_h": 0.7467,
+    "slope_t": 0.0,
+    "hockey": 0.257,
+    "freq_2022": 19
+   },
+   {
+    "term": "covid-19 pandemic",
+    "slope_h": 0.7309,
+    "slope_t": -0.3466,
+    "hockey": -0.014,
+    "freq_2022": 24
+   },
+   {
+    "term": "generated code",
+    "slope_h": 0.7167,
+    "slope_t": 0.3031,
+    "hockey": 1.0,
+    "freq_2022": 11
+   },
+   {
+    "term": "manual effort",
+    "slope_h": 0.7167,
+    "slope_t": 0.602,
+    "hockey": 0.0,
+    "freq_2022": 5
+   },
+   {
+    "term": "achieves optimal",
+    "slope_h": 0.7102,
+    "slope_t": 0.2798,
+    "hockey": 0.535,
+    "freq_2022": 8
+   },
+   {
+    "term": "significant role",
+    "slope_h": 0.709,
+    "slope_t": -0.1116,
+    "hockey": 0.317,
+    "freq_2022": 9
+   },
+   {
+    "term": "constant function market makers",
+    "slope_h": 0.7086,
+    "slope_t": -0.5493,
+    "hockey": 0.122,
+    "freq_2022": 7
+   },
+   {
+    "term": "significant progress",
+    "slope_h": 0.7076,
+    "slope_t": 0.0527,
+    "hockey": 0.145,
+    "freq_2022": 10
+   },
+   {
+    "term": "estimation accuracy",
+    "slope_h": 0.7049,
+    "slope_t": 0.6931,
+    "hockey": -0.085,
+    "freq_2022": 7
+   },
+   {
+    "term": "central problem",
+    "slope_h": 0.6997,
+    "slope_t": 0.0,
+    "hockey": 1.585,
+    "freq_2022": 8
+   },
+   {
+    "term": "programmable photonic",
+    "slope_h": 0.6985,
+    "slope_t": 0.0,
+    "hockey": 99.0,
+    "freq_2022": 5
+   },
+   {
+    "term": "rl techniques",
+    "slope_h": 0.6985,
+    "slope_t": 0.3466,
+    "hockey": 99.0,
+    "freq_2022": 5
+   },
+   {
+    "term": "quantum applications",
+    "slope_h": 0.6936,
+    "slope_t": 0.0,
+    "hockey": 99.0,
+    "freq_2022": 6
+   },
+   {
+    "term": "sota performance",
+    "slope_h": 0.6936,
+    "slope_t": 0.1116,
+    "hockey": 0.222,
+    "freq_2022": 6
+   },
+   {
+    "term": "language llm",
+    "slope_h": 0.6931,
+    "slope_t": 0.54,
+    "hockey": 99.0,
+    "freq_2022": 7
+   },
+   {
+    "term": "faces challenges",
+    "slope_h": 0.6931,
+    "slope_t": -0.3143,
+    "hockey": 99.0,
+    "freq_2022": 7
+   },
+   {
+    "term": "findings indicate",
+    "slope_h": 0.6908,
+    "slope_t": 0.0222,
+    "hockey": 0.183,
+    "freq_2022": 9
+   },
+   {
+    "term": "confirm theoretical",
+    "slope_h": 0.6819,
+    "slope_t": 0.226,
+    "hockey": 0.0,
+    "freq_2022": 10
+   },
+   {
+    "term": "transition matrices",
+    "slope_h": 0.6762,
+    "slope_t": 0.2027,
+    "hockey": 99.0,
+    "freq_2022": 5
+   },
+   {
+    "term": "demonstrate ability",
+    "slope_h": 0.6708,
+    "slope_t": 0.2027,
+    "hockey": 0.0,
+    "freq_2022": 7
+   },
+   {
+    "term": "vision transformer",
+    "slope_h": 0.6675,
+    "slope_t": 0.2939,
+    "hockey": -0.552,
+    "freq_2022": 5
+   },
+   {
+    "term": "stackelberg equilibrium",
+    "slope_h": 0.6644,
+    "slope_t": 0.4581,
+    "hockey": 1.415,
+    "freq_2022": 7
+   },
+   {
+    "term": "relative importance",
+    "slope_h": 0.6644,
+    "slope_t": -0.3466,
+    "hockey": 0.208,
+    "freq_2022": 7
+   },
+   {
+    "term": "work deep",
+    "slope_h": 0.6628,
+    "slope_t": 0.0,
+    "hockey": -0.222,
+    "freq_2022": 5
+   },
+   {
+    "term": "decentralized exchanges",
+    "slope_h": 0.6592,
+    "slope_t": 0.1592,
+    "hockey": -0.17,
+    "freq_2022": 8
+   },
+   {
+    "term": "non-fungible tokens",
+    "slope_h": 0.6592,
+    "slope_t": 0.0,
+    "hockey": 99.0,
+    "freq_2022": 8
+   },
+   {
+    "term": "automated market maker",
+    "slope_h": 0.6531,
+    "slope_t": 0.3031,
+    "hockey": 99.0,
+    "freq_2022": 6
+   },
+   {
+    "term": "snn training",
+    "slope_h": 0.6531,
+    "slope_t": 0.2027,
+    "hockey": 99.0,
+    "freq_2022": 6
+   },
+   {
+    "term": "uniswap v3",
+    "slope_h": 0.6531,
+    "slope_t": 0.2027,
+    "hockey": 99.0,
+    "freq_2022": 6
+   },
+   {
+    "term": "goal maximizing",
+    "slope_h": 0.6531,
+    "slope_t": -0.3466,
+    "hockey": 99.0,
+    "freq_2022": 6
+   },
+   {
+    "term": "digital twin",
+    "slope_h": 0.6531,
+    "slope_t": 0.8673,
+    "hockey": 0.807,
+    "freq_2022": 6
+   },
+   {
+    "term": "offline rl",
+    "slope_h": 0.6526,
+    "slope_t": -0.4581,
+    "hockey": 0.631,
+    "freq_2022": 7
+   },
+   {
+    "term": "makes hard",
+    "slope_h": 0.6474,
+    "slope_t": -0.3466,
+    "hockey": 0.0,
+    "freq_2022": 5
+   },
+   {
+    "term": "off-policy evaluation",
+    "slope_h": 0.6474,
+    "slope_t": 0.3466,
+    "hockey": 99.0,
+    "freq_2022": 5
+   },
+   {
+    "term": "consists modules",
+    "slope_h": 0.6474,
+    "slope_t": -0.5493,
+    "hockey": 99.0,
+    "freq_2022": 5
+   },
+   {
+    "term": "protected groups",
+    "slope_h": 0.6474,
+    "slope_t": 0.3466,
+    "hockey": 99.0,
+    "freq_2022": 5
+   },
+   {
+    "term": "algorithms quantum",
+    "slope_h": 0.6474,
+    "slope_t": -0.3466,
+    "hockey": 0.054,
+    "freq_2022": 8
+   },
+   {
+    "term": "tight upper",
+    "slope_h": 0.6474,
+    "slope_t": -0.6931,
+    "hockey": 99.0,
+    "freq_2022": 5
+   }
+  ]
+ },
+ "task_b": {
+  "rates": {
+   "pool_all": 0.007333333333333333,
+   "pool_top100_by_G": 0.01,
+   "pool_top100_by_I": 0.06,
+   "naive_control": 0.0016666666666666668,
+   "structural_control": 0.007666666666666666,
+   "n_candidates": 3000,
+   "n_structural": 3000,
+   "n_naive": 3000
+  },
+  "auc_G": 0.5651,
+  "auc_I": 0.543,
+  "perm_p_top100_vs_structural": 0.5373134328358209,
+  "candidates": [
+   {
+    "A": "differential equations",
+    "B": "natural language",
+    "via": "allows us",
+    "I": 8.0,
+    "G": 1204.75,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "spiking neural",
+    "B": "time series",
+    "via": "artificial intelligence",
+    "I": 11.0,
+    "G": 815.8567,
+    "w_test": 2,
+    "hit3": 0
+   },
+   {
+    "A": "energy efficiency",
+    "B": "learning techniques",
+    "via": "artificial intelligence",
+    "I": 8.0,
+    "G": 777.5088,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "energy consumption",
+    "B": "stock market",
+    "via": "artificial intelligence",
+    "I": 8.0,
+    "G": 757.8615,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "artificial neural",
+    "B": "deep reinforcement",
+    "via": "artificial intelligence",
+    "I": 14.0,
+    "G": 677.1412,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "deep reinforcement",
+    "B": "spiking neural",
+    "via": "artificial intelligence",
+    "I": 12.0,
+    "G": 646.0606,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential equations",
+    "B": "stock prices",
+    "via": "deep learning",
+    "I": 20.0,
+    "G": 543.4306,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "energy efficiency",
+    "B": "learning algorithm",
+    "via": "artificial intelligence",
+    "I": 8.0,
+    "G": 538.0702,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "generative adversarial",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 522.1494,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "edge computing",
+    "B": "time series",
+    "via": "artificial intelligence",
+    "I": 10.0,
+    "G": 491.1936,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "partial differential",
+    "B": "stock prices",
+    "via": "deep learning",
+    "I": 14.0,
+    "G": 477.4397,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "power consumption",
+    "B": "stochastic differential",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 472.3825,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "graph neural",
+    "B": "option pricing",
+    "via": "deep learning",
+    "I": 11.0,
+    "G": 442.0601,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "edge computing",
+    "B": "stock market",
+    "via": "artificial intelligence",
+    "I": 8.0,
+    "G": 437.8761,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "partial differential equations",
+    "B": "stock prices",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 424.1122,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "partial differential",
+    "B": "software engineering",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 414.7,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "edge computing",
+    "B": "learning techniques",
+    "via": "artificial intelligence",
+    "I": 8.0,
+    "G": 411.5948,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "option pricing",
+    "B": "stock prices",
+    "via": "deep learning",
+    "I": 11.0,
+    "G": 405.9031,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "representation learning",
+    "B": "stochastic differential",
+    "via": "deep learning",
+    "I": 13.0,
+    "G": 405.8447,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "high accuracy",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 405.3028,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial networks",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 402.1286,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "generative adversarial networks",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 400.2953,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "artificial neural",
+    "B": "edge computing",
+    "via": "artificial intelligence",
+    "I": 10.0,
+    "G": 399.6415,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "partial differential equations",
+    "B": "representation learning",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 395.9382,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "stochastic gradient",
+    "B": "stock prices",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 385.983,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "edge computing",
+    "B": "stochastic differential",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 385.7175,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "software engineering",
+    "B": "stochastic differential",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 382.6958,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial attacks",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 378.779,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "edge computing",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 376.7128,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "datasets demonstrate",
+    "B": "differential equations",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 375.1643,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "partial differential equations",
+    "B": "software engineering",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 374.0371,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "graph neural",
+    "B": "stochastic gradient descent",
+    "via": "deep learning",
+    "I": 11.0,
+    "G": 370.3791,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "object detection",
+    "B": "stochastic differential",
+    "via": "deep learning",
+    "I": 13.0,
+    "G": 369.8864,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "partial differential",
+    "B": "price prediction",
+    "via": "deep learning",
+    "I": 14.0,
+    "G": 369.1725,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "object detection",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 361.7867,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "learning deep",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 350.0075,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential privacy",
+    "B": "partial differential",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 349.4285,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "internet things",
+    "B": "spiking neural",
+    "via": "artificial intelligence",
+    "I": 8.0,
+    "G": 347.7975,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "price prediction",
+    "B": "stochastic differential",
+    "via": "deep learning",
+    "I": 13.0,
+    "G": 344.1463,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "quantum algorithms",
+    "B": "support vector",
+    "via": "machine learning",
+    "I": 16.0,
+    "G": 343.2971,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "stochastic gradient descent",
+    "B": "stock prices",
+    "via": "deep learning",
+    "I": 11.0,
+    "G": 342.6297,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "control problems",
+    "B": "power consumption",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 340.894,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "representation learning",
+    "B": "stock prices",
+    "via": "deep learning",
+    "I": 18.0,
+    "G": 337.0224,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "partial differential equations",
+    "B": "price prediction",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 336.5083,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "edge computing",
+    "B": "learning algorithm",
+    "via": "artificial intelligence",
+    "I": 8.0,
+    "G": 333.3839,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "partial differential equations",
+    "B": "prediction accuracy",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 327.9177,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential privacy",
+    "B": "stochastic differential",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 326.6585,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "quantum circuit",
+    "B": "stock prices",
+    "via": "machine learning",
+    "I": 9.0,
+    "G": 325.4952,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "edge computing",
+    "B": "recent advances",
+    "via": "artificial intelligence",
+    "I": 10.0,
+    "G": 324.754,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential privacy",
+    "B": "financial market",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 323.2555,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "time series",
+    "B": "training set",
+    "via": "artificial intelligence",
+    "I": 9.0,
+    "G": 322.6335,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "edge computing",
+    "B": "stock prices",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 322.4806,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "control problems",
+    "B": "stock prices",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 321.5016,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "differential equations",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 320.8897,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "software engineering",
+    "B": "stock prices",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 320.6166,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "datasets demonstrate",
+    "B": "stochastic differential",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 320.3883,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential privacy",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 320.1199,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential privacy",
+    "B": "stock price",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 318.0582,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "datasets demonstrate",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 314.3075,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "previous work",
+    "B": "stock prices",
+    "via": "deep learning",
+    "I": 11.0,
+    "G": 311.3368,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential privacy",
+    "B": "option pricing",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 308.5566,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial networks",
+    "B": "control problems",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 308.5017,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "control problems",
+    "B": "generative adversarial networks",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 307.4215,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "control problems",
+    "B": "representation learning",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 304.7954,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "classification accuracy",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 304.1321,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "datasets demonstrate",
+    "B": "option pricing",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 303.1411,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "learning algorithms",
+    "B": "training set",
+    "via": "artificial intelligence",
+    "I": 8.0,
+    "G": 302.7076,
+    "w_test": 3,
+    "hit3": 1
+   },
+   {
+    "A": "energy efficiency",
+    "B": "training set",
+    "via": "artificial intelligence",
+    "I": 9.0,
+    "G": 302.2507,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "classification tasks",
+    "B": "control problems",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 301.1922,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential privacy",
+    "B": "order book",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 299.1483,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "financial markets",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 295.9311,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "control problems",
+    "B": "edge computing",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 293.4163,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "architecture search",
+    "B": "object detection",
+    "via": "available https github com",
+    "I": 8.0,
+    "G": 292.5699,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "control problems",
+    "B": "software engineering",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 291.5188,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential privacy",
+    "B": "limit order",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 291.0734,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial training",
+    "B": "differential equations",
+    "via": "deep learning",
+    "I": 11.0,
+    "G": 290.5702,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "classification accuracy",
+    "B": "quantum algorithms",
+    "via": "machine learning",
+    "I": 12.0,
+    "G": 288.4916,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "deep convolutional",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 285.9628,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "control problems",
+    "B": "object detection",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 284.058,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "stochastic differential",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 280.0464,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential privacy",
+    "B": "stock prices",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 279.478,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "financial market",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 277.7051,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 275.3646,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential privacy",
+    "B": "limit order book",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 272.3527,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "classification task",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 269.7374,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "control problems",
+    "B": "price prediction",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 268.3969,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "option pricing",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 266.8067,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "address issue",
+    "B": "partial differential",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 266.1908,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "attention mechanism",
+    "B": "option pricing",
+    "via": "deep learning",
+    "I": 11.0,
+    "G": 265.53,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "control problems",
+    "B": "prediction accuracy",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 262.8054,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "autonomous driving",
+    "B": "stochastic differential",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 262.488,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "quantum algorithms",
+    "via": "machine learning",
+    "I": 16.0,
+    "G": 262.4116,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "order book",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 259.8753,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "important role",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 259.5337,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "stochastic gradient",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 259.3464,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "autonomous driving",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 258.26,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "control problems",
+    "B": "differential privacy",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 257.9341,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential privacy",
+    "B": "software engineering",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 257.4125,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial network",
+    "B": "stochastic differential",
+    "via": "deep learning",
+    "I": 13.0,
+    "G": 255.6586,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "control problems",
+    "B": "datasets demonstrate",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 253.958,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "limit order",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 253.7681,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "address issue",
+    "B": "stochastic differential",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 252.7689,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial training",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 11.0,
+    "G": 252.7141,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial network",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 251.6431,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential privacy",
+    "B": "memory lstm",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 250.8827,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "address issue",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 248.8475,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "quantum algorithms",
+    "B": "stock markets",
+    "via": "machine learning",
+    "I": 10.0,
+    "G": 248.7184,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "classification accuracy",
+    "B": "control problems",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 247.291,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "partial differential",
+    "B": "sharpe ratio",
+    "via": "deep learning",
+    "I": 13.0,
+    "G": 247.0442,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "convergence rates",
+    "B": "stock prices",
+    "via": "machine learning",
+    "I": 8.0,
+    "G": 246.9504,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "prior knowledge",
+    "B": "stochastic differential",
+    "via": "deep learning",
+    "I": 11.0,
+    "G": 246.928,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "partial differential equations",
+    "B": "social media",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 245.8919,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial training",
+    "B": "option pricing",
+    "via": "deep learning",
+    "I": 11.0,
+    "G": 245.5118,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "stock prices",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 245.1962,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial network",
+    "B": "option pricing",
+    "via": "deep learning",
+    "I": 11.0,
+    "G": 244.6438,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "graph neural",
+    "B": "quantum computation",
+    "via": "machine learning",
+    "I": 9.0,
+    "G": 243.5806,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "short-term memory",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 242.1484,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "large amount",
+    "B": "quantum algorithms",
+    "via": "machine learning",
+    "I": 15.0,
+    "G": 242.0318,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "recent advances",
+    "B": "training set",
+    "via": "artificial intelligence",
+    "I": 9.0,
+    "G": 240.9839,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "limit order book",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 239.403,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "stochastic gradient descent",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 239.0842,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential privacy",
+    "B": "price prediction",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 238.6537,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "attention mechanism",
+    "B": "stochastic gradient descent",
+    "via": "deep learning",
+    "I": 11.0,
+    "G": 237.6955,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "convergence rates",
+    "B": "representation learning",
+    "via": "machine learning",
+    "I": 8.0,
+    "G": 237.1607,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "dynamical systems",
+    "B": "quantum circuit",
+    "via": "machine learning",
+    "I": 9.0,
+    "G": 234.4195,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "long short-term",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 233.5153,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "boundary conditions",
+    "B": "representation learning",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 232.1738,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "partial differential equations",
+    "B": "sharpe ratio",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 231.9426,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "quantum computation",
+    "B": "stock prices",
+    "via": "machine learning",
+    "I": 9.0,
+    "G": 231.2722,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "learning dl",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 230.4914,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "convergence rates",
+    "B": "edge computing",
+    "via": "machine learning",
+    "I": 8.0,
+    "G": 230.1557,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "hardware accelerators",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 11.0,
+    "G": 229.6829,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "partial differential",
+    "B": "processing units",
+    "via": "deep learning",
+    "I": 11.0,
+    "G": 229.3199,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "challenging problem",
+    "B": "partial differential equations",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 228.4527,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "quantum computation",
+    "B": "short-term memory",
+    "via": "machine learning",
+    "I": 9.0,
+    "G": 228.4205,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "deep learning-based",
+    "B": "software engineering",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 228.0901,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "control problems",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 227.9029,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "computational resources",
+    "B": "stochastic differential",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 227.8722,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "boundary conditions",
+    "B": "quantum circuit",
+    "via": "machine learning",
+    "I": 8.0,
+    "G": 227.6872,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "boundary conditions",
+    "B": "edge computing",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 225.4301,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "boundary conditions",
+    "B": "software engineering",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 224.5892,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "edge computing",
+    "B": "training set",
+    "via": "artificial intelligence",
+    "I": 9.0,
+    "G": 224.3828,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "classification task",
+    "B": "control problems",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 224.0015,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "edge computing",
+    "B": "high dimensional",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 223.9212,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "risk management",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 223.6799,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "deep learning-based",
+    "B": "previous work",
+    "via": "deep learning",
+    "I": 11.0,
+    "G": 223.1265,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "high dimensional",
+    "B": "software engineering",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 222.9998,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "memory lstm",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 222.9609,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "quantum computation",
+    "B": "representation learning",
+    "via": "machine learning",
+    "I": 9.0,
+    "G": 222.9152,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "challenging problem",
+    "B": "option pricing",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 222.6757,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential privacy",
+    "B": "evaluate performance",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 222.4266,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "quantum algorithms",
+    "B": "random forest",
+    "via": "machine learning",
+    "I": 16.0,
+    "G": 221.9187,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial training",
+    "B": "stochastic gradient descent",
+    "via": "deep learning",
+    "I": 11.0,
+    "G": 221.8255,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "classification tasks",
+    "B": "quantum computation",
+    "via": "machine learning",
+    "I": 9.0,
+    "G": 221.0078,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial network",
+    "B": "stochastic gradient descent",
+    "via": "deep learning",
+    "I": 11.0,
+    "G": 220.7406,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "long short-term",
+    "B": "quantum computation",
+    "via": "machine learning",
+    "I": 9.0,
+    "G": 220.7311,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "processing units",
+    "B": "stochastic differential",
+    "via": "deep learning",
+    "I": 11.0,
+    "G": 218.9323,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "graph neural",
+    "B": "variational quantum",
+    "via": "machine learning",
+    "I": 9.0,
+    "G": 217.5278,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial attacks",
+    "B": "quantum computation",
+    "via": "machine learning",
+    "I": 9.0,
+    "G": 217.3667,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "autonomous driving",
+    "B": "control problems",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 216.2595,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "partial differential equations",
+    "B": "processing units",
+    "via": "deep learning",
+    "I": 11.0,
+    "G": 216.233,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential equations",
+    "B": "predict stock",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 215.8834,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "genetic algorithm",
+    "B": "quantum algorithms",
+    "via": "machine learning",
+    "I": 8.0,
+    "G": 214.8786,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "convergence rates",
+    "B": "price prediction",
+    "via": "machine learning",
+    "I": 8.0,
+    "G": 214.4301,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "computer science",
+    "B": "energy consumption",
+    "via": "artificial intelligence",
+    "I": 8.0,
+    "G": 214.1274,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "price prediction",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 213.2522,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential equations",
+    "B": "differentially private",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 212.435,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "control problems",
+    "B": "large amount",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 212.3338,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "trading strategies",
+    "B": "variational quantum",
+    "via": "machine learning",
+    "I": 9.0,
+    "G": 211.8342,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "experiments conducted",
+    "B": "option pricing",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 211.8091,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential equations",
+    "B": "graph convolutional",
+    "via": "deep learning",
+    "I": 13.0,
+    "G": 211.7774,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial network",
+    "B": "control problems",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 211.3892,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "memory lstm",
+    "B": "quantum computation",
+    "via": "machine learning",
+    "I": 9.0,
+    "G": 211.2692,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential equations",
+    "B": "medical image",
+    "via": "deep learning",
+    "I": 14.0,
+    "G": 210.482,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "internet things",
+    "B": "training set",
+    "via": "artificial intelligence",
+    "I": 8.0,
+    "G": 210.098,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "address issue",
+    "B": "control problems",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 209.514,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "decision making",
+    "B": "deep learning-based",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 209.2926,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "stock prices",
+    "B": "variational quantum",
+    "via": "machine learning",
+    "I": 9.0,
+    "G": 207.6621,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "partial differential equations",
+    "B": "range applications",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 207.4618,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "computer science",
+    "B": "spiking neural",
+    "via": "artificial intelligence",
+    "I": 8.0,
+    "G": 207.232,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "boundary conditions",
+    "B": "decision making",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 206.8254,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "decision making",
+    "B": "high dimensional",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 205.8046,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "control problems",
+    "B": "prior knowledge",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 205.604,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential privacy",
+    "B": "long short-term memory lstm",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 204.6835,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "partial differential",
+    "B": "predict stock",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 204.6809,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "boundary conditions",
+    "B": "differential privacy",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 203.7666,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "partial differential",
+    "B": "predict future",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 203.058,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential privacy",
+    "B": "stock exchange",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 202.9428,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "challenging problem",
+    "B": "stochastic gradient descent",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 202.6885,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "control problems",
+    "B": "market making",
+    "via": "control problem",
+    "I": 8.0,
+    "G": 201.6958,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "representation learning",
+    "B": "variational quantum",
+    "via": "machine learning",
+    "I": 9.0,
+    "G": 200.9046,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "classification accuracy",
+    "B": "convergence rates",
+    "via": "machine learning",
+    "I": 8.0,
+    "G": 200.7973,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "adversarial examples",
+    "B": "evaluate performance",
+    "via": "deep learning",
+    "I": 10.0,
+    "G": 200.2034,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "prediction accuracy",
+    "B": "quantum computation",
+    "via": "machine learning",
+    "I": 9.0,
+    "G": 199.5229,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "classification tasks",
+    "B": "variational quantum",
+    "via": "machine learning",
+    "I": 9.0,
+    "G": 199.3417,
+    "w_test": 2,
+    "hit3": 0
+   },
+   {
+    "A": "convolutional networks",
+    "B": "differential equations",
+    "via": "deep learning",
+    "I": 12.0,
+    "G": 198.3376,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "experiments conducted",
+    "B": "stock prices",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 197.8211,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "control problems",
+    "B": "sharpe ratio",
+    "via": "deep learning",
+    "I": 8.0,
+    "G": 197.5799,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential privacy",
+    "B": "important role",
+    "via": "deep learning",
+    "I": 9.0,
+    "G": 197.1614,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "differential privacy",
+    "B": "quantum computation",
+    "via": "machine learning",
+    "I": 9.0,
+    "G": 196.753,
+    "w_test": 0,
+    "hit3": 0
+   }
+  ]
+ }
+}

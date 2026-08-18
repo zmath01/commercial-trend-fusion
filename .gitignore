@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Local config (never commit API keys / local paths)
+config.local.yaml
+
+# Fetched corpus (large; regenerate with scripts/fetch_arxiv.py)
+data/corpus/raw/
+data/corpus/_fetched_ids.json
+*.log
+
+# Generated intermediates (regenerable via run_all.py)
+data/lexicon/
+data/annotation/
+data/graphs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# keep results + committed sample + site output
+!data/results/
+!data/corpus/sample/
+!docs/

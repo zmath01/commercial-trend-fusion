@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Concepts — Commercial Trend Radar</title>
+<link rel="stylesheet" href="assets/main.css">
+<meta name="description" content="Data-driven, backtested watchlist of research areas with commercialization potential, built from arXiv.">
+</head><body>
+<header class="site"><div class="container nav">
+  <a class="brand" href="index.html">Commercial<span class="dot">·</span>Trend</a>
+  <a class="nav-link" href="index.html">Overview</a><a class="nav-link active" href="concepts.html">Concepts</a><a class="nav-link" href="fusion.html">Fusion</a><a class="nav-link" href="fields.html">Fields</a><a class="nav-link" href="backtest.html">Backtest</a><a class="nav-link" href="methodology.html">Methodology</a><a class="nav-link" href="about.html">About</a>
+  <span class="spacer"></span>
+  <a class="nav-link" href="https://github.com/zmath01/commercial-trend">GitHub ↗</a>
+</div></header>
+<main class="container">
+<div class="hero"><h1>Emerging concepts</h1>
+<p class="lead">Top 100 terms ranked by takeoff signal over the analysis window.
+<code>hockey</code> = recent-vs-prior growth ratio (takeoff detector); <code>slope</code>
+= log1p frequency slope over the last 3 years; <code>pagerank</code> = centrality in the
+latest cumulative co-occurrence graph.</p>
+<div class="filters"><button data-field="All" class="active">All</button><button data-field="AI">AI / ML</button><button data-field="AppliedMath">Applied Math</button><button data-field="Chips">Chips / Hardware</button><button data-field="Fintech">Fintech</button><button data-field="QuantFinance">Quant Finance</button><button data-field="Quantum">Quantum</button><button data-field="QuantumChips">Quantum / Chips</button><button data-field="SecurityCrypto">Security &amp; Crypto</button><button data-field="Software">Software Eng.</button><button data-field="Systems">Systems</button><button data-field="Theory">Theory</button></div></div>
+<section><table><thead><tr><th>#</th><th>term</th><th>field</th><th>freq history</th>
+<th class="num">freq latest</th><th class="num">slope</th><th class="num">hockey</th>
+<th class="num">pagerank</th></tr></thead><tbody><tr data-field="Software">
+<td>1</td><td class="mono">agentic ai</td>
+<td><span class="tag" style="border-color:#4cc38a;color:#4cc38a">Software Eng.</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,19.0 44.0,19.0 58.0,19.0 72.0,15.8 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">25</td>
+<td class="num good">1.629</td>
+<td class="num">99</td>
+<td class="num">0.00006</td></tr><tr data-field="QuantFinance">
+<td>2</td><td class="mono">regime shifts</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,18.0 44.0,19.0 58.0,18.0 72.0,18.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">16</td>
+<td class="num good">1.070</td>
+<td class="num">3.09</td>
+<td class="num">0.00004</td></tr><tr data-field="AI">
+<td>3</td><td class="mono">llm agents</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,19.0 44.0,19.0 58.0,17.5 72.0,10.7 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">31</td>
+<td class="num good">1.040</td>
+<td class="num">0.46</td>
+<td class="num">0.00016</td></tr><tr data-field="QuantFinance">
+<td>4</td><td class="mono">hybrid framework</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,17.9 44.0,17.9 58.0,19.0 72.0,17.9 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">15</td>
+<td class="num good">1.040</td>
+<td class="num">-4.13</td>
+<td class="num">0.00004</td></tr><tr data-field="QuantFinance">
+<td>5</td><td class="mono">stress testing</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,16.3 16.0,15.0 30.0,8.3 44.0,19.0 58.0,19.0 72.0,13.7 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">13</td>
+<td class="num good">0.973</td>
+<td class="num">99</td>
+<td class="num">0.00010</td></tr><tr data-field="AI">
+<td>6</td><td class="mono">dynamic environments</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,16.3 16.0,19.0 30.0,15.0 44.0,16.3 58.0,19.0 72.0,4.3 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">13</td>
+<td class="num good">0.973</td>
+<td class="num">-0.11</td>
+<td class="num">0.00009</td></tr><tr data-field="AI">
+<td>7</td><td class="mono">learning dynamics</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,11.0 16.0,13.7 30.0,13.7 44.0,13.7 58.0,19.0 72.0,11.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">13</td>
+<td class="num good">0.973</td>
+<td class="num">-0.51</td>
+<td class="num">0.00012</td></tr><tr data-field="QuantumChips">
+<td>8</td><td class="mono">efficiency gains</td>
+<td><span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.5 16.0,17.5 30.0,19.0 44.0,19.0 58.0,19.0 72.0,16.1 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">12</td>
+<td class="num good">0.936</td>
+<td class="num">99</td>
+<td class="num">0.00003</td></tr><tr data-field="AI">
+<td>9</td><td class="mono">flow matching</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,19.0 44.0,19.0 58.0,17.7 72.0,15.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">12</td>
+<td class="num good">0.936</td>
+<td class="num">1.70</td>
+<td class="num">0.00002</td></tr><tr data-field="QuantFinance">
+<td>10</td><td class="mono">market regimes</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,16.1 16.0,16.1 30.0,11.7 44.0,17.5 58.0,19.0 72.0,14.6 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">12</td>
+<td class="num good">0.936</td>
+<td class="num">-2.36</td>
+<td class="num">0.00008</td></tr><tr data-field="AI">
+<td>11</td><td class="mono">practical deployment</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,18.1 30.0,16.2 44.0,18.1 58.0,18.1 72.0,16.2 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">18</td>
+<td class="num good">0.923</td>
+<td class="num">99</td>
+<td class="num">0.00007</td></tr><tr data-field="AI">
+<td>12</td><td class="mono">reasoning llms</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,19.0 44.0,17.5 58.0,17.5 72.0,14.6 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">11</td>
+<td class="num good">0.896</td>
+<td class="num">99</td>
+<td class="num">0.00004</td></tr><tr data-field="QuantFinance">
+<td>13</td><td class="mono">provides principled</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,17.5 30.0,19.0 44.0,19.0 58.0,17.5 72.0,17.5 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">11</td>
+<td class="num good">0.896</td>
+<td class="num">2.58</td>
+<td class="num">0.00002</td></tr><tr data-field="AI">
+<td>14</td><td class="mono">demonstrates strong</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.5 16.0,19.0 30.0,19.0 44.0,14.6 58.0,17.5 72.0,13.2 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">11</td>
+<td class="num good">0.896</td>
+<td class="num">-1.26</td>
+<td class="num">0.00002</td></tr><tr data-field="AI">
+<td>15</td><td class="mono">consistently achieves</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.5 16.0,19.0 30.0,16.1 44.0,16.1 58.0,17.5 72.0,13.2 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">11</td>
+<td class="num good">0.896</td>
+<td class="num">-2.16</td>
+<td class="num">0.00003</td></tr><tr data-field="SecurityCrypto">
+<td>16</td><td class="mono">increasingly deployed</td>
+<td><span class="tag" style="border-color:#d29922;color:#d29922">Security &amp; Crypto</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,18.0 30.0,16.0 44.0,17.0 58.0,17.0 72.0,17.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">16</td>
+<td class="num good">0.867</td>
+<td class="num">99</td>
+<td class="num">0.00004</td></tr><tr data-field="Chips">
+<td>17</td><td class="mono">kv cache</td>
+<td><span class="tag" style="border-color:#f85149;color:#f85149">Chips / Hardware</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,19.0 44.0,19.0 58.0,17.0 72.0,9.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">16</td>
+<td class="num good">0.867</td>
+<td class="num">0.40</td>
+<td class="num">0.00010</td></tr><tr data-field="QuantumChips">
+<td>18</td><td class="mono">digital twin</td>
+<td><span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,18.0 30.0,16.0 44.0,13.0 58.0,17.0 72.0,15.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">16</td>
+<td class="num good">0.867</td>
+<td class="num">-1.44</td>
+<td class="num">0.00004</td></tr><tr data-field="AI">
+<td>19</td><td class="mono">achieve strong</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,12.6 16.0,19.0 30.0,17.4 44.0,17.4 58.0,17.4 72.0,19.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.852</td>
+<td class="num">99</td>
+<td class="num">0.00002</td></tr><tr data-field="AI">
+<td>20</td><td class="mono">low-rank adaptation lora</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,19.0 44.0,17.4 58.0,17.4 72.0,7.8 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.852</td>
+<td class="num">99</td>
+<td class="num">0.00005</td></tr><tr data-field="Software">
+<td>21</td><td class="mono">remains critical</td>
+<td><span class="tag" style="border-color:#4cc38a;color:#4cc38a">Software Eng.</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,15.8 16.0,19.0 30.0,15.8 44.0,17.4 58.0,17.4 72.0,14.2 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.852</td>
+<td class="num">99</td>
+<td class="num">0.00005</td></tr><tr data-field="AI">
+<td>22</td><td class="mono">practical path</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.4 16.0,19.0 30.0,19.0 44.0,19.0 58.0,17.4 72.0,19.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.852</td>
+<td class="num">3.46</td>
+<td class="num">0.00001</td></tr><tr data-field="AI">
+<td>23</td><td class="mono">existing struggle</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,17.4 30.0,17.4 44.0,19.0 58.0,17.4 72.0,15.8 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.852</td>
+<td class="num">1.87</td>
+<td class="num">0.00002</td></tr><tr data-field="Theory">
+<td>24</td><td class="mono">incentive compatibility</td>
+<td><span class="tag" style="border-color:#79c0ff;color:#79c0ff">Theory</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,8.3 44.0,11.9 58.0,19.0 72.0,11.9 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.852</td>
+<td class="num">-0.55</td>
+<td class="num">0.00007</td></tr><tr data-field="AI">
+<td>25</td><td class="mono">fundamentally different</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.2 16.0,15.4 30.0,13.7 44.0,11.9 58.0,19.0 72.0,15.4 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.852</td>
+<td class="num">-0.92</td>
+<td class="num">0.00002</td></tr><tr data-field="QuantFinance">
+<td>26</td><td class="mono">stochastic dynamics</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,15.4 16.0,13.7 30.0,13.7 44.0,17.2 58.0,19.0 72.0,10.1 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.852</td>
+<td class="num">-1.11</td>
+<td class="num">0.00006</td></tr><tr data-field="QuantFinance">
+<td>27</td><td class="mono">heavy tails</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.2 16.0,11.9 30.0,17.2 44.0,17.2 58.0,19.0 72.0,13.7 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.852</td>
+<td class="num">-1.95</td>
+<td class="num">0.00007</td></tr><tr data-field="AI">
+<td>28</td><td class="mono">outperforms strong</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.4 16.0,19.0 30.0,14.2 44.0,15.8 58.0,17.4 72.0,15.8 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.852</td>
+<td class="num">-3.20</td>
+<td class="num">0.00003</td></tr><tr data-field="QuantFinance">
+<td>29</td><td class="mono">critical gap</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.4 16.0,19.0 30.0,19.0 44.0,15.8 58.0,17.4 72.0,17.4 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.852</td>
+<td class="num">-4.20</td>
+<td class="num">0.00002</td></tr><tr data-field="AI">
+<td>30</td><td class="mono">llm reasoning</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,19.0 44.0,17.9 58.0,16.9 72.0,14.7 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">15</td>
+<td class="num good">0.837</td>
+<td class="num">2.87</td>
+<td class="num">0.00006</td></tr><tr data-field="QuantumChips">
+<td>31</td><td class="mono">simulation demonstrate</td>
+<td><span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,14.1 30.0,17.8 44.0,15.3 58.0,19.0 72.0,4.2 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">15</td>
+<td class="num good">0.837</td>
+<td class="num">-0.09</td>
+<td class="num">0.00013</td></tr><tr data-field="AI">
+<td>32</td><td class="mono">critical limitations</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,17.9 44.0,19.0 58.0,16.7 72.0,17.9 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">14</td>
+<td class="num good">0.805</td>
+<td class="num">1.83</td>
+<td class="num">0.00003</td></tr><tr data-field="AI">
+<td>33</td><td class="mono">ai agents</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,18.4 16.0,19.0 30.0,18.4 44.0,18.4 58.0,16.7 72.0,7.6 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">29</td>
+<td class="num good">0.805</td>
+<td class="num">0.45</td>
+<td class="num">0.00013</td></tr><tr data-field="AI">
+<td>34</td><td class="mono">failure modes</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,16.7 30.0,16.7 44.0,12.1 58.0,16.7 72.0,15.6 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">14</td>
+<td class="num good">0.805</td>
+<td class="num">-1.56</td>
+<td class="num">0.00004</td></tr><tr data-field="AI">
+<td>35</td><td class="mono">ai systems</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.4 16.0,19.0 30.0,15.7 44.0,16.4 58.0,16.7 72.0,9.2 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">52</td>
+<td class="num good">0.786</td>
+<td class="num">-5.10</td>
+<td class="num">0.00041</td></tr><tr data-field="AI">
+<td>36</td><td class="mono">framework integrating</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.8 16.0,17.8 30.0,19.0 44.0,16.5 58.0,16.5 72.0,12.8 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">13</td>
+<td class="num good">0.770</td>
+<td class="num">99</td>
+<td class="num">0.00003</td></tr><tr data-field="QuantFinance">
+<td>37</td><td class="mono">framework provides</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,18.1 30.0,16.3 44.0,18.1 58.0,18.1 72.0,19.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">41</td>
+<td class="num good">0.770</td>
+<td class="num">99</td>
+<td class="num">0.00016</td></tr><tr data-field="QuantFinance">
+<td>38</td><td class="mono">framework offers</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,16.5 16.0,17.8 30.0,19.0 44.0,17.8 58.0,16.5 72.0,15.3 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">13</td>
+<td class="num good">0.770</td>
+<td class="num">3.09</td>
+<td class="num">0.00002</td></tr><tr data-field="QuantFinance">
+<td>39</td><td class="mono">regulatory compliance</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,17.8 30.0,17.8 44.0,19.0 58.0,16.5 72.0,15.3 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">13</td>
+<td class="num good">0.770</td>
+<td class="num">1.14</td>
+<td class="num">0.00004</td></tr><tr data-field="AI">
+<td>40</td><td class="mono">practical guidance</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,17.8 30.0,17.8 44.0,19.0 58.0,16.5 72.0,14.1 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">13</td>
+<td class="num good">0.770</td>
+<td class="num">0.94</td>
+<td class="num">0.00003</td></tr><tr data-field="QuantFinance">
+<td>41</td><td class="mono">offering practical</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,19.0 44.0,19.0 58.0,16.5 72.0,6.7 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">13</td>
+<td class="num good">0.770</td>
+<td class="num">0.22</td>
+<td class="num">0.00005</td></tr><tr data-field="AI">
+<td>42</td><td class="mono">test set</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,10.5 16.0,3.0 30.0,8.3 44.0,5.1 58.0,19.0 72.0,9.4 86.0,7.3" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">13</td>
+<td class="num good">0.770</td>
+<td class="num">-0.09</td>
+<td class="num">0.00021</td></tr><tr data-field="Chips">
+<td>43</td><td class="mono">enabling efficient</td>
+<td><span class="tag" style="border-color:#f85149;color:#f85149">Chips / Hardware</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,18.2 30.0,17.5 44.0,17.5 58.0,16.7 72.0,9.1 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">22</td>
+<td class="num good">0.763</td>
+<td class="num">1.92</td>
+<td class="num">0.00009</td></tr><tr data-field="Software">
+<td>44</td><td class="mono">large-scale empirical</td>
+<td><span class="tag" style="border-color:#4cc38a;color:#4cc38a">Software Eng.</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.7 16.0,19.0 30.0,16.3 44.0,16.3 58.0,16.3 72.0,15.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">12</td>
+<td class="num good">0.733</td>
+<td class="num">99</td>
+<td class="num">0.00005</td></tr><tr data-field="SecurityCrypto">
+<td>45</td><td class="mono">systems increasingly</td>
+<td><span class="tag" style="border-color:#d29922;color:#d29922">Security &amp; Crypto</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,16.3 16.0,15.0 30.0,15.0 44.0,19.0 58.0,16.3 72.0,16.3 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">12</td>
+<td class="num good">0.733</td>
+<td class="num">1.33</td>
+<td class="num">0.00003</td></tr><tr data-field="AI">
+<td>46</td><td class="mono">llm agent</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,19.0 44.0,19.0 58.0,16.3 72.0,15.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">12</td>
+<td class="num good">0.733</td>
+<td class="num">1.07</td>
+<td class="num">0.00004</td></tr><tr data-field="AI">
+<td>47</td><td class="mono">design principles</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,12.6 16.0,12.6 30.0,14.2 44.0,11.0 58.0,19.0 72.0,14.2 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">12</td>
+<td class="num good">0.733</td>
+<td class="num">-0.79</td>
+<td class="num">0.00006</td></tr><tr data-field="AI">
+<td>48</td><td class="mono">poorly understood</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,14.2 16.0,17.4 30.0,14.2 44.0,14.2 58.0,19.0 72.0,14.2 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">12</td>
+<td class="num good">0.733</td>
+<td class="num">-1.11</td>
+<td class="num">0.00006</td></tr><tr data-field="AI">
+<td>49</td><td class="mono">hybrid quantum-classical</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,15.8 16.0,15.8 30.0,15.8 44.0,17.4 58.0,19.0 72.0,12.6 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">12</td>
+<td class="num good">0.733</td>
+<td class="num">-2.15</td>
+<td class="num">0.00013</td></tr><tr data-field="QuantFinance">
+<td>50</td><td class="mono">metrics including</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.9 16.0,17.9 30.0,15.6 44.0,19.0 58.0,17.9 72.0,19.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">16</td>
+<td class="num good">0.724</td>
+<td class="num">6.03</td>
+<td class="num">0.00006</td></tr><tr data-field="AI">
+<td>51</td><td class="mono">benchmark evaluating</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,18.0 16.0,18.0 30.0,19.0 44.0,18.0 58.0,16.0 72.0,11.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">16</td>
+<td class="num good">0.724</td>
+<td class="num">0.92</td>
+<td class="num">0.00008</td></tr><tr data-field="Chips">
+<td>52</td><td class="mono">analytical framework</td>
+<td><span class="tag" style="border-color:#f85149;color:#f85149">Chips / Hardware</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,16.9 30.0,19.0 44.0,15.8 58.0,16.9 72.0,19.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">16</td>
+<td class="num good">0.724</td>
+<td class="num">-9.59</td>
+<td class="num">0.00002</td></tr><tr data-field="AI">
+<td>53</td><td class="mono">percentage points</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,18.2 16.0,19.0 30.0,19.0 44.0,16.7 58.0,17.5 72.0,18.2 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">24</td>
+<td class="num good">0.714</td>
+<td class="num">-10.44</td>
+<td class="num">0.00007</td></tr><tr data-field="Fintech">
+<td>54</td><td class="mono">taken together</td>
+<td><span class="tag" style="border-color:#ff7b72;color:#ff7b72">Fintech</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.9 16.0,19.0 30.0,19.0 44.0,17.9 58.0,16.7 72.0,16.7 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">15</td>
+<td class="num good">0.693</td>
+<td class="num">4.82</td>
+<td class="num">0.00002</td></tr><tr data-field="AI">
+<td>55</td><td class="mono">framework tailored</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,17.5 30.0,19.0 44.0,17.5 58.0,16.1 72.0,13.2 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">11</td>
+<td class="num good">0.693</td>
+<td class="num">2.16</td>
+<td class="num">0.00004</td></tr><tr data-field="QuantFinance">
+<td>56</td><td class="mono">downside risk</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,13.2 30.0,14.6 44.0,19.0 58.0,16.1 72.0,13.2 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">11</td>
+<td class="num good">0.693</td>
+<td class="num">0.80</td>
+<td class="num">0.00006</td></tr><tr data-field="QuantFinance">
+<td>57</td><td class="mono">empirical validation</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,16.1 16.0,16.1 30.0,17.5 44.0,19.0 58.0,16.1 72.0,13.2 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">11</td>
+<td class="num good">0.693</td>
+<td class="num">0.80</td>
+<td class="num">0.00003</td></tr><tr data-field="AI">
+<td>58</td><td class="mono">class imbalance</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.2 16.0,15.4 30.0,17.2 44.0,15.4 58.0,19.0 72.0,3.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">11</td>
+<td class="num good">0.693</td>
+<td class="num">0</td>
+<td class="num">0.00009</td></tr><tr data-field="QuantFinance">
+<td>59</td><td class="mono">call options</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,17.2 30.0,15.4 44.0,15.4 58.0,19.0 72.0,8.3 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">11</td>
+<td class="num good">0.693</td>
+<td class="num">-0.56</td>
+<td class="num">0.00011</td></tr><tr data-field="QuantFinance">
+<td>60</td><td class="mono">prediction error</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.2 16.0,19.0 30.0,3.0 44.0,11.9 58.0,19.0 72.0,13.7 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">11</td>
+<td class="num good">0.693</td>
+<td class="num">-0.82</td>
+<td class="num">0.00007</td></tr><tr data-field="AI">
+<td>61</td><td class="mono">memory efficiency</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,17.5 30.0,17.5 44.0,10.3 58.0,16.1 72.0,13.2 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">11</td>
+<td class="num good">0.693</td>
+<td class="num">-1.03</td>
+<td class="num">0.00006</td></tr><tr data-field="AI">
+<td>62</td><td class="mono">neural architectures</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,13.7 16.0,13.7 30.0,8.3 44.0,10.1 58.0,19.0 72.0,17.2 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">11</td>
+<td class="num good">0.693</td>
+<td class="num">-1.12</td>
+<td class="num">0.00011</td></tr><tr data-field="QuantFinance">
+<td>63</td><td class="mono">capture temporal</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,16.1 30.0,17.5 44.0,14.6 58.0,16.1 72.0,11.7 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">11</td>
+<td class="num good">0.693</td>
+<td class="num">-2.41</td>
+<td class="num">0.00007</td></tr><tr data-field="Quantum">
+<td>64</td><td class="mono">circuit depth</td>
+<td><span class="tag" style="border-color:#a5d6ff;color:#a5d6ff">Quantum</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,14.6 16.0,16.1 30.0,13.2 44.0,11.7 58.0,19.0 72.0,13.2 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">14</td>
+<td class="num good">0.661</td>
+<td class="num">-0.78</td>
+<td class="num">0.00018</td></tr><tr data-field="QuantFinance">
+<td>65</td><td class="mono">technical indicators</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,7.4 16.0,14.6 30.0,5.9 44.0,14.6 58.0,19.0 72.0,14.6 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">14</td>
+<td class="num good">0.661</td>
+<td class="num">-1.36</td>
+<td class="num">0.00026</td></tr><tr data-field="AI">
+<td>66</td><td class="mono">remain largely</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.9 16.0,19.0 30.0,17.9 44.0,14.4 58.0,15.6 72.0,14.4 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">14</td>
+<td class="num good">0.661</td>
+<td class="num">-4.92</td>
+<td class="num">0.00003</td></tr><tr data-field="QuantFinance">
+<td>67</td><td class="mono">highlight potential</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,18.4 16.0,19.0 30.0,18.4 44.0,18.4 58.0,15.2 72.0,5.6 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">25</td>
+<td class="num good">0.656</td>
+<td class="num">0.13</td>
+<td class="num">0.00013</td></tr><tr data-field="QuantFinance">
+<td>68</td><td class="mono">extreme volatility</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,17.4 30.0,19.0 44.0,15.8 58.0,15.8 72.0,19.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.650</td>
+<td class="num">99</td>
+<td class="num">0.00003</td></tr><tr data-field="Software">
+<td>69</td><td class="mono">remains difficult</td>
+<td><span class="tag" style="border-color:#4cc38a;color:#4cc38a">Software Eng.</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,14.2 16.0,19.0 30.0,14.2 44.0,15.8 58.0,15.8 72.0,17.4 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.650</td>
+<td class="num">99</td>
+<td class="num">0.00002</td></tr><tr data-field="AI">
+<td>70</td><td class="mono">system integrates</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.4 16.0,17.4 30.0,19.0 44.0,15.8 58.0,15.8 72.0,11.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.650</td>
+<td class="num">99</td>
+<td class="num">0.00003</td></tr><tr data-field="AI">
+<td>71</td><td class="mono">remain vulnerable</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.4 16.0,17.4 30.0,17.4 44.0,17.4 58.0,15.8 72.0,19.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.650</td>
+<td class="num">5.91</td>
+<td class="num">0.00003</td></tr><tr data-field="Systems">
+<td>72</td><td class="mono">inference system</td>
+<td><span class="tag" style="border-color:#bc8cff;color:#bc8cff">Systems</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,12.6 16.0,19.0 30.0,17.4 44.0,17.4 58.0,15.8 72.0,9.4 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.650</td>
+<td class="num">1.11</td>
+<td class="num">0.00006</td></tr><tr data-field="QuantumChips">
+<td>73</td><td class="mono">work offers</td>
+<td><span class="tag" style="border-color:#f778ba;color:#f778ba">Quantum / Chips</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,17.4 30.0,17.4 44.0,17.4 58.0,15.8 72.0,9.4 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.650</td>
+<td class="num">1.11</td>
+<td class="num">0.00002</td></tr><tr data-field="AI">
+<td>74</td><td class="mono">visual understanding</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,17.4 30.0,19.0 44.0,19.0 58.0,15.8 72.0,11.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.650</td>
+<td class="num">0.55</td>
+<td class="num">0.00005</td></tr><tr data-field="Chips">
+<td>75</td><td class="mono">llm inference</td>
+<td><span class="tag" style="border-color:#f85149;color:#f85149">Chips / Hardware</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,19.0 44.0,19.0 58.0,15.0 72.0,10.5 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">32</td>
+<td class="num good">0.650</td>
+<td class="num">0.28</td>
+<td class="num">0.00023</td></tr><tr data-field="AI">
+<td>76</td><td class="mono">performance gap</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.4 16.0,12.6 30.0,15.8 44.0,14.2 58.0,19.0 72.0,3.0 86.0,6.2" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.650</td>
+<td class="num">0.24</td>
+<td class="num">0.00007</td></tr><tr data-field="QuantFinance">
+<td>77</td><td class="mono">mitigate risks</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,17.4 30.0,19.0 44.0,17.4 58.0,15.8 72.0,4.6 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.650</td>
+<td class="num">0.23</td>
+<td class="num">0.00003</td></tr><tr data-field="Software">
+<td>78</td><td class="mono">posing significant</td>
+<td><span class="tag" style="border-color:#4cc38a;color:#4cc38a">Software Eng.</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,19.0 44.0,19.0 58.0,15.8 72.0,6.2 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.650</td>
+<td class="num">0.18</td>
+<td class="num">0.00003</td></tr><tr data-field="QuantFinance">
+<td>79</td><td class="mono">framework analyzing</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,17.2 30.0,19.0 44.0,15.4 58.0,19.0 72.0,3.0 86.0,4.8" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.650</td>
+<td class="num">0.17</td>
+<td class="num">0.00005</td></tr><tr data-field="AI">
+<td>80</td><td class="mono">efficient scalable</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,11.9 16.0,17.2 30.0,6.6 44.0,13.7 58.0,19.0 72.0,3.0 86.0,4.8" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.650</td>
+<td class="num">0.13</td>
+<td class="num">0.00010</td></tr><tr data-field="QuantFinance">
+<td>81</td><td class="mono">news articles</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,11.9 16.0,13.7 30.0,13.7 44.0,3.0 58.0,19.0 72.0,4.8 86.0,4.8" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.650</td>
+<td class="num">0</td>
+<td class="num">0.00013</td></tr><tr data-field="Software">
+<td>82</td><td class="mono">case demonstrate</td>
+<td><span class="tag" style="border-color:#4cc38a;color:#4cc38a">Software Eng.</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,15.0 16.0,11.0 30.0,15.0 44.0,13.0 58.0,19.0 72.0,5.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.650</td>
+<td class="num">-0.14</td>
+<td class="num">0.00006</td></tr><tr data-field="AppliedMath">
+<td>83</td><td class="mono">high dimensionality</td>
+<td><span class="tag" style="border-color:#7ee787;color:#7ee787">Applied Math</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,15.4 16.0,19.0 30.0,13.7 44.0,10.1 58.0,17.2 72.0,8.3 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.650</td>
+<td class="num">-0.38</td>
+<td class="num">0.00006</td></tr><tr data-field="Theory">
+<td>84</td><td class="mono">social choice</td>
+<td><span class="tag" style="border-color:#79c0ff;color:#79c0ff">Theory</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,15.0 16.0,7.0 30.0,9.0 44.0,11.0 58.0,19.0 72.0,11.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.650</td>
+<td class="num">-0.53</td>
+<td class="num">0.00011</td></tr><tr data-field="AI">
+<td>85</td><td class="mono">relative improvement</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,14.2 16.0,17.4 30.0,19.0 44.0,12.6 58.0,15.8 72.0,15.8 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">10</td>
+<td class="num good">0.650</td>
+<td class="num">-2.54</td>
+<td class="num">0.00003</td></tr><tr data-field="QuantFinance">
+<td>86</td><td class="mono">provides practical</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,18.0 44.0,17.0 58.0,16.0 72.0,14.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">17</td>
+<td class="num good">0.640</td>
+<td class="num">4.23</td>
+<td class="num">0.00004</td></tr><tr data-field="AI">
+<td>87</td><td class="mono">fail capture</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.1 16.0,14.3 30.0,13.4 44.0,19.0 58.0,15.2 72.0,3.9 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">17</td>
+<td class="num good">0.640</td>
+<td class="num">0.04</td>
+<td class="num">0.00009</td></tr><tr data-field="AI">
+<td>88</td><td class="mono">retrieval-augmented generation rag</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,19.0 44.0,19.0 58.0,16.0 72.0,3.0 86.0,6.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">17</td>
+<td class="num good">0.640</td>
+<td class="num">-0.12</td>
+<td class="num">0.00011</td></tr><tr data-field="QuantFinance">
+<td>89</td><td class="mono">consistently outperforms</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.7 16.0,19.0 30.0,17.0 44.0,18.0 58.0,15.7 72.0,13.7 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">52</td>
+<td class="num good">0.631</td>
+<td class="num">1.47</td>
+<td class="num">0.00041</td></tr><tr data-field="AI">
+<td>90</td><td class="mono">forward pass</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,16.5 16.0,19.0 30.0,16.5 44.0,15.3 58.0,15.3 72.0,15.3 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">13</td>
+<td class="num good">0.626</td>
+<td class="num">99</td>
+<td class="num">0.00006</td></tr><tr data-field="AppliedMath">
+<td>91</td><td class="mono">operator learning</td>
+<td><span class="tag" style="border-color:#7ee787;color:#7ee787">Applied Math</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,19.0 44.0,15.3 58.0,15.3 72.0,15.3 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">13</td>
+<td class="num good">0.626</td>
+<td class="num">99</td>
+<td class="num">0.00007</td></tr><tr data-field="QuantFinance">
+<td>92</td><td class="mono">closed-form solutions</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,16.5 16.0,14.1 30.0,14.1 44.0,19.0 58.0,15.3 72.0,6.7 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">13</td>
+<td class="num good">0.626</td>
+<td class="num">0.17</td>
+<td class="num">0.00008</td></tr><tr data-field="AI">
+<td>93</td><td class="mono">face significant</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,18.1 16.0,18.1 30.0,17.1 44.0,19.0 58.0,16.2 72.0,3.0 86.0,6.8" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">13</td>
+<td class="num good">0.626</td>
+<td class="num">-0.18</td>
+<td class="num">0.00007</td></tr><tr data-field="QuantFinance">
+<td>94</td><td class="mono">volatility forecasting</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,15.0 44.0,13.7 58.0,16.3 72.0,8.3 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">13</td>
+<td class="num good">0.626</td>
+<td class="num">-0.83</td>
+<td class="num">0.00013</td></tr><tr data-field="AppliedMath">
+<td>95</td><td class="mono">numerical example</td>
+<td><span class="tag" style="border-color:#7ee787;color:#7ee787">Applied Math</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,6.2 16.0,15.8 30.0,15.8 44.0,14.2 58.0,19.0 72.0,15.8 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">13</td>
+<td class="num good">0.626</td>
+<td class="num">-1.51</td>
+<td class="num">0.00007</td></tr><tr data-field="QuantFinance">
+<td>96</td><td class="mono">volatility dynamics</td>
+<td><span class="tag" style="border-color:#ffa657;color:#ffa657">Quant Finance</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,17.8 30.0,14.1 44.0,14.1 58.0,15.3 72.0,16.5 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">13</td>
+<td class="num good">0.626</td>
+<td class="num">-6.90</td>
+<td class="num">0.00007</td></tr><tr data-field="Software">
+<td>97</td><td class="mono">functional correctness</td>
+<td><span class="tag" style="border-color:#4cc38a;color:#4cc38a">Software Eng.</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,17.9 16.0,15.6 30.0,19.0 44.0,16.7 58.0,16.7 72.0,13.3 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">16</td>
+<td class="num good">0.612</td>
+<td class="num">99</td>
+<td class="num">0.00010</td></tr><tr data-field="AI">
+<td>98</td><td class="mono">work investigates</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,16.9 16.0,19.0 30.0,17.9 44.0,15.8 58.0,15.8 72.0,15.8 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">16</td>
+<td class="num good">0.612</td>
+<td class="num">99</td>
+<td class="num">0.00003</td></tr><tr data-field="AI">
+<td>99</td><td class="mono">achieved remarkable</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,17.9 30.0,19.0 44.0,19.0 58.0,15.8 72.0,10.5 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">16</td>
+<td class="num good">0.612</td>
+<td class="num">0.58</td>
+<td class="num">0.00008</td></tr><tr data-field="AI">
+<td>100</td><td class="mono">multimodal large language</td>
+<td><span class="tag" style="border-color:#58a6ff;color:#58a6ff">AI / ML</span></td>
+<td><svg class="spark" width="88" height="22" viewBox="0 0 88 22"><polyline points="2.0,19.0 16.0,19.0 30.0,19.0 44.0,19.0 58.0,15.0 72.0,7.0 86.0,3.0" fill="none" stroke="#4cc38a" stroke-width="1.6" stroke-linejoin="round"/></svg></td>
+<td class="num">16</td>
+<td class="num good">0.612</td>
+<td class="num">0.17</td>
+<td class="num">0.00012</td></tr></tbody></table></section>
+</main>
+<footer><div class="container row">
+  <span>Commercial Trend Radar — open data, open code, honest baselines.</span>
+  <span>Not investment advice. Built from arXiv metadata.</span>
+</div></footer>
+</body></html>

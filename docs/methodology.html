@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Methodology — Commercial Trend Radar</title>
+<link rel="stylesheet" href="assets/main.css">
+<script>window.MathJax = {tex: {inlineMath: [['$', '$']]}};</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head><body>
+<header class="site"><div class="container nav">
+  <a class="brand" href="index.html">Commercial<span class="dot">·</span>Trend</a>
+  <a class="nav-link" href="index.html">Overview</a>
+  <a class="nav-link" href="concepts.html">Concepts</a>
+  <a class="nav-link" href="fusion.html">Fusion</a>
+  <a class="nav-link" href="fields.html">Fields</a>
+  <a class="nav-link" href="backtest.html">Backtest</a>
+  <a class="nav-link active" href="methodology.html">Methodology</a>
+  <a class="nav-link" href="about.html">About</a>
+  <span class="spacer"></span>
+  <a class="nav-link" href="https://github.com/zmath01/commercial-trend">GitHub ↗</a>
+</div></header>
+<main class="container"><div class="hero">
+<h1>Methodology</h1>
+<p class="lead">The complete, formal description of what this project computes and why.
+Every formula below has a direct implementation in <code>scripts/</code>. Nothing on
+this site is a number without a script behind it.</p>
+</div>
+<div class="prose container" style="max-width:920px">
+
+<h2>1. Design principles</h2>
+<ol>
+<li><b>Reproducibility first.</b> The corpus is fetched by <code>scripts/fetch_arxiv.py</code>,
+every derived number comes from a script, and the site is generated from those numbers.</li>
+<li><b>Honest baselines.</b> Predictions are compared against controls that share the
+same structural conditions (same frequency, same two-hop neighborhood) — not against
+arbitrary "random" sets that make the result look good by construction.</li>
+<li><b>Report failure too.</b> Modest ρ, low AUC, base rates — all published. A tool
+that only ever shows impressive numbers is not a tool, it is marketing.</li>
+<li><b>No private funnels.</b> Everything is public: code, data pipeline, results.
+The product is the analysis, not access to it.</li>
+</ol>
+
+<h2>2. Corpus</h2>
+<p>Source: <b>arXiv Atom API</b> (open, key-less). We track 23 categories grouped into
+10 commercial fields: AI/ML (cs.AI, cs.LG, cs.CL, cs.CV, stat.ML, cs.NE), Software
+(cs.SE, cs.PL), Security &amp; crypto (cs.CR), Systems (cs.DC), Theory (cs.DS, cs.GT),
+Chips (cs.AR), Quantum/chips (cs.ET), Applied math (math.OC, math.NA), Quantum
+(quant-ph), Quant finance (q-fin.ST/TR/CP/MF/RM), Fintech (econ.GN).</p>
+<p>Fields per paper: <code>arxiv_id, title, abstract, primary_cat, published, year</code>.
+Papers are de-duplicated by <code>arxiv_id</code>. The default fetch is a
+per-category-year capped sample (most recent N papers, reverse submission order),
+which makes within-category comparisons across years valid; cross-category
+comparisons require the full fetch documented in <code>docs/data_sources.md</code>.</p>
+
+<h2>3. Phrase mining (concepts as atoms)</h2>
+<p>Concepts are multi-word academic phrases extracted with the association measure of
+Mikolov et al. (2013) <i>word2phrase</i>. For adjacent tokens $a, b$ with counts
+$c(a), c(b), c(ab)$ and total adjacent-pair count $N$, the merge score is</p>
+<p>$$\text{score}(a,b) \;=\; \frac{c(ab) - \delta}{c(a)\,c(b)}\,N, \qquad \delta = f_{\min}$$</p>
+<p>Merging iterates until no pair passes the threshold or phrases reach
+$n_{\max}=4$ tokens. Final phrases must appear at least $f_{\min}$ times.
+Strong unigrams (frequency ≥ $10 f_{\min}$) are added so single-token commercial
+terms (<code>llm</code>, <code>gpu</code>, <code>qubit</code>, <code>bitcoin</code>)
+enter the network too. Stopwords (edge-position), pure digits and length-1 tokens
+are excluded. Implementation: <code>scripts/build_lexicon.py</code>.</p>
+
+<h2>4. Concept network</h2>
+<p>For each year (and for cumulative windows) we build a weighted undirected graph:
+nodes = phrases with document frequency ≥ $f_{\text{hot}}$; edge $(u,v)$ = number of
+papers containing both phrases, kept if weight ≥ $e_{\min}$.</p>
+<p><b>Data structure.</b> Adjacency is stored as a <b>sparse CSR matrix</b>
+(scipy) — $O(V+E)$ memory — rather than nested Python dicts, which is the concrete
+scaling choice that lets this pipeline run on a laptop. Node id ↔ term maps are CSVs.
+Implementation: <code>scripts/build_graph.py</code>.</p>
+
+<h2>5. Signals</h2>
+<h3>5.1 Growth slope</h3>
+<p>For a term with per-year counts $f_t$, the growth signal is the slope of
+$\log(1 + f_t)$ regressed on year — log-linear growth rate with $R^2$ and $p$.</p>
+
+<h3>5.2 Hockey-stick (takeoff detector)</h3>
+<p>$$h \;=\; \frac{\text{slope}(\text{last } w \text{ years})}{\text{slope}(\text{previous } w \text{ years})}$$</p>
+<p>$h > 1$: accelerating; $h < 0$: declining after prior growth. This is the
+commercial-takeoff pattern: slow research accumulation followed by a sudden
+increase in activity (LLMs, superconductors, Bitcoin, …).</p>
+
+<h3>5.3 PageRank</h3>
+<p>Power iteration on the row-stochastic adjacency matrix, $\alpha = 0.85$.
+Captures "hub" importance in the concept network.</p>
+
+<h3>5.4 Effective conductance G(A,B) — the fusion signal</h3>
+<p>Treat the co-occurrence graph as a resistor network. The <b>resistance distance</b>
+(Klein &amp; Randić 1993) between nodes $i,j$ is</p>
+<p>$$R_{\text{eff}}(i,j) \;=\; L^{+}_{ii} + L^{+}_{jj} - 2 L^{+}_{ij}, \qquad
+G(i,j) \;=\; \frac{1}{R_{\text{eff}}(i,j)}$$</p>
+<p>where $L = D - A$ is the graph Laplacian and $L^{+}$ its Moore–Penrose inverse.
+Rather than forming $L^{+}$ (dense, $O(V^3)$), we solve the equivalent sparse system
+$L x = e_i - e_j$ with <b>conjugate gradients</b> (Jacobi preconditioner) and read
+$R_{\text{eff}} = x_i - x_j$. Complexity is roughly $O(E \sqrt{\kappa})$ per pair,
+which makes full-network conductance practical on a laptop for thousands of pairs.
+Disconnected pairs have $G = 0$.</p>
+<p><b>Why G ≠ co-occurrence:</b> for pairs with zero direct co-occurrence, G remains
+well-defined via all indirect paths. It is the mathematically principled version of
+"how close are these two concepts in the whole network" — no arbitrary subgraph
+truncation, no embeddings required.</p>
+
+<h2>6. Prediction tasks</h2>
+<ul>
+<li><b>Task A (concept growth):</b> will a term's frequency grow in the next window?
+Signals: history-window slope and hockey-stick ratio.</li>
+<li><b>Task B (pair fusion):</b> will two never-co-occurring concepts first co-occur?
+Candidates: 2-hop non-edges (A–w–B with strength $I = \min(w_{Aw}, w_{wB})$), ranked by
+full-network G. This is the "cross-field fusion early-warning" watchlist.</li>
+</ul>
+
+<h2>7. Evaluation (the part most similar projects skip)</h2>
+<h3>7.1 Task A</h3>
+<p>Outcome = future-window log-slope. Metrics: Spearman ρ with
+<b>permutation p-value</b> (1000 shuffles), bootstrap 95% CI (1000 resamples),
+<b>ROC AUC</b> of above-median future growth, and <b>lift@K</b>: mean outcome of the
+top-K vs a random baseline matched on 5 frequency bands (so we are not just
+re-discovering "popular terms stay popular").</p>
+<h3>7.2 Task B</h3>
+<p>Hit = first co-occurrence in the test window with ≥3 joint papers. Reported rates:
+pool base rate (all candidates), top-100 by G, top-100 by I (cheap 2-hop strength),
+<b>naive control</b> (random pairs matched on frequency bands only), and
+<b>structural control</b> (same A, same bridge w, random alternative B′ — matched
+two-hop structure). The structural control is the fair test: it isolates whether G
+adds signal beyond the neighborhood structure. We also report AUC of G and of I on
+the candidate pool, and a permutation p for the top-100-vs-structural-control lift.</p>
+<p>Why this matters: a control that omits the structural condition (e.g. random
+pairs without a two-hop path) is guaranteed to under-hit — nearby pairs link more
+often than far pairs by construction. Comparing against it inflates every result.
+We do not do that.</p>
+
+<h2>8. Known limitations</h2>
+<ul>
+<li>Capped sampling: cross-category comparisons need the full fetch.</li>
+<li>arXiv ≠ market: funding, patents, hiring and price data are documented
+extensions (<code>docs/data_sources.md</code>), not yet integrated.</li>
+<li>Multiple testing: p-values are per-test. Use the whole picture, not one number.</li>
+<li>Phrase mining is lexicon-based: brand-new phrasings lag by design.</li>
+</ul>
+
+<h2>9. Anti-patterns this project explicitly rejects</h2>
+<ul>
+<li><b>Unreproducible headline metrics</b> — a number in a README with no script
+behind it. Every number here is generated.</li>
+<li><b>Misnamed methods</b> — "random walk" for deterministic enumeration, "semantic
+search" for lexical overlap. Names mean what they say.</li>
+<li><b>Unmatched controls</b> — controls must share the structural conditions of the
+treatment arm, or the comparison is meaningless.</li>
+<li><b>Inconsistent baselines</b> — one experiment, one baseline definition,
+reported every time.</li>
+<li><b>Fancy names for standard heuristics</b> — the physics vocabulary here
+(effective conductance) is backed by an actual Laplacian solve, and the code says so.</li>
+</ul>
+
+<p style="margin-top:30px">Full details: <a href="https://github.com/zmath01/commercial-trend/blob/main/docs/methodology.md">docs/methodology.md</a></p>
+</div></main>
+<footer><div class="container row">
+  <span>Commercial Trend Radar — open data, open code, honest baselines.</span>
+  <span>Not investment advice.</span>
+</div></footer>
+</body></html>

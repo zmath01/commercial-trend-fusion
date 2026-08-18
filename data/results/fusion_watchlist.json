@@ -1,0 +1,1708 @@
+{
+ "top": [
+  {
+   "A": "artificial neural",
+   "B": "deep reinforcement",
+   "via": "artificial intelligence",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 18.0,
+   "G_latest": 1127.682,
+   "G_series": {
+    "2019": 83.6951,
+    "2020": 66.3907,
+    "2021": 93.7175,
+    "2022": 90.6093,
+    "2023": 44.2304,
+    "2024": 36.6128,
+    "2025": 37.5639
+   }
+  },
+  {
+   "A": "neuromorphic computing",
+   "B": "stock market",
+   "via": "artificial intelligence",
+   "fieldA": "QuantumChips",
+   "fieldB": "QuantFinance",
+   "I": 13.0,
+   "G_latest": 716.1992,
+   "G_series": {
+    "2019": 22.4968,
+    "2020": 33.236,
+    "2021": 59.2077,
+    "2022": 54.4205,
+    "2023": 49.6577,
+    "2024": 31.3555,
+    "2025": 37.1061
+   }
+  },
+  {
+   "A": "deep reinforcement",
+   "B": "neuromorphic computing",
+   "via": "artificial intelligence",
+   "fieldA": "QuantFinance",
+   "fieldB": "QuantumChips",
+   "I": 13.0,
+   "G_latest": 659.2105,
+   "G_series": {
+    "2019": 22.5042,
+    "2020": 31.6573,
+    "2021": 56.3485,
+    "2022": 51.7565,
+    "2023": 43.3085,
+    "2024": 22.3141,
+    "2025": 34.9642
+   }
+  },
+  {
+   "A": "neuromorphic computing",
+   "B": "software engineering",
+   "via": "artificial intelligence",
+   "fieldA": "QuantumChips",
+   "fieldB": "Software",
+   "I": 13.0,
+   "G_latest": 616.2159,
+   "G_series": {
+    "2019": 15.2109,
+    "2020": 26.6903,
+    "2021": 27.9525,
+    "2022": 23.0491,
+    "2023": 47.212,
+    "2024": 27.5944,
+    "2025": 38.2027
+   }
+  },
+  {
+   "A": "computing systems",
+   "B": "software engineering",
+   "via": "artificial intelligence",
+   "fieldA": "QuantumChips",
+   "fieldB": "Software",
+   "I": 14.0,
+   "G_latest": 591.4164,
+   "G_series": {
+    "2019": 18.6346,
+    "2020": 19.914,
+    "2021": 16.5804,
+    "2022": 15.2922,
+    "2023": 52.3418,
+    "2024": 28.1958,
+    "2025": 4.7921
+   }
+  },
+  {
+   "A": "generative adversarial",
+   "B": "neuromorphic computing",
+   "via": "artificial intelligence",
+   "fieldA": "QuantFinance",
+   "fieldB": "QuantumChips",
+   "I": 12.0,
+   "G_latest": 585.0432,
+   "G_series": {
+    "2019": 21.6671,
+    "2020": 30.5258,
+    "2021": 50.9953,
+    "2022": 38.2484,
+    "2023": 33.2575,
+    "2024": 16.0438,
+    "2025": 24.4011
+   }
+  },
+  {
+   "A": "quantum hardware",
+   "B": "stochastic volatility",
+   "via": "machine learning",
+   "fieldA": "QuantumChips",
+   "fieldB": "QuantFinance",
+   "I": 14.0,
+   "G_latest": 555.3837,
+   "G_series": {
+    "2019": 9.6214,
+    "2020": 23.2043,
+    "2022": 26.1497,
+    "2023": 46.7886,
+    "2024": 39.4334,
+    "2025": 34.5165
+   }
+  },
+  {
+   "A": "computer science",
+   "B": "spiking neural",
+   "via": "artificial intelligence",
+   "fieldA": "Theory",
+   "fieldB": "AI",
+   "I": 15.0,
+   "G_latest": 483.7741,
+   "G_series": {
+    "2019": 15.0285,
+    "2020": 5.0418,
+    "2021": 12.7426,
+    "2022": 42.1317,
+    "2023": 18.6424,
+    "2024": 19.3957,
+    "2025": 0.0
+   }
+  },
+  {
+   "A": "price prediction",
+   "B": "quantum states",
+   "via": "machine learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "Quantum",
+   "I": 11.0,
+   "G_latest": 472.0677,
+   "G_series": {
+    "2019": 20.5155,
+    "2020": 11.1995,
+    "2021": 22.2704,
+    "2022": 21.1264,
+    "2023": 17.8657,
+    "2024": 34.2164,
+    "2025": 13.4193
+   }
+  },
+  {
+   "A": "computer science",
+   "B": "spiking neural networks",
+   "via": "artificial intelligence",
+   "fieldA": "Theory",
+   "fieldB": "AI",
+   "I": 12.0,
+   "G_latest": 468.7347,
+   "G_series": {
+    "2019": 14.2285,
+    "2020": 4.9414,
+    "2021": 12.6132,
+    "2022": 41.1922,
+    "2023": 18.4519,
+    "2024": 19.2435,
+    "2025": 0.0
+   }
+  },
+  {
+   "A": "backward stochastic",
+   "B": "market making",
+   "via": "control problem",
+   "fieldA": "QuantFinance",
+   "fieldB": "QuantFinance",
+   "I": 14.0,
+   "G_latest": 465.0101,
+   "G_series": {
+    "2019": 21.5096,
+    "2020": 12.1271,
+    "2021": 13.9776,
+    "2022": 17.8669,
+    "2023": 27.103,
+    "2024": 39.4963,
+    "2025": 26.3225
+   }
+  },
+  {
+   "A": "current state-of-the-art",
+   "B": "stochastic differential",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 14.0,
+   "G_latest": 454.2856,
+   "G_series": {
+    "2019": 5.452,
+    "2020": 16.0105,
+    "2021": 22.8312,
+    "2022": 23.5377,
+    "2023": 11.8585,
+    "2024": 32.2124,
+    "2025": 24.8267
+   }
+  },
+  {
+   "A": "autonomous driving",
+   "B": "neuromorphic computing",
+   "via": "artificial intelligence",
+   "fieldA": "AI",
+   "fieldB": "QuantumChips",
+   "I": 10.0,
+   "G_latest": 442.8963,
+   "G_series": {
+    "2019": 7.7528,
+    "2020": 24.7162,
+    "2021": 37.0624,
+    "2022": 22.4242,
+    "2023": 19.4845,
+    "2024": 22.9036,
+    "2025": 16.1862
+   }
+  },
+  {
+   "A": "differential privacy",
+   "B": "price movements",
+   "via": "deep learning",
+   "fieldA": "SecurityCrypto",
+   "fieldB": "QuantFinance",
+   "I": 13.0,
+   "G_latest": 439.1014,
+   "G_series": {
+    "2020": 19.5409,
+    "2021": 8.1034,
+    "2022": 14.684,
+    "2023": 31.3199,
+    "2024": 43.6353,
+    "2025": 4.3871
+   }
+  },
+  {
+   "A": "adversarial examples",
+   "B": "order book",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 13.0,
+   "G_latest": 432.2764,
+   "G_series": {
+    "2019": 44.4529,
+    "2020": 43.78,
+    "2021": 36.6379,
+    "2023": 25.4844,
+    "2024": 18.1262
+   }
+  },
+  {
+   "A": "computer science",
+   "B": "generative adversarial",
+   "via": "artificial intelligence",
+   "fieldA": "Theory",
+   "fieldB": "QuantFinance",
+   "I": 12.0,
+   "G_latest": 431.6544,
+   "G_series": {
+    "2019": 15.2846,
+    "2020": 5.1085,
+    "2021": 12.5329,
+    "2022": 30.7591,
+    "2023": 15.5816,
+    "2024": 12.3334,
+    "2025": 0.0
+   }
+  },
+  {
+   "A": "autonomous driving",
+   "B": "computing systems",
+   "via": "artificial intelligence",
+   "fieldA": "AI",
+   "fieldB": "QuantumChips",
+   "I": 10.0,
+   "G_latest": 429.4818,
+   "G_series": {
+    "2019": 8.5465,
+    "2020": 18.7951,
+    "2021": 19.4141,
+    "2022": 15.0182,
+    "2023": 20.278,
+    "2024": 23.2983,
+    "2025": 4.0919
+   }
+  },
+  {
+   "A": "adversarial examples",
+   "B": "limit order",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 13.0,
+   "G_latest": 429.1623,
+   "G_series": {
+    "2019": 42.9828,
+    "2020": 43.1925,
+    "2021": 36.8351,
+    "2023": 25.3048,
+    "2024": 18.2111
+   }
+  },
+  {
+   "A": "quantitative finance",
+   "B": "software engineering",
+   "via": "deep learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "Software",
+   "I": 12.0,
+   "G_latest": 419.5101,
+   "G_series": {
+    "2019": 11.3041,
+    "2020": 8.2329,
+    "2021": 13.8606,
+    "2022": 8.6629,
+    "2023": 8.3855,
+    "2024": 16.5412,
+    "2025": 67.6974
+   }
+  },
+  {
+   "A": "adversarial examples",
+   "B": "stochastic volatility",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 418.7079,
+   "G_series": {
+    "2019": 38.145,
+    "2020": 40.2457,
+    "2021": 30.2766,
+    "2023": 23.1185,
+    "2024": 17.4545
+   }
+  },
+  {
+   "A": "adversarial examples",
+   "B": "option pricing",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 13.0,
+   "G_latest": 418.5978,
+   "G_series": {
+    "2019": 39.9818,
+    "2020": 45.5382,
+    "2021": 42.6636,
+    "2023": 21.0312,
+    "2024": 17.6219
+   }
+  },
+  {
+   "A": "adversarial examples",
+   "B": "limit order book",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 13.0,
+   "G_latest": 412.7201,
+   "G_series": {
+    "2019": 42.6134,
+    "2020": 37.8699,
+    "2021": 33.5762,
+    "2023": 24.8303,
+    "2024": 17.8152
+   }
+  },
+  {
+   "A": "anomaly detection",
+   "B": "neuromorphic computing",
+   "via": "artificial intelligence",
+   "fieldA": "AI",
+   "fieldB": "QuantumChips",
+   "I": 13.0,
+   "G_latest": 399.0555,
+   "G_series": {
+    "2019": 6.0149,
+    "2020": 13.4961,
+    "2021": 19.6375,
+    "2022": 21.2435,
+    "2023": 18.3997,
+    "2024": 19.0113,
+    "2025": 25.5453
+   }
+  },
+  {
+   "A": "differential privacy",
+   "B": "hardware accelerators",
+   "via": "deep learning",
+   "fieldA": "SecurityCrypto",
+   "fieldB": "Chips",
+   "I": 13.0,
+   "G_latest": 395.1183,
+   "G_series": {
+    "2019": 16.1709,
+    "2020": 19.0729,
+    "2021": 13.777,
+    "2022": 20.7585,
+    "2023": 28.2501,
+    "2024": 11.391,
+    "2025": 3.396
+   }
+  },
+  {
+   "A": "price movements",
+   "B": "quantum states",
+   "via": "machine learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "Quantum",
+   "I": 11.0,
+   "G_latest": 391.0757,
+   "G_series": {
+    "2020": 9.6699,
+    "2021": 9.093,
+    "2022": 13.1303,
+    "2023": 29.8012,
+    "2024": 29.033,
+    "2025": 16.0626
+   }
+  },
+  {
+   "A": "computing systems",
+   "B": "learning dl",
+   "via": "artificial intelligence",
+   "fieldA": "QuantumChips",
+   "fieldB": "AI",
+   "I": 12.0,
+   "G_latest": 384.6722,
+   "G_series": {
+    "2019": 12.9918,
+    "2020": 14.6196,
+    "2021": 11.4593,
+    "2022": 20.3337,
+    "2023": 20.6869,
+    "2024": 25.7103,
+    "2025": 4.0178
+   }
+  },
+  {
+   "A": "ai systems",
+   "B": "neuromorphic computing",
+   "via": "artificial intelligence",
+   "fieldA": "AI",
+   "fieldB": "QuantumChips",
+   "I": 13.0,
+   "G_latest": 383.88,
+   "G_series": {
+    "2019": 2.662,
+    "2021": 11.4856,
+    "2022": 20.247,
+    "2023": 15.6122,
+    "2024": 22.0348,
+    "2025": 35.0208
+   }
+  },
+  {
+   "A": "adversarial attacks",
+   "B": "credit risk",
+   "via": "deep learning",
+   "fieldA": "SecurityCrypto",
+   "fieldB": "QuantFinance",
+   "I": 10.0,
+   "G_latest": 382.5397,
+   "G_series": {
+    "2019": 2.732,
+    "2020": 11.4688,
+    "2021": 10.3423,
+    "2022": 19.5982,
+    "2023": 19.0862,
+    "2024": 22.5896,
+    "2025": 13.701
+   }
+  },
+  {
+   "A": "adversarial examples",
+   "B": "memory lstm",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 13.0,
+   "G_latest": 381.3227,
+   "G_series": {
+    "2019": 36.2449,
+    "2020": 41.2143,
+    "2021": 38.2875,
+    "2023": 17.4947,
+    "2024": 18.5054
+   }
+  },
+  {
+   "A": "f1 score",
+   "B": "stochastic volatility",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 380.8912,
+   "G_series": {
+    "2019": 9.0159,
+    "2020": 3.6739,
+    "2021": 2.7481,
+    "2022": 16.4795,
+    "2023": 12.5746,
+    "2024": 46.4149,
+    "2025": 19.3234
+   }
+  },
+  {
+   "A": "quantum states",
+   "B": "stock markets",
+   "via": "machine learning",
+   "fieldA": "Quantum",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 378.9775,
+   "G_series": {
+    "2019": 19.0174,
+    "2020": 9.6675,
+    "2021": 21.1534,
+    "2022": 9.7402,
+    "2023": 17.1971,
+    "2024": 24.0501,
+    "2025": 7.5932
+   }
+  },
+  {
+   "A": "quantum states",
+   "B": "series forecasting",
+   "via": "machine learning",
+   "fieldA": "Quantum",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 376.5443,
+   "G_series": {
+    "2020": 9.4303,
+    "2021": 17.353,
+    "2022": 9.962,
+    "2023": 33.6428,
+    "2024": 27.5599,
+    "2025": 16.248
+   }
+  },
+  {
+   "A": "adversarial examples",
+   "B": "stock prices",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 13.0,
+   "G_latest": 375.8542,
+   "G_series": {
+    "2019": 37.2994,
+    "2020": 47.8199,
+    "2021": 37.3778,
+    "2023": 19.3962,
+    "2024": 15.5697
+   }
+  },
+  {
+   "A": "graph convolutional",
+   "B": "stochastic differential",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 15.0,
+   "G_latest": 375.7053,
+   "G_series": {
+    "2019": 10.0883,
+    "2020": 23.5703,
+    "2021": 45.5622,
+    "2022": 10.1884,
+    "2023": 7.3916,
+    "2024": 22.686,
+    "2025": 11.7346
+   }
+  },
+  {
+   "A": "ai systems",
+   "B": "computing systems",
+   "via": "artificial intelligence",
+   "fieldA": "AI",
+   "fieldB": "QuantumChips",
+   "I": 16.0,
+   "G_latest": 374.2969,
+   "G_series": {
+    "2019": 2.7506,
+    "2021": 8.9367,
+    "2022": 14.0275,
+    "2023": 16.1817,
+    "2024": 22.4263,
+    "2025": 4.7356
+   }
+  },
+  {
+   "A": "adversarial examples",
+   "B": "quantum systems",
+   "via": "machine learning",
+   "fieldA": "AI",
+   "fieldB": "Quantum",
+   "I": 13.0,
+   "G_latest": 367.5534,
+   "G_series": {
+    "2019": 21.0532,
+    "2020": 23.8984,
+    "2021": 16.291,
+    "2023": 19.03,
+    "2024": 16.6851
+   }
+  },
+  {
+   "A": "medical image",
+   "B": "stochastic volatility",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 362.4718,
+   "G_series": {
+    "2020": 23.5439,
+    "2021": 8.7952,
+    "2022": 30.4873,
+    "2023": 9.9362,
+    "2024": 22.0782,
+    "2025": 8.7635
+   }
+  },
+  {
+   "A": "adversarial networks",
+   "B": "quantum devices",
+   "via": "machine learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "QuantumChips",
+   "I": 11.0,
+   "G_latest": 361.9788,
+   "G_series": {
+    "2019": 6.291,
+    "2020": 20.9241,
+    "2021": 18.9011,
+    "2022": 13.3055,
+    "2023": 19.8046,
+    "2024": 10.1474,
+    "2025": 9.7539
+   }
+  },
+  {
+   "A": "generative adversarial networks",
+   "B": "quantum devices",
+   "via": "machine learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "QuantumChips",
+   "I": 11.0,
+   "G_latest": 361.217,
+   "G_series": {
+    "2019": 6.291,
+    "2020": 20.9241,
+    "2021": 18.9011,
+    "2022": 13.3055,
+    "2023": 19.8046,
+    "2024": 10.1474,
+    "2025": 9.7539
+   }
+  },
+  {
+   "A": "limit order book lob",
+   "B": "software engineering",
+   "via": "deep learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "Software",
+   "I": 11.0,
+   "G_latest": 361.0344,
+   "G_series": {
+    "2021": 15.5723,
+    "2023": 32.7665,
+    "2024": 39.2939,
+    "2025": 52.9624
+   }
+  },
+  {
+   "A": "adversarial examples",
+   "B": "price prediction",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 13.0,
+   "G_latest": 354.5426,
+   "G_series": {
+    "2019": 34.9646,
+    "2020": 33.8081,
+    "2021": 30.6167,
+    "2023": 14.0674,
+    "2024": 18.1259
+   }
+  },
+  {
+   "A": "adversarial examples",
+   "B": "long short-term memory lstm",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 13.0,
+   "G_latest": 353.1151,
+   "G_series": {
+    "2019": 28.209,
+    "2020": 32.2682,
+    "2021": 34.2968,
+    "2023": 13.1592,
+    "2024": 18.2649
+   }
+  },
+  {
+   "A": "adversarial examples",
+   "B": "sharpe ratio",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 13.0,
+   "G_latest": 351.1508,
+   "G_series": {
+    "2019": 25.4722,
+    "2020": 23.8837,
+    "2021": 24.1263,
+    "2023": 18.8394,
+    "2024": 15.6134
+   }
+  },
+  {
+   "A": "performance energy",
+   "B": "quantum states",
+   "via": "machine learning",
+   "fieldA": "Chips",
+   "fieldB": "Quantum",
+   "I": 11.0,
+   "G_latest": 348.956,
+   "G_series": {
+    "2019": 17.612,
+    "2020": 9.3845,
+    "2021": 9.4778,
+    "2022": 19.3854,
+    "2023": 21.6087,
+    "2024": 17.7637,
+    "2025": 9.8515
+   }
+  },
+  {
+   "A": "algorithmic trading",
+   "B": "quantum states",
+   "via": "machine learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "Quantum",
+   "I": 11.0,
+   "G_latest": 345.7935,
+   "G_series": {
+    "2019": 1.3808,
+    "2020": 8.406,
+    "2021": 7.5058,
+    "2022": 13.1445,
+    "2023": 10.4465,
+    "2024": 26.662,
+    "2025": 17.2564
+   }
+  },
+  {
+   "A": "internet things",
+   "B": "quantitative finance",
+   "via": "deep learning",
+   "fieldA": "SecurityCrypto",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 345.0642,
+   "G_series": {
+    "2019": 6.8182,
+    "2020": 8.5218,
+    "2021": 9.71,
+    "2022": 9.5571,
+    "2023": 7.2833,
+    "2024": 11.5589,
+    "2025": 11.313
+   }
+  },
+  {
+   "A": "adversarial attacks",
+   "B": "investment decisions",
+   "via": "deep learning",
+   "fieldA": "SecurityCrypto",
+   "fieldB": "QuantFinance",
+   "I": 10.0,
+   "G_latest": 341.454,
+   "G_series": {
+    "2019": 0.0,
+    "2020": 7.3834,
+    "2021": 12.8905,
+    "2022": 20.5942,
+    "2023": 19.6704,
+    "2024": 16.3294,
+    "2025": 12.7282
+   }
+  },
+  {
+   "A": "american options",
+   "B": "quantum hardware",
+   "via": "machine learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "QuantumChips",
+   "I": 12.0,
+   "G_latest": 339.6652,
+   "G_series": {
+    "2019": 7.1498,
+    "2020": 16.4623,
+    "2022": 10.1549,
+    "2023": 15.5961,
+    "2024": 19.3503,
+    "2025": 28.8287
+   }
+  },
+  {
+   "A": "quantum devices",
+   "B": "social media",
+   "via": "machine learning",
+   "fieldA": "QuantumChips",
+   "fieldB": "AI",
+   "I": 11.0,
+   "G_latest": 338.662,
+   "G_series": {
+    "2019": 4.2452,
+    "2020": 14.7045,
+    "2021": 17.3752,
+    "2022": 13.8604,
+    "2023": 19.7443,
+    "2024": 12.0064,
+    "2025": 9.6534
+   }
+  },
+  {
+   "A": "deep learning-based",
+   "B": "quantum devices",
+   "via": "machine learning",
+   "fieldA": "AI",
+   "fieldB": "QuantumChips",
+   "I": 11.0,
+   "G_latest": 335.4945,
+   "G_series": {
+    "2019": 5.3011,
+    "2020": 29.0364,
+    "2021": 12.1609,
+    "2022": 12.015,
+    "2023": 19.6199,
+    "2024": 12.8669,
+    "2025": 6.7132
+   }
+  },
+  {
+   "A": "generative ai",
+   "B": "learning algorithm",
+   "via": "artificial intelligence",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 12.0,
+   "G_latest": 332.8686,
+   "G_series": {
+    "2023": 30.862,
+    "2024": 30.4623,
+    "2025": 18.8312
+   }
+  },
+  {
+   "A": "comprehensive review",
+   "B": "convolutional neural",
+   "via": "artificial intelligence",
+   "fieldA": "QuantumChips",
+   "fieldB": "AI",
+   "I": 11.0,
+   "G_latest": 331.9363,
+   "G_series": {
+    "2019": 27.0076,
+    "2020": 0.0,
+    "2021": 16.1734,
+    "2022": 9.1878,
+    "2023": 22.3305,
+    "2024": 12.6148,
+    "2025": 3.4469
+   }
+  },
+  {
+   "A": "neuromorphic computing",
+   "B": "quantitative finance",
+   "via": "deep learning",
+   "fieldA": "QuantumChips",
+   "fieldB": "QuantFinance",
+   "I": 12.0,
+   "G_latest": 331.6371,
+   "G_series": {
+    "2019": 10.0764,
+    "2020": 7.7063,
+    "2021": 16.235,
+    "2022": 10.0985,
+    "2023": 7.8743,
+    "2024": 12.1531,
+    "2025": 33.74
+   }
+  },
+  {
+   "A": "backward stochastic differential equations",
+   "B": "market making",
+   "via": "control problem",
+   "fieldA": "QuantFinance",
+   "fieldB": "QuantFinance",
+   "I": 12.0,
+   "G_latest": 331.5503,
+   "G_series": {
+    "2019": 19.8022,
+    "2020": 10.3314,
+    "2021": 12.2383,
+    "2022": 12.808,
+    "2023": 18.7779,
+    "2024": 26.3944,
+    "2025": 19.9444
+   }
+  },
+  {
+   "A": "neuromorphic computing",
+   "B": "training set",
+   "via": "artificial intelligence",
+   "fieldA": "QuantumChips",
+   "fieldB": "AI",
+   "I": 11.0,
+   "G_latest": 330.1001,
+   "G_series": {
+    "2019": 17.4103,
+    "2020": 25.1326,
+    "2021": 23.5105,
+    "2022": 20.5076,
+    "2023": 10.8703,
+    "2024": 11.6074
+   }
+  },
+  {
+   "A": "quantum states",
+   "B": "technical indicators",
+   "via": "machine learning",
+   "fieldA": "Quantum",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 329.0554,
+   "G_series": {
+    "2019": 14.0326,
+    "2020": 4.4931,
+    "2021": 19.9505,
+    "2022": 5.0293,
+    "2024": 11.9273,
+    "2025": 16.4581
+   }
+  },
+  {
+   "A": "predict stock",
+   "B": "stochastic differential",
+   "via": "deep learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "QuantFinance",
+   "I": 12.0,
+   "G_latest": 328.7371,
+   "G_series": {
+    "2020": 32.9351,
+    "2022": 34.1237,
+    "2024": 18.7025,
+    "2025": 12.901
+   }
+  },
+  {
+   "A": "comprehensive review",
+   "B": "learning algorithms",
+   "via": "artificial intelligence",
+   "fieldA": "QuantumChips",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 324.204,
+   "G_series": {
+    "2019": 25.4706,
+    "2020": 0.0,
+    "2021": 15.9851,
+    "2022": 8.8318,
+    "2023": 22.9092,
+    "2024": 12.3461,
+    "2025": 3.4185
+   }
+  },
+  {
+   "A": "comprehensive review",
+   "B": "stock market",
+   "via": "artificial intelligence",
+   "fieldA": "QuantumChips",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 323.5174,
+   "G_series": {
+    "2019": 24.1621,
+    "2020": 0.0,
+    "2021": 15.8999,
+    "2022": 9.0303,
+    "2023": 22.093,
+    "2024": 12.7291,
+    "2025": 3.4587
+   }
+  },
+  {
+   "A": "recent research",
+   "B": "stochastic differential",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 320.5931,
+   "G_series": {
+    "2019": 10.7623,
+    "2020": 7.4468,
+    "2021": 12.3043,
+    "2022": 20.4338,
+    "2023": 26.7591,
+    "2024": 13.2552,
+    "2025": 3.1354
+   }
+  },
+  {
+   "A": "computer science",
+   "B": "learning dl",
+   "via": "artificial intelligence",
+   "fieldA": "Theory",
+   "fieldB": "AI",
+   "I": 12.0,
+   "G_latest": 318.6852,
+   "G_series": {
+    "2019": 9.237,
+    "2020": 4.5735,
+    "2021": 8.126,
+    "2022": 29.7954,
+    "2023": 11.8321,
+    "2024": 17.1196,
+    "2025": 0.0
+   }
+  },
+  {
+   "A": "differential privacy",
+   "B": "limit order book lob",
+   "via": "deep learning",
+   "fieldA": "SecurityCrypto",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 316.035,
+   "G_series": {
+    "2021": 12.0279,
+    "2023": 24.8384,
+    "2024": 33.5756,
+    "2025": 4.435
+   }
+  },
+  {
+   "A": "convolutional networks",
+   "B": "stochastic volatility",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 313.8977,
+   "G_series": {
+    "2019": 22.1659,
+    "2020": 8.9811,
+    "2021": 29.3756,
+    "2023": 5.2097,
+    "2024": 17.4045,
+    "2025": 10.416
+   }
+  },
+  {
+   "A": "improved performance",
+   "B": "stochastic volatility",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 313.5595,
+   "G_series": {
+    "2019": 12.7723,
+    "2020": 7.2484,
+    "2021": 10.1243,
+    "2022": 6.2037,
+    "2023": 24.2407,
+    "2024": 20.8953,
+    "2025": 23.9043
+   }
+  },
+  {
+   "A": "predict stock",
+   "B": "stochastic volatility",
+   "via": "deep learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 313.245,
+   "G_series": {
+    "2020": 26.6789,
+    "2022": 33.4403,
+    "2024": 17.4754,
+    "2025": 12.1314
+   }
+  },
+  {
+   "A": "evaluation metrics",
+   "B": "quantum devices",
+   "via": "machine learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "QuantumChips",
+   "I": 11.0,
+   "G_latest": 312.8484,
+   "G_series": {
+    "2019": 0.0,
+    "2020": 18.5973,
+    "2021": 12.4694,
+    "2022": 5.1761,
+    "2023": 17.2612,
+    "2024": 13.4721,
+    "2025": 12.3002
+   }
+  },
+  {
+   "A": "price movements",
+   "B": "quantum devices",
+   "via": "machine learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "QuantumChips",
+   "I": 11.0,
+   "G_latest": 312.158,
+   "G_series": {
+    "2020": 18.0986,
+    "2021": 8.0075,
+    "2022": 9.9189,
+    "2023": 22.1965,
+    "2024": 13.4518,
+    "2025": 11.8568
+   }
+  },
+  {
+   "A": "genetic algorithm",
+   "B": "quantitative finance",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 12.0,
+   "G_latest": 311.1824,
+   "G_series": {
+    "2019": 10.0853,
+    "2020": 6.2907,
+    "2021": 14.4675,
+    "2022": 6.4247,
+    "2023": 6.9475,
+    "2024": 13.9249,
+    "2025": 23.3334
+   }
+  },
+  {
+   "A": "stochastic volatility",
+   "B": "test set",
+   "via": "deep learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "AI",
+   "I": 11.0,
+   "G_latest": 311.1179,
+   "G_series": {
+    "2019": 13.6079,
+    "2020": 21.8458,
+    "2021": 2.8538,
+    "2022": 31.3362,
+    "2024": 15.2091,
+    "2025": 18.6358
+   }
+  },
+  {
+   "A": "comprehensive review",
+   "B": "spiking neural networks",
+   "via": "artificial intelligence",
+   "fieldA": "QuantumChips",
+   "fieldB": "AI",
+   "I": 11.0,
+   "G_latest": 310.4339,
+   "G_series": {
+    "2019": 20.84,
+    "2020": 0.0,
+    "2021": 15.3415,
+    "2022": 9.058,
+    "2023": 22.0562,
+    "2024": 12.5255,
+    "2025": 3.4829
+   }
+  },
+  {
+   "A": "lstm networks",
+   "B": "software engineering",
+   "via": "deep learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "Software",
+   "I": 11.0,
+   "G_latest": 308.9268,
+   "G_series": {
+    "2020": 12.6271,
+    "2023": 22.8368,
+    "2024": 44.6698,
+    "2025": 35.7252
+   }
+  },
+  {
+   "A": "classification performance",
+   "B": "stochastic differential",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 308.0605,
+   "G_series": {
+    "2020": 29.9409,
+    "2021": 5.1125,
+    "2022": 7.9205,
+    "2023": 21.9729,
+    "2024": 8.455,
+    "2025": 10.816
+   }
+  },
+  {
+   "A": "adversarial examples",
+   "B": "price movements",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 13.0,
+   "G_latest": 306.7486,
+   "G_series": {
+    "2020": 22.8617,
+    "2021": 10.2444,
+    "2023": 20.5376,
+    "2024": 16.5567
+   }
+  },
+  {
+   "A": "recent research",
+   "B": "stochastic volatility",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 305.6277,
+   "G_series": {
+    "2019": 10.4896,
+    "2020": 7.073,
+    "2021": 11.0635,
+    "2022": 20.0986,
+    "2023": 24.6515,
+    "2024": 12.6185,
+    "2025": 3.0861
+   }
+  },
+  {
+   "A": "f1 score",
+   "B": "quantum states",
+   "via": "machine learning",
+   "fieldA": "AI",
+   "fieldB": "Quantum",
+   "I": 11.0,
+   "G_latest": 304.5479,
+   "G_series": {
+    "2019": 7.3759,
+    "2020": 3.0165,
+    "2021": 2.6598,
+    "2022": 13.354,
+    "2023": 11.4283,
+    "2024": 27.4826,
+    "2025": 11.491
+   }
+  },
+  {
+   "A": "predict stock",
+   "B": "stochastic gradient",
+   "via": "deep learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "AppliedMath",
+   "I": 12.0,
+   "G_latest": 301.2023,
+   "G_series": {
+    "2020": 32.0488,
+    "2022": 31.0067,
+    "2024": 16.3489,
+    "2025": 11.4214
+   }
+  },
+  {
+   "A": "energy efficiency",
+   "B": "rapid development",
+   "via": "artificial intelligence",
+   "fieldA": "Chips",
+   "fieldB": "Software",
+   "I": 13.0,
+   "G_latest": 299.3053,
+   "G_series": {
+    "2019": 7.6309,
+    "2020": 3.8909,
+    "2021": 20.9201,
+    "2022": 4.4894,
+    "2023": 20.3652,
+    "2024": 18.2487
+   }
+  },
+  {
+   "A": "address limitations",
+   "B": "noisy intermediate-scale",
+   "via": "machine learning",
+   "fieldA": "AI",
+   "fieldB": "Quantum",
+   "I": 11.0,
+   "G_latest": 299.2456,
+   "G_series": {
+    "2022": 7.9896,
+    "2023": 15.7815,
+    "2024": 27.9732,
+    "2025": 18.5619
+   }
+  },
+  {
+   "A": "adversarial examples",
+   "B": "learning applications",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 13.0,
+   "G_latest": 297.4904,
+   "G_series": {
+    "2019": 21.8758,
+    "2020": 36.797,
+    "2021": 26.3118,
+    "2023": 16.0271,
+    "2024": 11.6811
+   }
+  },
+  {
+   "A": "foreign exchange",
+   "B": "quantum systems",
+   "via": "machine learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "Quantum",
+   "I": 13.0,
+   "G_latest": 295.018,
+   "G_series": {
+    "2019": 11.1728,
+    "2020": 13.7982,
+    "2021": 8.0839,
+    "2022": 2.8197,
+    "2023": 11.2737,
+    "2024": 32.3012,
+    "2025": 9.1989
+   }
+  },
+  {
+   "A": "self-supervised learning",
+   "B": "stochastic volatility",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 294.8451,
+   "G_series": {
+    "2020": 8.5659,
+    "2021": 9.7499,
+    "2022": 21.5174,
+    "2023": 26.6571,
+    "2024": 14.0471,
+    "2025": 10.5038
+   }
+  },
+  {
+   "A": "energy consumption",
+   "B": "rapid development",
+   "via": "artificial intelligence",
+   "fieldA": "Chips",
+   "fieldB": "Software",
+   "I": 13.0,
+   "G_latest": 293.7791,
+   "G_series": {
+    "2019": 7.3505,
+    "2020": 3.8656,
+    "2021": 19.1233,
+    "2022": 4.4891,
+    "2023": 20.4246,
+    "2024": 17.3566
+   }
+  },
+  {
+   "A": "quantum states",
+   "B": "stock returns",
+   "via": "machine learning",
+   "fieldA": "Quantum",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 293.5532,
+   "G_series": {
+    "2019": 10.1291,
+    "2020": 8.5142,
+    "2021": 9.2003,
+    "2022": 9.9851,
+    "2023": 5.0242,
+    "2024": 15.4406,
+    "2025": 12.6032
+   }
+  },
+  {
+   "A": "rapid development",
+   "B": "spiking neural",
+   "via": "artificial intelligence",
+   "fieldA": "Software",
+   "fieldB": "AI",
+   "I": 13.0,
+   "G_latest": 289.5065,
+   "G_series": {
+    "2019": 7.425,
+    "2020": 3.7955,
+    "2021": 20.6524,
+    "2022": 4.4931,
+    "2023": 19.8573,
+    "2024": 18.0582
+   }
+  },
+  {
+   "A": "important role",
+   "B": "quantitative finance",
+   "via": "deep learning",
+   "fieldA": "AppliedMath",
+   "fieldB": "QuantFinance",
+   "I": 12.0,
+   "G_latest": 288.7743,
+   "G_series": {
+    "2019": 10.4931,
+    "2020": 8.0038,
+    "2021": 11.8224,
+    "2022": 9.5898,
+    "2023": 4.1672,
+    "2024": 10.1815,
+    "2025": 0.0
+   }
+  },
+  {
+   "A": "comprehensive review",
+   "B": "learning algorithm",
+   "via": "artificial intelligence",
+   "fieldA": "QuantumChips",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 288.4911,
+   "G_series": {
+    "2019": 20.2404,
+    "2020": 0.0,
+    "2021": 13.7208,
+    "2022": 8.312,
+    "2023": 19.7085,
+    "2024": 10.5198,
+    "2025": 3.0571
+   }
+  },
+  {
+   "A": "intrusion detection",
+   "B": "quantum systems",
+   "via": "machine learning",
+   "fieldA": "AI",
+   "fieldB": "Quantum",
+   "I": 13.0,
+   "G_latest": 287.5991,
+   "G_series": {
+    "2019": 13.0523,
+    "2020": 13.359,
+    "2021": 9.4375,
+    "2022": 12.4069,
+    "2023": 6.4829,
+    "2024": 15.8709,
+    "2025": 11.044
+   }
+  },
+  {
+   "A": "predict stock",
+   "B": "stochastic gradient descent",
+   "via": "deep learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "AppliedMath",
+   "I": 12.0,
+   "G_latest": 287.1331,
+   "G_series": {
+    "2020": 30.9998,
+    "2022": 26.7725,
+    "2024": 15.9026,
+    "2025": 11.2509
+   }
+  },
+  {
+   "A": "generative ai",
+   "B": "neuromorphic computing",
+   "via": "artificial intelligence",
+   "fieldA": "AI",
+   "fieldB": "QuantumChips",
+   "I": 13.0,
+   "G_latest": 286.971,
+   "G_series": {
+    "2023": 27.9193,
+    "2024": 23.4922,
+    "2025": 34.155
+   }
+  },
+  {
+   "A": "point clouds",
+   "B": "stochastic differential",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 285.0344,
+   "G_series": {
+    "2019": 22.622,
+    "2020": 7.7601,
+    "2021": 25.0595,
+    "2022": 2.244,
+    "2023": 7.7243,
+    "2024": 6.6489,
+    "2025": 7.1268
+   }
+  },
+  {
+   "A": "market dynamics",
+   "B": "predict stock",
+   "via": "deep learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "QuantFinance",
+   "I": 12.0,
+   "G_latest": 285.0342,
+   "G_series": {
+    "2020": 19.0508,
+    "2022": 12.2518,
+    "2024": 18.2297,
+    "2025": 12.7761
+   }
+  },
+  {
+   "A": "adversarial examples",
+   "B": "hardware accelerators",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "Chips",
+   "I": 13.0,
+   "G_latest": 284.759,
+   "G_series": {
+    "2019": 25.2866,
+    "2020": 22.2729,
+    "2021": 21.3789,
+    "2023": 19.2407,
+    "2024": 7.9846
+   }
+  },
+  {
+   "A": "probability distributions",
+   "B": "quantum devices",
+   "via": "machine learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "QuantumChips",
+   "I": 11.0,
+   "G_latest": 284.6512,
+   "G_series": {
+    "2019": 4.3606,
+    "2020": 16.1972,
+    "2021": 10.6877,
+    "2022": 4.0073,
+    "2023": 18.5718,
+    "2024": 9.0934,
+    "2025": 3.0056
+   }
+  },
+  {
+   "A": "artificial neural",
+   "B": "researchers practitioners",
+   "via": "artificial intelligence",
+   "fieldA": "AI",
+   "fieldB": "QuantFinance",
+   "I": 11.0,
+   "G_latest": 284.4757,
+   "G_series": {
+    "2019": 3.7888,
+    "2020": 4.7867,
+    "2022": 8.7813,
+    "2023": 27.8313,
+    "2024": 29.372,
+    "2025": 9.7023
+   }
+  },
+  {
+   "A": "adversarial examples",
+   "B": "matrix multiplication",
+   "via": "deep learning",
+   "fieldA": "AI",
+   "fieldB": "Chips",
+   "I": 13.0,
+   "G_latest": 284.2938,
+   "G_series": {
+    "2019": 16.2937,
+    "2021": 12.3021,
+    "2023": 16.2134,
+    "2024": 11.1094
+   }
+  },
+  {
+   "A": "rapid development",
+   "B": "spiking neural networks",
+   "via": "artificial intelligence",
+   "fieldA": "Software",
+   "fieldB": "AI",
+   "I": 12.0,
+   "G_latest": 284.0678,
+   "G_series": {
+    "2019": 7.2217,
+    "2020": 3.7383,
+    "2021": 20.3104,
+    "2022": 4.4821,
+    "2023": 19.6489,
+    "2024": 17.9282
+   }
+  },
+  {
+   "A": "matrix multiplication",
+   "B": "noisy intermediate-scale",
+   "via": "machine learning",
+   "fieldA": "Chips",
+   "fieldB": "Quantum",
+   "I": 11.0,
+   "G_latest": 283.6148,
+   "G_series": {
+    "2021": 11.0158,
+    "2022": 12.9876,
+    "2023": 17.0419,
+    "2024": 15.6059,
+    "2025": 15.0318
+   }
+  },
+  {
+   "A": "hardware accelerators",
+   "B": "quantitative finance",
+   "via": "deep learning",
+   "fieldA": "Chips",
+   "fieldB": "QuantFinance",
+   "I": 12.0,
+   "G_latest": 283.4019,
+   "G_series": {
+    "2019": 11.7324,
+    "2020": 7.1578,
+    "2021": 12.5944,
+    "2022": 8.6867,
+    "2023": 7.6028,
+    "2024": 7.72,
+    "2025": 10.9397
+   }
+  },
+  {
+   "A": "predict stock",
+   "B": "quantum systems",
+   "via": "machine learning",
+   "fieldA": "QuantFinance",
+   "fieldB": "Quantum",
+   "I": 13.0,
+   "G_latest": 283.2011,
+   "G_series": {
+    "2020": 18.2741,
+    "2022": 17.6964,
+    "2024": 16.6513,
+    "2025": 9.592
+   }
+  },
+  {
+   "A": "computing systems",
+   "B": "generative ai",
+   "via": "artificial intelligence",
+   "fieldA": "QuantumChips",
+   "fieldB": "AI",
+   "I": 16.0,
+   "G_latest": 281.4293,
+   "G_series": {
+    "2023": 29.7474,
+    "2024": 23.927,
+    "2025": 4.7191
+   }
+  }
+ ]
+}
