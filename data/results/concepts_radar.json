@@ -609,7 +609,7 @@
    ],
    "slope_recent": 0.7702,
    "hockey": 99.0,
-   "pagerank": 3.2e-05,
+   "pagerank": 3e-05,
    "freq_latest": 13
   },
   {
@@ -626,7 +626,7 @@
    ],
    "slope_recent": 0.7702,
    "hockey": 99.0,
-   "pagerank": 0.000162,
+   "pagerank": 0.000161,
    "freq_latest": 41
   },
   {
@@ -1136,7 +1136,7 @@
    ],
    "slope_recent": 0.6561,
    "hockey": 0.133,
-   "pagerank": 0.000129,
+   "pagerank": 0.00013,
    "freq_latest": 25
   },
   {
@@ -1170,7 +1170,7 @@
    ],
    "slope_recent": 0.6496,
    "hockey": 99.0,
-   "pagerank": 2.1e-05,
+   "pagerank": 2.2e-05,
    "freq_latest": 10
   },
   {
@@ -1510,7 +1510,7 @@
    ],
    "slope_recent": 0.6311,
    "hockey": 1.473,
-   "pagerank": 0.000409,
+   "pagerank": 0.000408,
    "freq_latest": 52
   },
   {
@@ -1595,7 +1595,7 @@
    ],
    "slope_recent": 0.6264,
    "hockey": -0.83,
-   "pagerank": 0.000125,
+   "pagerank": 0.000126,
    "freq_latest": 13
   },
   {
@@ -1612,7 +1612,7 @@
    ],
    "slope_recent": 0.6264,
    "hockey": -1.514,
-   "pagerank": 7.4e-05,
+   "pagerank": 7.5e-05,
    "freq_latest": 13
   },
   {

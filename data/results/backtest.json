@@ -16,40 +16,47 @@
   "seed": 42
  },
  "task_a": {
-  "n_universe": 2805,
+  "n_universe": 2806,
   "signals": {
    "slope": {
-    "spearman_rho": 0.0323,
-    "perm_p": 0.1018981018981019,
-    "ci_lo": -0.0049,
-    "ci_hi": 0.066,
-    "auc": 0.5219,
+    "spearman_rho": 0.0322,
+    "perm_p": 0.08591408591408592,
+    "ci_lo": -0.006,
+    "ci_hi": 0.0696,
+    "auc": 0.5216,
     "lift": {
-     "top_k_mean": -0.0018207523340872322,
-     "baseline_mean": -0.056768137274394705,
+     "top_k_mean": 0.0049698650866787375,
+     "baseline_mean": -0.05491775054611648,
      "lift": NaN,
-     "gain": 0.05494738494030747,
-     "ci_lo": -0.11671465301954716,
-     "ci_hi": 0.009815430002436874
+     "gain": 0.05988761563279522,
+     "ci_lo": -0.11840530931250283,
+     "ci_hi": 0.020063474285047248
     }
    },
    "hockey": {
-    "spearman_rho": -0.0025,
-    "perm_p": 0.8941058941058941,
-    "ci_lo": -0.0384,
-    "ci_hi": 0.0362,
-    "auc": 0.5003,
+    "spearman_rho": -0.0026,
+    "perm_p": 0.8931068931068931,
+    "ci_lo": -0.0359,
+    "ci_hi": 0.0313,
+    "auc": 0.5,
     "lift": {
-     "top_k_mean": -0.029122145526638797,
-     "baseline_mean": -0.05564536421283145,
+     "top_k_mean": -0.09194874109616062,
+     "baseline_mean": -0.049727017316392244,
      "lift": NaN,
-     "gain": 0.026523218686192652,
-     "ci_lo": -0.12076074306215535,
-     "ci_hi": 0.0076649869916158185
+     "gain": -0.04222172377976838,
+     "ci_lo": -0.108819624810192,
+     "ci_hi": 0.007122640948771477
     }
    }
   },
   "top_terms": [
+   {
+    "term": "automated market",
+    "slope_h": 0.9193,
+    "slope_t": 0.0912,
+    "hockey": 0.544,
+    "freq_2022": 16
+   },
    {
     "term": "liquidity providers",
     "slope_h": 0.9064,
@@ -63,13 +70,6 @@
     "slope_t": 0.0771,
     "hockey": 0.439,
     "freq_2022": 20
-   },
-   {
-    "term": "automated market",
-    "slope_h": 0.9011,
-    "slope_t": 0.0912,
-    "hockey": 0.5,
-    "freq_2022": 15
    },
    {
     "term": "large language",
@@ -93,6 +93,13 @@
     "freq_2022": 15
    },
    {
+    "term": "automated market makers",
+    "slope_h": 0.8148,
+    "slope_t": 0.0303,
+    "hockey": 0.292,
+    "freq_2022": 11
+   },
+   {
     "term": "asymptotic normality",
     "slope_h": 0.811,
     "slope_t": -0.0668,
@@ -105,13 +112,6 @@
     "slope_t": 0.6931,
     "hockey": 99.0,
     "freq_2022": 7
-   },
-   {
-    "term": "automated market makers",
-    "slope_h": 0.7887,
-    "slope_t": 0.0303,
-    "hockey": 0.23,
-    "freq_2022": 10
    },
    {
     "term": "vision transformers",
@@ -205,13 +205,6 @@
     "freq_2022": 8
    },
    {
-    "term": "programmable photonic",
-    "slope_h": 0.6985,
-    "slope_t": 0.0,
-    "hockey": 99.0,
-    "freq_2022": 5
-   },
-   {
     "term": "rl techniques",
     "slope_h": 0.6985,
     "slope_t": 0.3466,
@@ -219,11 +212,11 @@
     "freq_2022": 5
    },
    {
-    "term": "quantum applications",
-    "slope_h": 0.6936,
+    "term": "programmable photonic",
+    "slope_h": 0.6985,
     "slope_t": 0.0,
     "hockey": 99.0,
-    "freq_2022": 6
+    "freq_2022": 5
    },
    {
     "term": "sota performance",
@@ -233,16 +226,23 @@
     "freq_2022": 6
    },
    {
-    "term": "language llm",
-    "slope_h": 0.6931,
-    "slope_t": 0.54,
+    "term": "quantum applications",
+    "slope_h": 0.6936,
+    "slope_t": 0.0,
     "hockey": 99.0,
-    "freq_2022": 7
+    "freq_2022": 6
    },
    {
     "term": "faces challenges",
     "slope_h": 0.6931,
     "slope_t": -0.3143,
+    "hockey": 99.0,
+    "freq_2022": 7
+   },
+   {
+    "term": "language llm",
+    "slope_h": 0.6931,
+    "slope_t": 0.54,
     "hockey": 99.0,
     "freq_2022": 7
    },
@@ -282,17 +282,17 @@
     "freq_2022": 5
    },
    {
-    "term": "stackelberg equilibrium",
-    "slope_h": 0.6644,
-    "slope_t": 0.4581,
-    "hockey": 1.415,
-    "freq_2022": 7
-   },
-   {
     "term": "relative importance",
     "slope_h": 0.6644,
     "slope_t": -0.3466,
     "hockey": 0.208,
+    "freq_2022": 7
+   },
+   {
+    "term": "stackelberg equilibrium",
+    "slope_h": 0.6644,
+    "slope_t": 0.4581,
+    "hockey": 1.415,
     "freq_2022": 7
    },
    {
@@ -303,13 +303,6 @@
     "freq_2022": 5
    },
    {
-    "term": "decentralized exchanges",
-    "slope_h": 0.6592,
-    "slope_t": 0.1592,
-    "hockey": -0.17,
-    "freq_2022": 8
-   },
-   {
     "term": "non-fungible tokens",
     "slope_h": 0.6592,
     "slope_t": 0.0,
@@ -317,11 +310,11 @@
     "freq_2022": 8
    },
    {
-    "term": "automated market maker",
-    "slope_h": 0.6531,
-    "slope_t": 0.3031,
-    "hockey": 99.0,
-    "freq_2022": 6
+    "term": "decentralized exchanges",
+    "slope_h": 0.6592,
+    "slope_t": 0.1592,
+    "hockey": -0.17,
+    "freq_2022": 8
    },
    {
     "term": "snn training",
@@ -331,9 +324,9 @@
     "freq_2022": 6
    },
    {
-    "term": "uniswap v3",
+    "term": "automated market maker",
     "slope_h": 0.6531,
-    "slope_t": 0.2027,
+    "slope_t": 0.3031,
     "hockey": 99.0,
     "freq_2022": 6
    },
@@ -345,9 +338,23 @@
     "freq_2022": 6
    },
    {
+    "term": "uniswap v3",
+    "slope_h": 0.6531,
+    "slope_t": 0.2027,
+    "hockey": 99.0,
+    "freq_2022": 6
+   },
+   {
     "term": "digital twin",
     "slope_h": 0.6531,
     "slope_t": 0.8673,
+    "hockey": 0.807,
+    "freq_2022": 6
+   },
+   {
+    "term": "automated market makers amms",
+    "slope_h": 0.6531,
+    "slope_t": -0.1592,
     "hockey": 0.807,
     "freq_2022": 6
    },
@@ -359,25 +366,11 @@
     "freq_2022": 7
    },
    {
-    "term": "makes hard",
+    "term": "algorithms quantum",
     "slope_h": 0.6474,
     "slope_t": -0.3466,
-    "hockey": 0.0,
-    "freq_2022": 5
-   },
-   {
-    "term": "off-policy evaluation",
-    "slope_h": 0.6474,
-    "slope_t": 0.3466,
-    "hockey": 99.0,
-    "freq_2022": 5
-   },
-   {
-    "term": "consists modules",
-    "slope_h": 0.6474,
-    "slope_t": -0.5493,
-    "hockey": 99.0,
-    "freq_2022": 5
+    "hockey": 0.054,
+    "freq_2022": 8
    },
    {
     "term": "protected groups",
@@ -387,17 +380,24 @@
     "freq_2022": 5
    },
    {
-    "term": "algorithms quantum",
+    "term": "quantum optimization",
     "slope_h": 0.6474,
-    "slope_t": -0.3466,
-    "hockey": 0.054,
-    "freq_2022": 8
+    "slope_t": -0.1116,
+    "hockey": 99.0,
+    "freq_2022": 5
    },
    {
     "term": "tight upper",
     "slope_h": 0.6474,
     "slope_t": -0.6931,
     "hockey": 99.0,
+    "freq_2022": 5
+   },
+   {
+    "term": "makes hard",
+    "slope_h": 0.6474,
+    "slope_t": -0.3466,
+    "hockey": 0.0,
     "freq_2022": 5
    }
   ]
@@ -407,22 +407,23 @@
    "pool_all": 0.007333333333333333,
    "pool_top100_by_G": 0.01,
    "pool_top100_by_I": 0.06,
-   "naive_control": 0.0016666666666666668,
-   "structural_control": 0.007666666666666666,
+   "naive_control": 0.0033333333333333335,
+   "structural_control": 0.006666666666666667,
    "n_candidates": 3000,
    "n_structural": 3000,
    "n_naive": 3000
   },
-  "auc_G": 0.5651,
-  "auc_I": 0.543,
-  "perm_p_top100_vs_structural": 0.5373134328358209,
+  "auc_G": 0.5648,
+  "auc_I": 0.5444,
+  "auc_perm_p": 0.1277,
+  "perm_p_top100_vs_structural": 0.48258706467661694,
   "candidates": [
    {
     "A": "differential equations",
     "B": "natural language",
     "via": "allows us",
     "I": 8.0,
-    "G": 1204.75,
+    "G": 1204.7449,
     "w_test": 0,
     "hit3": 0
    },
@@ -431,7 +432,7 @@
     "B": "time series",
     "via": "artificial intelligence",
     "I": 11.0,
-    "G": 815.8567,
+    "G": 815.8528,
     "w_test": 2,
     "hit3": 0
    },
@@ -440,7 +441,7 @@
     "B": "learning techniques",
     "via": "artificial intelligence",
     "I": 8.0,
-    "G": 777.5088,
+    "G": 776.8682,
     "w_test": 0,
     "hit3": 0
    },
@@ -449,7 +450,7 @@
     "B": "stock market",
     "via": "artificial intelligence",
     "I": 8.0,
-    "G": 757.8615,
+    "G": 757.8616,
     "w_test": 0,
     "hit3": 0
    },
@@ -458,7 +459,7 @@
     "B": "deep reinforcement",
     "via": "artificial intelligence",
     "I": 14.0,
-    "G": 677.1412,
+    "G": 675.8271,
     "w_test": 0,
     "hit3": 0
    },
@@ -467,7 +468,7 @@
     "B": "spiking neural",
     "via": "artificial intelligence",
     "I": 12.0,
-    "G": 646.0606,
+    "G": 645.6876,
     "w_test": 0,
     "hit3": 0
    },
@@ -485,7 +486,7 @@
     "B": "learning algorithm",
     "via": "artificial intelligence",
     "I": 8.0,
-    "G": 538.0702,
+    "G": 538.0686,
     "w_test": 0,
     "hit3": 0
    },
@@ -494,7 +495,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 12.0,
-    "G": 522.1494,
+    "G": 522.149,
     "w_test": 0,
     "hit3": 0
    },
@@ -503,7 +504,7 @@
     "B": "time series",
     "via": "artificial intelligence",
     "I": 10.0,
-    "G": 491.1936,
+    "G": 491.1935,
     "w_test": 0,
     "hit3": 0
    },
@@ -512,7 +513,7 @@
     "B": "stock prices",
     "via": "deep learning",
     "I": 14.0,
-    "G": 477.4397,
+    "G": 477.4398,
     "w_test": 0,
     "hit3": 0
    },
@@ -521,7 +522,7 @@
     "B": "stochastic differential",
     "via": "deep learning",
     "I": 9.0,
-    "G": 472.3825,
+    "G": 472.3821,
     "w_test": 0,
     "hit3": 0
    },
@@ -530,7 +531,7 @@
     "B": "option pricing",
     "via": "deep learning",
     "I": 11.0,
-    "G": 442.0601,
+    "G": 442.0596,
     "w_test": 0,
     "hit3": 0
    },
@@ -539,7 +540,7 @@
     "B": "stock market",
     "via": "artificial intelligence",
     "I": 8.0,
-    "G": 437.8761,
+    "G": 437.8764,
     "w_test": 0,
     "hit3": 0
    },
@@ -548,7 +549,7 @@
     "B": "stock prices",
     "via": "deep learning",
     "I": 12.0,
-    "G": 424.1122,
+    "G": 424.1123,
     "w_test": 0,
     "hit3": 0
    },
@@ -557,7 +558,7 @@
     "B": "software engineering",
     "via": "deep learning",
     "I": 9.0,
-    "G": 414.7,
+    "G": 414.6999,
     "w_test": 0,
     "hit3": 0
    },
@@ -566,7 +567,7 @@
     "B": "learning techniques",
     "via": "artificial intelligence",
     "I": 8.0,
-    "G": 411.5948,
+    "G": 411.4165,
     "w_test": 0,
     "hit3": 0
    },
@@ -575,7 +576,7 @@
     "B": "stock prices",
     "via": "deep learning",
     "I": 11.0,
-    "G": 405.9031,
+    "G": 405.9029,
     "w_test": 0,
     "hit3": 0
    },
@@ -584,7 +585,7 @@
     "B": "stochastic differential",
     "via": "deep learning",
     "I": 13.0,
-    "G": 405.8447,
+    "G": 405.844,
     "w_test": 0,
     "hit3": 0
    },
@@ -593,7 +594,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 12.0,
-    "G": 405.3028,
+    "G": 405.3025,
     "w_test": 0,
     "hit3": 0
    },
@@ -602,7 +603,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 12.0,
-    "G": 402.1286,
+    "G": 402.1283,
     "w_test": 0,
     "hit3": 0
    },
@@ -611,7 +612,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 12.0,
-    "G": 400.2953,
+    "G": 400.2951,
     "w_test": 0,
     "hit3": 0
    },
@@ -620,7 +621,7 @@
     "B": "edge computing",
     "via": "artificial intelligence",
     "I": 10.0,
-    "G": 399.6415,
+    "G": 399.3371,
     "w_test": 0,
     "hit3": 0
    },
@@ -629,7 +630,7 @@
     "B": "representation learning",
     "via": "deep learning",
     "I": 12.0,
-    "G": 395.9382,
+    "G": 395.9376,
     "w_test": 0,
     "hit3": 0
    },
@@ -638,7 +639,7 @@
     "B": "stock prices",
     "via": "deep learning",
     "I": 12.0,
-    "G": 385.983,
+    "G": 385.9828,
     "w_test": 0,
     "hit3": 0
    },
@@ -647,7 +648,7 @@
     "B": "stochastic differential",
     "via": "deep learning",
     "I": 9.0,
-    "G": 385.7175,
+    "G": 385.7174,
     "w_test": 0,
     "hit3": 0
    },
@@ -656,7 +657,7 @@
     "B": "stochastic differential",
     "via": "deep learning",
     "I": 9.0,
-    "G": 382.6958,
+    "G": 382.6959,
     "w_test": 0,
     "hit3": 0
    },
@@ -665,7 +666,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 12.0,
-    "G": 378.779,
+    "G": 378.7784,
     "w_test": 0,
     "hit3": 0
    },
@@ -674,7 +675,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 9.0,
-    "G": 376.7128,
+    "G": 376.7126,
     "w_test": 0,
     "hit3": 0
    },
@@ -683,7 +684,7 @@
     "B": "differential equations",
     "via": "deep learning",
     "I": 10.0,
-    "G": 375.1643,
+    "G": 375.1638,
     "w_test": 0,
     "hit3": 0
    },
@@ -692,7 +693,7 @@
     "B": "software engineering",
     "via": "deep learning",
     "I": 9.0,
-    "G": 374.0371,
+    "G": 374.037,
     "w_test": 0,
     "hit3": 0
    },
@@ -701,7 +702,7 @@
     "B": "stochastic gradient descent",
     "via": "deep learning",
     "I": 11.0,
-    "G": 370.3791,
+    "G": 370.3788,
     "w_test": 0,
     "hit3": 0
    },
@@ -710,7 +711,7 @@
     "B": "stochastic differential",
     "via": "deep learning",
     "I": 13.0,
-    "G": 369.8864,
+    "G": 369.885,
     "w_test": 0,
     "hit3": 0
    },
@@ -719,7 +720,7 @@
     "B": "price prediction",
     "via": "deep learning",
     "I": 14.0,
-    "G": 369.1725,
+    "G": 369.1724,
     "w_test": 0,
     "hit3": 0
    },
@@ -728,7 +729,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 12.0,
-    "G": 361.7867,
+    "G": 361.7854,
     "w_test": 0,
     "hit3": 0
    },
@@ -737,7 +738,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 12.0,
-    "G": 350.0075,
+    "G": 350.002,
     "w_test": 0,
     "hit3": 0
    },
@@ -755,7 +756,7 @@
     "B": "spiking neural",
     "via": "artificial intelligence",
     "I": 8.0,
-    "G": 347.7975,
+    "G": 347.7971,
     "w_test": 0,
     "hit3": 0
    },
@@ -764,7 +765,7 @@
     "B": "stochastic differential",
     "via": "deep learning",
     "I": 13.0,
-    "G": 344.1463,
+    "G": 344.1464,
     "w_test": 0,
     "hit3": 0
    },
@@ -773,7 +774,7 @@
     "B": "support vector",
     "via": "machine learning",
     "I": 16.0,
-    "G": 343.2971,
+    "G": 343.048,
     "w_test": 0,
     "hit3": 0
    },
@@ -782,7 +783,7 @@
     "B": "stock prices",
     "via": "deep learning",
     "I": 11.0,
-    "G": 342.6297,
+    "G": 342.6295,
     "w_test": 0,
     "hit3": 0
    },
@@ -791,7 +792,7 @@
     "B": "power consumption",
     "via": "deep learning",
     "I": 8.0,
-    "G": 340.894,
+    "G": 340.8939,
     "w_test": 0,
     "hit3": 0
    },
@@ -800,7 +801,7 @@
     "B": "stock prices",
     "via": "deep learning",
     "I": 18.0,
-    "G": 337.0224,
+    "G": 337.0221,
     "w_test": 0,
     "hit3": 0
    },
@@ -818,7 +819,7 @@
     "B": "learning algorithm",
     "via": "artificial intelligence",
     "I": 8.0,
-    "G": 333.3839,
+    "G": 333.3836,
     "w_test": 0,
     "hit3": 0
    },
@@ -827,7 +828,7 @@
     "B": "prediction accuracy",
     "via": "deep learning",
     "I": 12.0,
-    "G": 327.9177,
+    "G": 327.9176,
     "w_test": 0,
     "hit3": 0
    },
@@ -845,7 +846,7 @@
     "B": "stock prices",
     "via": "machine learning",
     "I": 9.0,
-    "G": 325.4952,
+    "G": 325.4836,
     "w_test": 0,
     "hit3": 0
    },
@@ -854,7 +855,7 @@
     "B": "recent advances",
     "via": "artificial intelligence",
     "I": 10.0,
-    "G": 324.754,
+    "G": 324.7536,
     "w_test": 0,
     "hit3": 0
    },
@@ -863,7 +864,7 @@
     "B": "financial market",
     "via": "deep learning",
     "I": 9.0,
-    "G": 323.2555,
+    "G": 323.2576,
     "w_test": 0,
     "hit3": 0
    },
@@ -872,7 +873,7 @@
     "B": "training set",
     "via": "artificial intelligence",
     "I": 9.0,
-    "G": 322.6335,
+    "G": 322.6334,
     "w_test": 0,
     "hit3": 0
    },
@@ -881,7 +882,7 @@
     "B": "stock prices",
     "via": "deep learning",
     "I": 9.0,
-    "G": 322.4806,
+    "G": 322.4805,
     "w_test": 0,
     "hit3": 0
    },
@@ -890,7 +891,7 @@
     "B": "stock prices",
     "via": "deep learning",
     "I": 8.0,
-    "G": 321.5016,
+    "G": 321.5018,
     "w_test": 0,
     "hit3": 0
    },
@@ -899,7 +900,7 @@
     "B": "differential equations",
     "via": "deep learning",
     "I": 10.0,
-    "G": 320.8897,
+    "G": 320.8891,
     "w_test": 0,
     "hit3": 0
    },
@@ -908,7 +909,7 @@
     "B": "stock prices",
     "via": "deep learning",
     "I": 9.0,
-    "G": 320.6166,
+    "G": 320.6167,
     "w_test": 0,
     "hit3": 0
    },
@@ -917,7 +918,7 @@
     "B": "stochastic differential",
     "via": "deep learning",
     "I": 10.0,
-    "G": 320.3883,
+    "G": 320.3879,
     "w_test": 0,
     "hit3": 0
    },
@@ -926,7 +927,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 9.0,
-    "G": 320.1199,
+    "G": 320.1198,
     "w_test": 0,
     "hit3": 0
    },
@@ -944,7 +945,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 10.0,
-    "G": 314.3075,
+    "G": 314.3072,
     "w_test": 0,
     "hit3": 0
    },
@@ -962,7 +963,7 @@
     "B": "option pricing",
     "via": "deep learning",
     "I": 9.0,
-    "G": 308.5566,
+    "G": 308.5565,
     "w_test": 0,
     "hit3": 0
    },
@@ -971,7 +972,7 @@
     "B": "control problems",
     "via": "deep learning",
     "I": 8.0,
-    "G": 308.5017,
+    "G": 308.5016,
     "w_test": 0,
     "hit3": 0
    },
@@ -980,7 +981,7 @@
     "B": "generative adversarial networks",
     "via": "deep learning",
     "I": 8.0,
-    "G": 307.4215,
+    "G": 307.4214,
     "w_test": 0,
     "hit3": 0
    },
@@ -989,7 +990,7 @@
     "B": "representation learning",
     "via": "deep learning",
     "I": 8.0,
-    "G": 304.7954,
+    "G": 304.7951,
     "w_test": 0,
     "hit3": 0
    },
@@ -998,7 +999,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 12.0,
-    "G": 304.1321,
+    "G": 304.1318,
     "w_test": 0,
     "hit3": 0
    },
@@ -1007,7 +1008,7 @@
     "B": "option pricing",
     "via": "deep learning",
     "I": 10.0,
-    "G": 303.1411,
+    "G": 303.1407,
     "w_test": 0,
     "hit3": 0
    },
@@ -1016,7 +1017,7 @@
     "B": "training set",
     "via": "artificial intelligence",
     "I": 8.0,
-    "G": 302.7076,
+    "G": 302.7074,
     "w_test": 3,
     "hit3": 1
    },
@@ -1025,7 +1026,7 @@
     "B": "training set",
     "via": "artificial intelligence",
     "I": 9.0,
-    "G": 302.2507,
+    "G": 302.2505,
     "w_test": 0,
     "hit3": 0
    },
@@ -1034,7 +1035,7 @@
     "B": "control problems",
     "via": "deep learning",
     "I": 8.0,
-    "G": 301.1922,
+    "G": 301.1919,
     "w_test": 0,
     "hit3": 0
    },
@@ -1043,7 +1044,7 @@
     "B": "order book",
     "via": "deep learning",
     "I": 9.0,
-    "G": 299.1483,
+    "G": 299.1617,
     "w_test": 0,
     "hit3": 0
    },
@@ -1052,7 +1053,7 @@
     "B": "financial markets",
     "via": "deep learning",
     "I": 10.0,
-    "G": 295.9311,
+    "G": 295.9313,
     "w_test": 0,
     "hit3": 0
    },
@@ -1061,7 +1062,7 @@
     "B": "edge computing",
     "via": "deep learning",
     "I": 8.0,
-    "G": 293.4163,
+    "G": 293.4164,
     "w_test": 0,
     "hit3": 0
    },
@@ -1070,7 +1071,7 @@
     "B": "object detection",
     "via": "available https github com",
     "I": 8.0,
-    "G": 292.5699,
+    "G": 292.5691,
     "w_test": 0,
     "hit3": 0
    },
@@ -1079,7 +1080,7 @@
     "B": "software engineering",
     "via": "deep learning",
     "I": 8.0,
-    "G": 291.5188,
+    "G": 291.5189,
     "w_test": 0,
     "hit3": 0
    },
@@ -1088,7 +1089,7 @@
     "B": "limit order",
     "via": "deep learning",
     "I": 9.0,
-    "G": 291.0734,
+    "G": 291.0798,
     "w_test": 0,
     "hit3": 0
    },
@@ -1097,7 +1098,7 @@
     "B": "differential equations",
     "via": "deep learning",
     "I": 11.0,
-    "G": 290.5702,
+    "G": 290.5698,
     "w_test": 0,
     "hit3": 0
    },
@@ -1106,7 +1107,7 @@
     "B": "quantum algorithms",
     "via": "machine learning",
     "I": 12.0,
-    "G": 288.4916,
+    "G": 288.3131,
     "w_test": 0,
     "hit3": 0
    },
@@ -1115,7 +1116,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 12.0,
-    "G": 285.9628,
+    "G": 285.9626,
     "w_test": 0,
     "hit3": 0
    },
@@ -1124,7 +1125,7 @@
     "B": "object detection",
     "via": "deep learning",
     "I": 8.0,
-    "G": 284.058,
+    "G": 284.0573,
     "w_test": 0,
     "hit3": 0
    },
@@ -1133,7 +1134,7 @@
     "B": "stochastic differential",
     "via": "deep learning",
     "I": 10.0,
-    "G": 280.0464,
+    "G": 280.0459,
     "w_test": 0,
     "hit3": 0
    },
@@ -1142,7 +1143,7 @@
     "B": "stock prices",
     "via": "deep learning",
     "I": 9.0,
-    "G": 279.478,
+    "G": 279.4779,
     "w_test": 0,
     "hit3": 0
    },
@@ -1151,7 +1152,7 @@
     "B": "financial market",
     "via": "deep learning",
     "I": 9.0,
-    "G": 277.7051,
+    "G": 277.706,
     "w_test": 0,
     "hit3": 0
    },
@@ -1160,7 +1161,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 10.0,
-    "G": 275.3646,
+    "G": 275.3642,
     "w_test": 0,
     "hit3": 0
    },
@@ -1169,7 +1170,7 @@
     "B": "limit order book",
     "via": "deep learning",
     "I": 9.0,
-    "G": 272.3527,
+    "G": 272.3584,
     "w_test": 0,
     "hit3": 0
    },
@@ -1178,7 +1179,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 8.0,
-    "G": 269.7374,
+    "G": 269.7372,
     "w_test": 0,
     "hit3": 0
    },
@@ -1187,7 +1188,7 @@
     "B": "price prediction",
     "via": "deep learning",
     "I": 8.0,
-    "G": 268.3969,
+    "G": 268.397,
     "w_test": 0,
     "hit3": 0
    },
@@ -1196,7 +1197,7 @@
     "B": "option pricing",
     "via": "deep learning",
     "I": 10.0,
-    "G": 266.8067,
+    "G": 266.8062,
     "w_test": 0,
     "hit3": 0
    },
@@ -1205,7 +1206,7 @@
     "B": "partial differential",
     "via": "deep learning",
     "I": 8.0,
-    "G": 266.1908,
+    "G": 266.1907,
     "w_test": 0,
     "hit3": 0
    },
@@ -1214,7 +1215,7 @@
     "B": "option pricing",
     "via": "deep learning",
     "I": 11.0,
-    "G": 265.53,
+    "G": 265.5298,
     "w_test": 0,
     "hit3": 0
    },
@@ -1232,7 +1233,7 @@
     "B": "stochastic differential",
     "via": "deep learning",
     "I": 9.0,
-    "G": 262.488,
+    "G": 262.4877,
     "w_test": 0,
     "hit3": 0
    },
@@ -1241,7 +1242,7 @@
     "B": "quantum algorithms",
     "via": "machine learning",
     "I": 16.0,
-    "G": 262.4116,
+    "G": 262.2625,
     "w_test": 0,
     "hit3": 0
    },
@@ -1250,7 +1251,7 @@
     "B": "order book",
     "via": "deep learning",
     "I": 10.0,
-    "G": 259.8753,
+    "G": 259.8849,
     "w_test": 0,
     "hit3": 0
    },
@@ -1259,7 +1260,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 12.0,
-    "G": 259.5337,
+    "G": 259.5264,
     "w_test": 0,
     "hit3": 0
    },
@@ -1268,7 +1269,7 @@
     "B": "stochastic gradient",
     "via": "deep learning",
     "I": 10.0,
-    "G": 259.3464,
+    "G": 259.3461,
     "w_test": 0,
     "hit3": 0
    },
@@ -1277,7 +1278,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 9.0,
-    "G": 258.26,
+    "G": 258.2596,
     "w_test": 0,
     "hit3": 0
    },
@@ -1286,7 +1287,7 @@
     "B": "differential privacy",
     "via": "deep learning",
     "I": 8.0,
-    "G": 257.9341,
+    "G": 257.9342,
     "w_test": 0,
     "hit3": 0
    },
@@ -1295,7 +1296,7 @@
     "B": "software engineering",
     "via": "deep learning",
     "I": 9.0,
-    "G": 257.4125,
+    "G": 257.4124,
     "w_test": 0,
     "hit3": 0
    },
@@ -1304,7 +1305,7 @@
     "B": "stochastic differential",
     "via": "deep learning",
     "I": 13.0,
-    "G": 255.6586,
+    "G": 255.6585,
     "w_test": 0,
     "hit3": 0
    },
@@ -1313,7 +1314,7 @@
     "B": "datasets demonstrate",
     "via": "deep learning",
     "I": 8.0,
-    "G": 253.958,
+    "G": 253.9578,
     "w_test": 0,
     "hit3": 0
    },
@@ -1322,7 +1323,7 @@
     "B": "limit order",
     "via": "deep learning",
     "I": 10.0,
-    "G": 253.7681,
+    "G": 253.7726,
     "w_test": 0,
     "hit3": 0
    },
@@ -1331,7 +1332,7 @@
     "B": "stochastic differential",
     "via": "deep learning",
     "I": 8.0,
-    "G": 252.7689,
+    "G": 252.7688,
     "w_test": 0,
     "hit3": 0
    },
@@ -1340,7 +1341,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 11.0,
-    "G": 252.7141,
+    "G": 252.7139,
     "w_test": 0,
     "hit3": 0
    },
@@ -1349,7 +1350,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 12.0,
-    "G": 251.6431,
+    "G": 251.6429,
     "w_test": 0,
     "hit3": 0
    },
@@ -1358,7 +1359,7 @@
     "B": "memory lstm",
     "via": "deep learning",
     "I": 9.0,
-    "G": 250.8827,
+    "G": 250.8826,
     "w_test": 0,
     "hit3": 0
    },
@@ -1367,7 +1368,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 8.0,
-    "G": 248.8475,
+    "G": 248.8474,
     "w_test": 0,
     "hit3": 0
    },
@@ -1376,7 +1377,7 @@
     "B": "stock markets",
     "via": "machine learning",
     "I": 10.0,
-    "G": 248.7184,
+    "G": 248.5879,
     "w_test": 0,
     "hit3": 0
    },
@@ -1385,7 +1386,7 @@
     "B": "control problems",
     "via": "deep learning",
     "I": 8.0,
-    "G": 247.291,
+    "G": 247.2908,
     "w_test": 0,
     "hit3": 0
    },
@@ -1394,7 +1395,7 @@
     "B": "sharpe ratio",
     "via": "deep learning",
     "I": 13.0,
-    "G": 247.0442,
+    "G": 247.044,
     "w_test": 0,
     "hit3": 0
    },
@@ -1412,7 +1413,7 @@
     "B": "stochastic differential",
     "via": "deep learning",
     "I": 11.0,
-    "G": 246.928,
+    "G": 246.9279,
     "w_test": 0,
     "hit3": 0
    },
@@ -1430,7 +1431,7 @@
     "B": "option pricing",
     "via": "deep learning",
     "I": 11.0,
-    "G": 245.5118,
+    "G": 245.5115,
     "w_test": 0,
     "hit3": 0
    },
@@ -1439,7 +1440,7 @@
     "B": "stock prices",
     "via": "deep learning",
     "I": 10.0,
-    "G": 245.1962,
+    "G": 245.1959,
     "w_test": 0,
     "hit3": 0
    },
@@ -1448,7 +1449,7 @@
     "B": "option pricing",
     "via": "deep learning",
     "I": 11.0,
-    "G": 244.6438,
+    "G": 244.6436,
     "w_test": 0,
     "hit3": 0
    },
@@ -1457,7 +1458,7 @@
     "B": "quantum computation",
     "via": "machine learning",
     "I": 9.0,
-    "G": 243.5806,
+    "G": 243.5751,
     "w_test": 0,
     "hit3": 0
    },
@@ -1466,7 +1467,7 @@
     "B": "short-term memory",
     "via": "deep learning",
     "I": 10.0,
-    "G": 242.1484,
+    "G": 242.148,
     "w_test": 0,
     "hit3": 0
    },
@@ -1475,7 +1476,7 @@
     "B": "quantum algorithms",
     "via": "machine learning",
     "I": 15.0,
-    "G": 242.0318,
+    "G": 241.9066,
     "w_test": 0,
     "hit3": 0
    },
@@ -1484,7 +1485,7 @@
     "B": "training set",
     "via": "artificial intelligence",
     "I": 9.0,
-    "G": 240.9839,
+    "G": 240.9837,
     "w_test": 0,
     "hit3": 0
    },
@@ -1493,7 +1494,7 @@
     "B": "limit order book",
     "via": "deep learning",
     "I": 10.0,
-    "G": 239.403,
+    "G": 239.407,
     "w_test": 0,
     "hit3": 0
    },
@@ -1502,7 +1503,7 @@
     "B": "stochastic gradient descent",
     "via": "deep learning",
     "I": 10.0,
-    "G": 239.0842,
+    "G": 239.084,
     "w_test": 0,
     "hit3": 0
    },
@@ -1511,7 +1512,7 @@
     "B": "price prediction",
     "via": "deep learning",
     "I": 9.0,
-    "G": 238.6537,
+    "G": 238.6536,
     "w_test": 0,
     "hit3": 0
    },
@@ -1520,7 +1521,7 @@
     "B": "stochastic gradient descent",
     "via": "deep learning",
     "I": 11.0,
-    "G": 237.6955,
+    "G": 237.6953,
     "w_test": 0,
     "hit3": 0
    },
@@ -1529,7 +1530,7 @@
     "B": "representation learning",
     "via": "machine learning",
     "I": 8.0,
-    "G": 237.1607,
+    "G": 237.1604,
     "w_test": 0,
     "hit3": 0
    },
@@ -1538,7 +1539,7 @@
     "B": "quantum circuit",
     "via": "machine learning",
     "I": 9.0,
-    "G": 234.4195,
+    "G": 234.4138,
     "w_test": 0,
     "hit3": 0
    },
@@ -1547,7 +1548,7 @@
     "B": "long short-term",
     "via": "deep learning",
     "I": 10.0,
-    "G": 233.5153,
+    "G": 233.5149,
     "w_test": 0,
     "hit3": 0
    },
@@ -1556,7 +1557,7 @@
     "B": "representation learning",
     "via": "deep learning",
     "I": 9.0,
-    "G": 232.1738,
+    "G": 232.1736,
     "w_test": 0,
     "hit3": 0
    },
@@ -1565,7 +1566,7 @@
     "B": "sharpe ratio",
     "via": "deep learning",
     "I": 12.0,
-    "G": 231.9426,
+    "G": 231.9425,
     "w_test": 0,
     "hit3": 0
    },
@@ -1574,7 +1575,7 @@
     "B": "stock prices",
     "via": "machine learning",
     "I": 9.0,
-    "G": 231.2722,
+    "G": 231.2675,
     "w_test": 0,
     "hit3": 0
    },
@@ -1583,7 +1584,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 12.0,
-    "G": 230.4914,
+    "G": 230.4899,
     "w_test": 0,
     "hit3": 0
    },
@@ -1592,7 +1593,7 @@
     "B": "edge computing",
     "via": "machine learning",
     "I": 8.0,
-    "G": 230.1557,
+    "G": 230.1556,
     "w_test": 0,
     "hit3": 0
    },
@@ -1601,7 +1602,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 11.0,
-    "G": 229.6829,
+    "G": 229.6827,
     "w_test": 0,
     "hit3": 0
    },
@@ -1610,7 +1611,7 @@
     "B": "processing units",
     "via": "deep learning",
     "I": 11.0,
-    "G": 229.3199,
+    "G": 229.3198,
     "w_test": 0,
     "hit3": 0
    },
@@ -1619,7 +1620,7 @@
     "B": "partial differential equations",
     "via": "deep learning",
     "I": 10.0,
-    "G": 228.4527,
+    "G": 228.4525,
     "w_test": 0,
     "hit3": 0
    },
@@ -1628,7 +1629,7 @@
     "B": "short-term memory",
     "via": "machine learning",
     "I": 9.0,
-    "G": 228.4205,
+    "G": 228.4157,
     "w_test": 0,
     "hit3": 0
    },
@@ -1637,7 +1638,7 @@
     "B": "software engineering",
     "via": "deep learning",
     "I": 9.0,
-    "G": 228.0901,
+    "G": 228.09,
     "w_test": 0,
     "hit3": 0
    },
@@ -1646,7 +1647,7 @@
     "B": "control problems",
     "via": "deep learning",
     "I": 8.0,
-    "G": 227.9029,
+    "G": 227.9026,
     "w_test": 0,
     "hit3": 0
    },
@@ -1655,7 +1656,7 @@
     "B": "stochastic differential",
     "via": "deep learning",
     "I": 8.0,
-    "G": 227.8722,
+    "G": 227.8721,
     "w_test": 0,
     "hit3": 0
    },
@@ -1664,7 +1665,7 @@
     "B": "quantum circuit",
     "via": "machine learning",
     "I": 8.0,
-    "G": 227.6872,
+    "G": 227.6819,
     "w_test": 0,
     "hit3": 0
    },
@@ -1691,7 +1692,7 @@
     "B": "training set",
     "via": "artificial intelligence",
     "I": 9.0,
-    "G": 224.3828,
+    "G": 224.3827,
     "w_test": 0,
     "hit3": 0
    },
@@ -1700,7 +1701,7 @@
     "B": "control problems",
     "via": "deep learning",
     "I": 8.0,
-    "G": 224.0015,
+    "G": 224.0014,
     "w_test": 0,
     "hit3": 0
    },
@@ -1718,7 +1719,7 @@
     "B": "risk management",
     "via": "deep learning",
     "I": 8.0,
-    "G": 223.6799,
+    "G": 223.6853,
     "w_test": 0,
     "hit3": 0
    },
@@ -1727,7 +1728,7 @@
     "B": "previous work",
     "via": "deep learning",
     "I": 11.0,
-    "G": 223.1265,
+    "G": 223.1264,
     "w_test": 0,
     "hit3": 0
    },
@@ -1736,7 +1737,7 @@
     "B": "software engineering",
     "via": "deep learning",
     "I": 8.0,
-    "G": 222.9998,
+    "G": 222.9997,
     "w_test": 0,
     "hit3": 0
    },
@@ -1745,7 +1746,7 @@
     "B": "memory lstm",
     "via": "deep learning",
     "I": 10.0,
-    "G": 222.9609,
+    "G": 222.9606,
     "w_test": 0,
     "hit3": 0
    },
@@ -1754,7 +1755,7 @@
     "B": "representation learning",
     "via": "machine learning",
     "I": 9.0,
-    "G": 222.9152,
+    "G": 222.9106,
     "w_test": 0,
     "hit3": 0
    },
@@ -1763,7 +1764,7 @@
     "B": "option pricing",
     "via": "deep learning",
     "I": 10.0,
-    "G": 222.6757,
+    "G": 222.6756,
     "w_test": 0,
     "hit3": 0
    },
@@ -1772,16 +1773,7 @@
     "B": "evaluate performance",
     "via": "deep learning",
     "I": 9.0,
-    "G": 222.4266,
-    "w_test": 0,
-    "hit3": 0
-   },
-   {
-    "A": "quantum algorithms",
-    "B": "random forest",
-    "via": "machine learning",
-    "I": 16.0,
-    "G": 221.9187,
+    "G": 222.4264,
     "w_test": 0,
     "hit3": 0
    },
@@ -1790,7 +1782,16 @@
     "B": "stochastic gradient descent",
     "via": "deep learning",
     "I": 11.0,
-    "G": 221.8255,
+    "G": 221.8253,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "quantum algorithms",
+    "B": "random forest",
+    "via": "machine learning",
+    "I": 16.0,
+    "G": 221.8134,
     "w_test": 0,
     "hit3": 0
    },
@@ -1799,7 +1800,7 @@
     "B": "quantum computation",
     "via": "machine learning",
     "I": 9.0,
-    "G": 221.0078,
+    "G": 221.0031,
     "w_test": 0,
     "hit3": 0
    },
@@ -1808,7 +1809,7 @@
     "B": "stochastic gradient descent",
     "via": "deep learning",
     "I": 11.0,
-    "G": 220.7406,
+    "G": 220.7404,
     "w_test": 0,
     "hit3": 0
    },
@@ -1817,7 +1818,7 @@
     "B": "quantum computation",
     "via": "machine learning",
     "I": 9.0,
-    "G": 220.7311,
+    "G": 220.7267,
     "w_test": 0,
     "hit3": 0
    },
@@ -1826,7 +1827,7 @@
     "B": "stochastic differential",
     "via": "deep learning",
     "I": 11.0,
-    "G": 218.9323,
+    "G": 218.9322,
     "w_test": 0,
     "hit3": 0
    },
@@ -1835,7 +1836,7 @@
     "B": "variational quantum",
     "via": "machine learning",
     "I": 9.0,
-    "G": 217.5278,
+    "G": 217.5228,
     "w_test": 0,
     "hit3": 0
    },
@@ -1844,7 +1845,7 @@
     "B": "quantum computation",
     "via": "machine learning",
     "I": 9.0,
-    "G": 217.3667,
+    "G": 217.3619,
     "w_test": 0,
     "hit3": 0
    },
@@ -1853,7 +1854,7 @@
     "B": "control problems",
     "via": "deep learning",
     "I": 8.0,
-    "G": 216.2595,
+    "G": 216.2593,
     "w_test": 0,
     "hit3": 0
    },
@@ -1862,7 +1863,7 @@
     "B": "processing units",
     "via": "deep learning",
     "I": 11.0,
-    "G": 216.233,
+    "G": 216.2329,
     "w_test": 0,
     "hit3": 0
    },
@@ -1880,7 +1881,7 @@
     "B": "quantum algorithms",
     "via": "machine learning",
     "I": 8.0,
-    "G": 214.8786,
+    "G": 214.775,
     "w_test": 0,
     "hit3": 0
    },
@@ -1898,7 +1899,7 @@
     "B": "energy consumption",
     "via": "artificial intelligence",
     "I": 8.0,
-    "G": 214.1274,
+    "G": 214.1271,
     "w_test": 0,
     "hit3": 0
    },
@@ -1907,7 +1908,7 @@
     "B": "price prediction",
     "via": "deep learning",
     "I": 10.0,
-    "G": 213.2522,
+    "G": 213.2519,
     "w_test": 0,
     "hit3": 0
    },
@@ -1934,7 +1935,7 @@
     "B": "variational quantum",
     "via": "machine learning",
     "I": 9.0,
-    "G": 211.8342,
+    "G": 211.8304,
     "w_test": 0,
     "hit3": 0
    },
@@ -1943,7 +1944,7 @@
     "B": "option pricing",
     "via": "deep learning",
     "I": 8.0,
-    "G": 211.8091,
+    "G": 211.809,
     "w_test": 0,
     "hit3": 0
    },
@@ -1952,7 +1953,7 @@
     "B": "graph convolutional",
     "via": "deep learning",
     "I": 13.0,
-    "G": 211.7774,
+    "G": 211.7773,
     "w_test": 0,
     "hit3": 0
    },
@@ -1961,7 +1962,7 @@
     "B": "control problems",
     "via": "deep learning",
     "I": 8.0,
-    "G": 211.3892,
+    "G": 211.3891,
     "w_test": 0,
     "hit3": 0
    },
@@ -1970,7 +1971,7 @@
     "B": "quantum computation",
     "via": "machine learning",
     "I": 9.0,
-    "G": 211.2692,
+    "G": 211.2652,
     "w_test": 0,
     "hit3": 0
    },
@@ -1979,7 +1980,7 @@
     "B": "medical image",
     "via": "deep learning",
     "I": 14.0,
-    "G": 210.482,
+    "G": 210.4817,
     "w_test": 0,
     "hit3": 0
    },
@@ -2006,7 +2007,7 @@
     "B": "deep learning-based",
     "via": "deep learning",
     "I": 8.0,
-    "G": 209.2926,
+    "G": 209.2924,
     "w_test": 0,
     "hit3": 0
    },
@@ -2015,7 +2016,7 @@
     "B": "variational quantum",
     "via": "machine learning",
     "I": 9.0,
-    "G": 207.6621,
+    "G": 207.6577,
     "w_test": 0,
     "hit3": 0
    },
@@ -2024,7 +2025,7 @@
     "B": "range applications",
     "via": "deep learning",
     "I": 12.0,
-    "G": 207.4618,
+    "G": 207.4608,
     "w_test": 0,
     "hit3": 0
    },
@@ -2033,7 +2034,7 @@
     "B": "spiking neural",
     "via": "artificial intelligence",
     "I": 8.0,
-    "G": 207.232,
+    "G": 207.2316,
     "w_test": 0,
     "hit3": 0
    },
@@ -2042,7 +2043,7 @@
     "B": "decision making",
     "via": "deep learning",
     "I": 8.0,
-    "G": 206.8254,
+    "G": 206.8253,
     "w_test": 0,
     "hit3": 0
    },
@@ -2051,7 +2052,7 @@
     "B": "high dimensional",
     "via": "deep learning",
     "I": 8.0,
-    "G": 205.8046,
+    "G": 205.8044,
     "w_test": 0,
     "hit3": 0
    },
@@ -2060,7 +2061,16 @@
     "B": "prior knowledge",
     "via": "deep learning",
     "I": 8.0,
-    "G": 205.604,
+    "G": 205.6041,
+    "w_test": 0,
+    "hit3": 0
+   },
+   {
+    "A": "control problems",
+    "B": "market making",
+    "via": "control problem",
+    "I": 8.0,
+    "G": 205.473,
     "w_test": 0,
     "hit3": 0
    },
@@ -2069,7 +2079,7 @@
     "B": "long short-term memory lstm",
     "via": "deep learning",
     "I": 9.0,
-    "G": 204.6835,
+    "G": 204.6834,
     "w_test": 0,
     "hit3": 0
    },
@@ -2114,16 +2124,7 @@
     "B": "stochastic gradient descent",
     "via": "deep learning",
     "I": 10.0,
-    "G": 202.6885,
-    "w_test": 0,
-    "hit3": 0
-   },
-   {
-    "A": "control problems",
-    "B": "market making",
-    "via": "control problem",
-    "I": 8.0,
-    "G": 201.6958,
+    "G": 202.6884,
     "w_test": 0,
     "hit3": 0
    },
@@ -2132,7 +2133,7 @@
     "B": "variational quantum",
     "via": "machine learning",
     "I": 9.0,
-    "G": 200.9046,
+    "G": 200.9003,
     "w_test": 0,
     "hit3": 0
    },
@@ -2141,7 +2142,7 @@
     "B": "convergence rates",
     "via": "machine learning",
     "I": 8.0,
-    "G": 200.7973,
+    "G": 200.7971,
     "w_test": 0,
     "hit3": 0
    },
@@ -2150,7 +2151,7 @@
     "B": "evaluate performance",
     "via": "deep learning",
     "I": 10.0,
-    "G": 200.2034,
+    "G": 200.203,
     "w_test": 0,
     "hit3": 0
    },
@@ -2159,7 +2160,7 @@
     "B": "quantum computation",
     "via": "machine learning",
     "I": 9.0,
-    "G": 199.5229,
+    "G": 199.5193,
     "w_test": 0,
     "hit3": 0
    },
@@ -2168,7 +2169,7 @@
     "B": "variational quantum",
     "via": "machine learning",
     "I": 9.0,
-    "G": 199.3417,
+    "G": 199.3373,
     "w_test": 2,
     "hit3": 0
    },
@@ -2177,7 +2178,7 @@
     "B": "differential equations",
     "via": "deep learning",
     "I": 12.0,
-    "G": 198.3376,
+    "G": 198.3375,
     "w_test": 0,
     "hit3": 0
    },
@@ -2186,7 +2187,7 @@
     "B": "stock prices",
     "via": "deep learning",
     "I": 8.0,
-    "G": 197.8211,
+    "G": 197.821,
     "w_test": 0,
     "hit3": 0
    },
@@ -2195,7 +2196,7 @@
     "B": "sharpe ratio",
     "via": "deep learning",
     "I": 8.0,
-    "G": 197.5799,
+    "G": 197.58,
     "w_test": 0,
     "hit3": 0
    },
@@ -2204,7 +2205,7 @@
     "B": "important role",
     "via": "deep learning",
     "I": 9.0,
-    "G": 197.1614,
+    "G": 197.157,
     "w_test": 0,
     "hit3": 0
    },
@@ -2213,7 +2214,7 @@
     "B": "quantum computation",
     "via": "machine learning",
     "I": 9.0,
-    "G": 196.753,
+    "G": 196.7497,
     "w_test": 0,
     "hit3": 0
    }

@@ -30,19 +30,19 @@ random baseline.</p>
 <th class="num">baseline</th><th class="num">lift</th></tr></thead>
 <tbody><tr><td class="mono">slope</td>
 <td class="num">0.032</td>
-<td class="num">0.1018981018981019</td>
-<td class="num">[-0.005, 0.066]</td>
+<td class="num">0.08591408591408592</td>
+<td class="num">[-0.006, 0.070]</td>
 <td class="num">0.522</td>
-<td class="num">-0.0018</td>
-<td class="num">-0.0568</td>
-<td class="num">0.055 gain</td></tr><tr><td class="mono">hockey</td>
+<td class="num">0.0050</td>
+<td class="num">-0.0549</td>
+<td class="num">0.060 gain</td></tr><tr><td class="mono">hockey</td>
 <td class="num">-0.003</td>
-<td class="num">0.8941058941058941</td>
-<td class="num">[-0.038, 0.036]</td>
+<td class="num">0.8931068931068931</td>
+<td class="num">[-0.036, 0.031]</td>
 <td class="num">0.500</td>
-<td class="num">-0.0291</td>
-<td class="num">-0.0556</td>
-<td class="num">0.027 gain</td></tr></tbody></table>
+<td class="num">-0.0919</td>
+<td class="num">-0.0497</td>
+<td class="num">-0.042 gain</td></tr></tbody></table>
 <div class="callout"><b>How to read it:</b> ρ &gt; 0 with p &lt; 0.05 means the signal
 predicts future growth better than chance. Lift &gt; 1× means the top-K beats a
 frequency-matched random set. Modest values are normal — and are reported honestly.</div>
@@ -54,11 +54,11 @@ frequency-matched random set. Modest values are normal — and are reported hone
 The structural control is the fair baseline: same A, same bridge, random B′ — it asks
 whether G adds signal beyond the 2-hop structure itself.</p>
 <table><thead><tr><th>set</th><th class="num">hit rate</th></tr></thead>
-<tbody><tr><td>All candidates (pool base rate)</td><td class="num">0.7%</td></tr><tr><td>Top-100 ranked by G (effective conductance)</td><td class="num">1%</td></tr><tr><td>Top-100 ranked by I (2-hop strength, cheap baseline)</td><td class="num">6%</td></tr><tr><td>Naive control (random pairs, freq-matched)</td><td class="num">0.2%</td></tr><tr><td>Structural control (same A, same bridge, random B′)</td><td class="num">0.8%</td></tr></tbody></table>
+<tbody><tr><td>All candidates (pool base rate)</td><td class="num">0.7%</td></tr><tr><td>Top-100 ranked by G (effective conductance)</td><td class="num">1%</td></tr><tr><td>Top-100 ranked by I (2-hop strength, cheap baseline)</td><td class="num">6%</td></tr><tr><td>Naive control (random pairs, freq-matched)</td><td class="num">0.3%</td></tr><tr><td>Structural control (same A, same bridge, random B′)</td><td class="num">0.7%</td></tr></tbody></table>
 <p class="sub" style="margin-top:14px">Ranking quality on the candidate pool:
-AUC(G) = 0.565 · AUC(I) = 0.543 ·
-permutation p (AUC of G) = — ·
-permutation p (top-100 by G vs structural control) = 0.5373134328358209</p>
+AUC(G) = 0.565 · AUC(I) = 0.544 ·
+permutation p (AUC of G) = 0.1277 ·
+permutation p (top-100 by G vs structural control) = 0.48258706467661694</p>
 </section>
 
 <section>

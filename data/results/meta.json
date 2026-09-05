@@ -1,5 +1,5 @@
 {
- "built_at": "2026-08-18T09:37:45+00:00",
+ "built_at": "2026-09-04T08:55:51+00:00",
  "config": {
   "corpus": {
    "dir": "data/corpus",
@@ -165,9 +165,9 @@
   },
   "random_seed": 42
  },
- "git_sha": "",
+ "git_sha": "897c08c",
  "corpus": {
-  "papers": 27258,
+  "papers": 27259,
   "years": [
    2019,
    2020,
@@ -179,7 +179,7 @@
   ],
   "papers_by_field": {
    "AI": 6401,
-   "QuantFinance": 5468,
+   "QuantFinance": 5469,
    "Theory": 2598,
    "AppliedMath": 2499,
    "Software": 2410,
