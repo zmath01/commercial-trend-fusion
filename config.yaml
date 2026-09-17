@@ -1,5 +1,5 @@
 # ============================================================
-# commercial-trend — configuration
+# commercial-trend-fusion — configuration
 # Single-point configuration for the whole pipeline.
 # All paths are relative to the repo root.
 # ============================================================
@@ -13,57 +13,67 @@ corpus:
   api_delay: 8.0                    # seconds between arXiv API calls (rate-limit safe)
   api_retries: 5
 
-# arXiv categories tracked, grouped into commercial fields.
-# field = the business/industry lens used for dashboards.
+# Canonical arXiv scope shared with zmath01/commercial-trend.
+# 23 categories grouped into 10 commercial fields.
 categories:
-  - {cat: cs.AI,  field: AI}
-  - {cat: cs.LG,  field: AI}
-  - {cat: cs.CL,  field: AI}
-  - {cat: cs.CV,  field: AI}
+  # AI / Machine Learning (6)
+  - {cat: cs.AI,   field: AI}
+  - {cat: cs.LG,   field: AI}
+  - {cat: cs.CL,   field: AI}
+  - {cat: cs.CV,   field: AI}
   - {cat: stat.ML, field: AI}
-  - {cat: cs.NE,  field: AI}
-  - {cat: cs.SE,  field: Software}
-  - {cat: cs.PL,  field: Software}
-  - {cat: cs.CR,  field: SecurityCrypto}
-  - {cat: cs.DC,  field: Systems}
-  - {cat: cs.DS,  field: Theory}
-  - {cat: cs.GT,  field: Theory}
-  - {cat: cs.AR,  field: Chips}
-  - {cat: cs.ET,  field: QuantumChips}
+  - {cat: cs.NE,   field: AI}
+  # Applied Mathematics (2)
   - {cat: math.OC, field: AppliedMath}
   - {cat: math.NA, field: AppliedMath}
-  - {cat: quant-ph, field: Quantum}
-  - {cat: q-fin.ST, field: QuantFinance}
-  - {cat: q-fin.TR, field: QuantFinance}
+  # Computer Science (2)
+  - {cat: cs.DS, field: ComputerScience}
+  - {cat: cs.DC, field: ComputerScience}
+  # Software Engineering (2)
+  - {cat: cs.SE, field: SoftwareEngineering}
+  - {cat: cs.PL, field: SoftwareEngineering}
+  # Security / Cryptography (1)
+  - {cat: cs.CR, field: SecurityCrypto}
+  # Quantitative Finance (5)
   - {cat: q-fin.CP, field: QuantFinance}
   - {cat: q-fin.MF, field: QuantFinance}
   - {cat: q-fin.RM, field: QuantFinance}
-  - {cat: econ.GN, field: Fintech}
+  - {cat: q-fin.ST, field: QuantFinance}
+  - {cat: q-fin.TR, field: QuantFinance}
+  # FinTech / financial computing (1)
+  - {cat: cs.CE, field: FinTech}
+  # Quantum Computing (1)
+  - {cat: quant-ph, field: QuantumComputing}
+  # Chips / GPU / storage / architecture (2)
+  - {cat: cs.AR, field: Chips}
+  - {cat: cs.ET, field: Chips}
+  # Digital markets / mechanism design (1)
+  - {cat: cs.GT, field: DigitalMarkets}
 
 lexicon:
-  min_freq: 5                       # minimum absolute count to be a candidate phrase
-  min_pmi: 2.0                      # minimum normalized PMI
-  max_n: 4                          # max phrase length in tokens
-  max_terms: 30000                  # cap lexicon size (tractability)
-  top_k_per_paper: 40               # max phrases kept per paper during annotation
+  min_freq: 5
+  min_pmi: 2.0
+  max_n: 4
+  max_terms: 30000
+  top_k_per_paper: 40
 
 annotation:
-  hot_min_freq: 5                   # phrases must appear >= this many times in a year to be graph nodes
+  hot_min_freq: 5
 
 graph:
-  min_edge_weight: 2                # co-occurrence edges below this are dropped
+  min_edge_weight: 2
 
 backtest:
   history_years: [2019, 2020, 2021, 2022]
   test_years: [2023, 2024, 2025]
-  n_candidates: 3000                # fusion candidate pairs (2-hop sampled)
-  top_k: 100                        # lift@K evaluation
-  bootstrap_iters: 1000             # CI resamples
+  n_candidates: 3000
+  top_k: 100
+  bootstrap_iters: 1000
 
 predict:
   history_years: [2019, 2020, 2021, 2022, 2023, 2024, 2025]
-  n_concepts: 100                   # emerging concepts to publish
-  n_pairs: 100                      # fusion watchlist pairs to publish
+  n_concepts: 100
+  n_pairs: 100
 
 paths:
   lexicon: data/lexicon/lexicon.csv
