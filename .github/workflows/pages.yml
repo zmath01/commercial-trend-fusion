@@ -27,11 +27,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Rebuild site from committed results
-        # The site is generated entirely from data/results/*.json, which are
-        # committed, so this step is offline and fast. To refresh the data,
-        # run the full pipeline locally (scripts/run_all.py) and commit the
-        # new results.
+      - name: Fetch live arXiv corpus
+        run: python scripts/fetch_arxiv.py
+
+      - name: Run full live pipeline
+        run: python scripts/run_all.py
+
+      - name: Build site
         run: python scripts/build_site.py
 
       - name: Upload artifact
