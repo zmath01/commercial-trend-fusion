@@ -40,11 +40,24 @@ The product is the analysis, not access to it.</li>
 </ol>
 
 <h2>2. Corpus</h2>
-<p>Source: <b>arXiv Atom API</b> (open, key-less). We track 23 categories grouped into
-10 commercial fields: AI/ML (cs.AI, cs.LG, cs.CL, cs.CV, stat.ML, cs.NE), Software
-(cs.SE, cs.PL), Security &amp; crypto (cs.CR), Systems (cs.DC), Theory (cs.DS, cs.GT),
-Chips (cs.AR), Quantum/chips (cs.ET), Applied math (math.OC, math.NA), Quantum
-(quant-ph), Quant finance (q-fin.ST/TR/CP/MF/RM), Fintech (econ.GN).</p>
+<p>Source: <b>arXiv Atom API</b> (open, key-less). We track <b>32 categories grouped into 15 commercial fields</b>:</p>
+<table><thead><tr><th>Field</th><th>arXiv categories</th></tr></thead><tbody>
+<tr><td>AI / ML</td><td>cs.AI, cs.LG, cs.CL, cs.CV, stat.ML, cs.NE</td></tr>
+<tr><td>Applied math</td><td>math.OC, math.NA</td></tr>
+<tr><td>Computer science</td><td>cs.DS, cs.DC</td></tr>
+<tr><td>Software engineering</td><td>cs.SE, cs.PL</td></tr>
+<tr><td>Security &amp; crypto</td><td>cs.CR</td></tr>
+<tr><td>Quant finance</td><td>q-fin.CP, q-fin.MF, q-fin.RM, q-fin.ST, q-fin.TR</td></tr>
+<tr><td>FinTech</td><td>cs.CE</td></tr>
+<tr><td>Quantum computing</td><td>quant-ph</td></tr>
+<tr><td>Quantum materials / electronics</td><td>cond-mat.mtrl-sci, cond-mat.mes-hall, cond-mat.str-el, cond-mat.supr-con</td></tr>
+<tr><td>Statistical / complex systems / emergence</td><td>cond-mat.stat-mech, cond-mat.dis-nn</td></tr>
+<tr><td>Quantum simulation / ultracold matter</td><td>cond-mat.quant-gas</td></tr>
+<tr><td>Photonics / optical technology</td><td>physics.optics</td></tr>
+<tr><td>Computational physics / scientific computing</td><td>physics.comp-ph</td></tr>
+<tr><td>Chips / GPU / storage / architecture</td><td>cs.AR, cs.ET</td></tr>
+<tr><td>Digital markets / mechanism design</td><td>cs.GT</td></tr>
+</tbody></table>
 <p>Fields per paper: <code>arxiv_id, title, abstract, primary_cat, published, year</code>.
 Papers are de-duplicated by <code>arxiv_id</code>. The default fetch is a
 per-category-year capped sample (most recent N papers, reverse submission order),
