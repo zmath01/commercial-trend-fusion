@@ -18,7 +18,7 @@ without a script behind it.
 
 ## 2. Corpus
 
-Source: arXiv Atom API (open, key-less). **32 categories grouped into 15 commercial fields.**
+Source: arXiv Atom API (open, key-less). **32 arXiv categories mapped to 14 research-backed commercialization domains, plus a 15th FinTech monitoring domain with no dedicated arXiv category.**
 
 | Field | arXiv categories |
 |---|---|
@@ -28,13 +28,13 @@ Source: arXiv Atom API (open, key-less). **32 categories grouped into 15 commerc
 | Software engineering | cs.SE, cs.PL |
 | Security & crypto | cs.CR |
 | Quant finance | q-fin.CP, q-fin.MF, q-fin.RM, q-fin.ST, q-fin.TR |
-| FinTech | cs.CE |
+| FinTech | — (multi-source: OpenAlex, GitHub, Stack Overflow) |
 | Quantum computing | quant-ph |
 | Quantum materials / electronics | cond-mat.mtrl-sci, cond-mat.mes-hall, cond-mat.str-el, cond-mat.supr-con |
 | Statistical / complex systems / emergence | cond-mat.stat-mech, cond-mat.dis-nn |
 | Quantum simulation / ultracold matter | cond-mat.quant-gas |
 | Photonics / optical technology | physics.optics |
-| Computational physics / scientific computing | physics.comp-ph |
+| Computational science / engineering | physics.comp-ph, cs.CE |
 | Chips / GPU / storage / architecture | cs.AR, cs.ET |
 | Digital markets / mechanism design | cs.GT |
 
