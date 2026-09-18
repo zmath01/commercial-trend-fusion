@@ -50,7 +50,8 @@ frequency-matched random set. Modest values are normal — and are reported hone
 
 <section>
 <h2 class="sec">Task B — pair fusion prediction</h2>
-<p class="sub">Hit = first co-occurrence in the test window with ≥3 joint papers.
+<p class="sub"><b>This is link prediction over arXiv language, not a commercialization outcome.</b>
+Hit = first co-occurrence in the test window with ≥3 joint papers.
 The structural control is the fair baseline: same A, same bridge, random B′ — it asks
 whether G adds signal beyond the 2-hop structure itself.</p>
 <table><thead><tr><th>set</th><th class="num">hit rate</th></tr></thead>
@@ -63,6 +64,10 @@ permutation p (top-100 by G vs structural control) = 0.48258706467661694</p>
 
 <section>
 <h2 class="sec">Honest limits</h2>
+<div class="callout warn"><b>Interpretation:</b> the committed test does not contain
+independent patent, funding, hiring, company-formation, revenue, or market outcomes.
+A successful link-prediction result would therefore not by itself establish
+commercialization forecasting ability.</div>
 <ul>
 <li>Sampled corpus: per-category-year caps make frequencies comparable within a
 category across years, not across categories. Full fetch instructions: docs/data_sources.md.</li>
