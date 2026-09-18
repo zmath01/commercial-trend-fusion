@@ -14,7 +14,7 @@ corpus:
   api_retries: 5
 
 # Canonical arXiv scope shared with zmath01/commercial-trend.
-# 32 categories grouped into 15 commercial fields.
+# 32 arXiv categories mapped to 14 research-backed commercialization domains; FinTech is a separate 15th multi-source monitoring domain.
 categories:
   # AI / Machine Learning (6)
   - {cat: cs.AI,   field: AI}
@@ -40,8 +40,7 @@ categories:
   - {cat: q-fin.RM, field: QuantFinance}
   - {cat: q-fin.ST, field: QuantFinance}
   - {cat: q-fin.TR, field: QuantFinance}
-  # FinTech / financial computing (1)
-  - {cat: cs.CE, field: FinTech}
+  # FinTech: no dedicated arXiv category; tracked via OpenAlex/GitHub/StackOverflow signals.
   # Quantum Computing (1)
   - {cat: quant-ph, field: QuantumComputing}
   # Quantum materials / electronics (4)
@@ -56,8 +55,9 @@ categories:
   - {cat: cond-mat.quant-gas, field: QuantumSimulation}
   # Photonics / optical technology (1)
   - {cat: physics.optics, field: Photonics}
-  # Computational physics / scientific computing (1)
-  - {cat: physics.comp-ph, field: ComputationalPhysics}
+  # Computational science / engineering (2)
+  - {cat: physics.comp-ph, field: ComputationalScienceEngineering}
+  - {cat: cs.CE, field: ComputationalScienceEngineering}
   # Chips / GPU / storage / architecture (2)
   - {cat: cs.AR, field: Chips}
   - {cat: cs.ET, field: Chips}
