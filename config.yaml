@@ -14,7 +14,7 @@ corpus:
   api_retries: 5
 
 # Canonical arXiv scope shared with zmath01/commercial-trend.
-# 23 categories grouped into 10 commercial fields.
+# 32 categories grouped into 15 commercial fields.
 categories:
   # AI / Machine Learning (6)
   - {cat: cs.AI,   field: AI}
@@ -44,6 +44,20 @@ categories:
   - {cat: cs.CE, field: FinTech}
   # Quantum Computing (1)
   - {cat: quant-ph, field: QuantumComputing}
+  # Quantum materials / electronics (4)
+  - {cat: cond-mat.mtrl-sci, field: QuantumMaterials}
+  - {cat: cond-mat.mes-hall, field: QuantumMaterials}
+  - {cat: cond-mat.str-el, field: QuantumMaterials}
+  - {cat: cond-mat.supr-con, field: QuantumMaterials}
+  # Statistical / complex systems / emergence (2)
+  - {cat: cond-mat.stat-mech, field: StatisticalComplexity}
+  - {cat: cond-mat.dis-nn, field: StatisticalComplexity}
+  # Quantum simulation / ultracold matter (1)
+  - {cat: cond-mat.quant-gas, field: QuantumSimulation}
+  # Photonics / optical technology (1)
+  - {cat: physics.optics, field: Photonics}
+  # Computational physics / scientific computing (1)
+  - {cat: physics.comp-ph, field: ComputationalPhysics}
   # Chips / GPU / storage / architecture (2)
   - {cat: cs.AR, field: Chips}
   - {cat: cs.ET, field: Chips}
