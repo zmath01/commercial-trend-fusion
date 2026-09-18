@@ -14,7 +14,8 @@ corpus:
   api_retries: 5
 
 # Canonical arXiv scope shared with zmath01/commercial-trend.
-# 32 arXiv categories mapped to 14 research-backed commercialization domains; FinTech is a separate 15th multi-source monitoring domain.
+# arXiv corpus scope: 32 categories mapped to 14 research-backed commercialization domains.
+# FinTech is a separate monitoring domain in commercial-trend, with no dedicated arXiv category.
 categories:
   # AI / Machine Learning (6)
   - {cat: cs.AI,   field: AI}
