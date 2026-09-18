@@ -3,8 +3,8 @@
 > Data-driven, **backtested**, fully reproducible watchlist of research
 > concepts and cross-field fusions with commercialization potential — built
 > from a shared arXiv taxonomy spanning AI, applied math, computer science,
-> software engineering, security/crypto, quant finance, fintech, quantum,
-> chips and digital markets.
+> software engineering, security/crypto, quant finance, fintech, quantum materials,
+> quantum simulation, photonics, computational physics, chips and digital markets.
 
 **Live site:** https://zmath01.github.io/commercial-trend-fusion
 **Repo:** https://github.com/zmath01/commercial-trend-fusion
@@ -75,7 +75,7 @@ so the repository does not grow by hundreds of MB/GB after each refresh.
 
 ```
 commercial-trend-fusion/
-├── config.yaml              # canonical 23-category / 10-field arXiv scope
+├── config.yaml              # canonical 32-category / 15-field arXiv scope
 ├── scripts/                 # pipeline (see table above)
 ├── web/
 │   ├── assets/              # css / js for the site
@@ -127,9 +127,10 @@ databases. See `docs/data_sources.md`.
 ## 中文简介
 
 **Commercial Trend Radar（商业趋势雷达）**：基于 arXiv 语料的、**经过严格回测**、
-完全可复现的科研商业化趋势雷达。统一跟踪 10 个商业领域、23 个 arXiv 分类：
+完全可复现的科研商业化趋势雷达。统一跟踪 15 个商业领域、32 个 arXiv 分类：
 AI/ML、应用数学、计算机科学、软件工程、安全/加密、量化金融、金融科技、
-量子计算、芯片（GPU/存储/架构）、数字市场/机制设计。
+量子计算、量子材料/电子、统计/复杂系统/涌现、量子模拟/超冷物质、光子学、
+计算物理/科学计算、芯片（GPU/存储/架构）、数字市场/机制设计。
 
 核心差异（详见 `docs/anti_patterns.md`）：
 
