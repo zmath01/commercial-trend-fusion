@@ -18,22 +18,25 @@ without a script behind it.
 
 ## 2. Corpus
 
-Source: arXiv Atom API (open, key-less). 23 categories grouped into 10
-commercial fields:
+Source: arXiv Atom API (open, key-less). **32 categories grouped into 15 commercial fields.**
 
 | Field | arXiv categories |
 |---|---|
 | AI / ML | cs.AI, cs.LG, cs.CL, cs.CV, stat.ML, cs.NE |
-| Software | cs.SE, cs.PL |
-| Security & crypto | cs.CR |
-| Systems | cs.DC |
-| Theory | cs.DS, cs.GT |
-| Chips | cs.AR |
-| Quantum / chips | cs.ET |
 | Applied math | math.OC, math.NA |
-| Quantum | quant-ph |
-| Quant finance | q-fin.ST, q-fin.TR, q-fin.CP, q-fin.MF, q-fin.RM |
-| Fintech | econ.GN |
+| Computer science | cs.DS, cs.DC |
+| Software engineering | cs.SE, cs.PL |
+| Security & crypto | cs.CR |
+| Quant finance | q-fin.CP, q-fin.MF, q-fin.RM, q-fin.ST, q-fin.TR |
+| FinTech | cs.CE |
+| Quantum computing | quant-ph |
+| Quantum materials / electronics | cond-mat.mtrl-sci, cond-mat.mes-hall, cond-mat.str-el, cond-mat.supr-con |
+| Statistical / complex systems / emergence | cond-mat.stat-mech, cond-mat.dis-nn |
+| Quantum simulation / ultracold matter | cond-mat.quant-gas |
+| Photonics / optical technology | physics.optics |
+| Computational physics / scientific computing | physics.comp-ph |
+| Chips / GPU / storage / architecture | cs.AR, cs.ET |
+| Digital markets / mechanism design | cs.GT |
 
 Fields per paper: `arxiv_id, title, abstract, primary_cat, published, year`.
 Papers de-duplicated by `arxiv_id`.
