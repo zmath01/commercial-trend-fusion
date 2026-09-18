@@ -219,10 +219,14 @@ def index_page(concepts, fusion, backtest, fields, meta) -> str:
     return page_header("Overview", "index.html") + f"""
 <div class="hero">
   <h1>Commercial Trend Radar</h1>
-  <p class="lead">A data-driven, <b>backtested</b>, fully reproducible watchlist of
-  research concepts and cross-field fusions with commercial upside — built from
-  the arXiv corpus in AI, applied math, software, security/crypto, quant finance,
-  quantum computing, and chip design.</p>
+  <p class="lead">A data-driven, reproducible radar of research concepts and cross-field
+  fusions — built from a capped arXiv corpus. The current site is a research-language
+  monitor, not a validated commercialization forecast.</p>
+  <div class="callout warn"><b>Current snapshot:</b> 27,259 sampled papers, 2019–2025,
+  150-paper annual cap per category. The formal backtest is a fixed 2019–2022 →
+  2023–2025 snapshot. Homepage rankings and formal backtest outputs should not be
+  treated as the same statistical object. Recent GitHub Actions runs may be cancelled
+  when a newer run supersedes an older one.</div>
   <p><span class="badge">open data</span><span class="badge">open code</span>
   <span class="badge">matched baselines</span><span class="badge">permutation tests</span>
   <span class="badge">bootstrap CIs</span><span class="badge">no private funnels</span></p>
@@ -258,8 +262,11 @@ def index_page(concepts, fusion, backtest, fields, meta) -> str:
   controls, permutation p-values and bootstrap confidence intervals — and we publish
   the results even when they are modest. See <a href="backtest.html">backtest →</a>
   and <a href="methodology.html">methodology →</a>.</p>
-  <div class="callout warn"><b>Disclaimer:</b> arXiv preprints are leading but noisy
-  signals. This is a research-radar tool, not investment advice.</div>
+  <div class="callout warn"><b>Limits:</b> arXiv language is a noisy proxy for research
+  activity, not commercialization. Generic phrases can enter the radar; effective
+  conductance is a graph heuristic; the committed test does not use independent
+  patent, funding, hiring, company, revenue, or market outcomes. This is a research
+  monitor, not investment advice.</div>
 </section>
 """ + page_footer()
 
